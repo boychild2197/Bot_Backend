@@ -1,0 +1,1295 @@
+version: "3.1"
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+- story: college_of_education
+  steps:
+  - intent: college_of_education
+  - action: utter_college_of_education
+- story: programmes offered college of education
+  steps:
+  - intent: programmes_offered_college_of_education
+  - action: utter_programmes_offered_college_of_education
+- story: description bachelor of education in administration and management
+  steps:
+  - intent: description_bachelor_of_education_in_administration_and_management
+  - action: utter_description_bachelor_of_education_in_administration_and_management
+- story: bachelor of education in administration and management entry requirements
+  steps:
+  - intent: bachelor_of_education_in_administration_and_management_entry_requirements
+  - action: utter_bachelor_of_education_in_administration_and_management_entry_requirements
+- story: bachelor of education in administration and management careers
+  steps:
+  - intent: bachelor_of_education_in_administration_and_management_careers
+  - action: utter_bachelor_of_education_in_administration_and_management_careers
+- story: description bachelor education in adult education and community development
+  steps:
+  - intent: description_bachelor_education_in_adult_education_and_community_development
+  - action: utter_description_bachelor_education_in_adult_education_and_community_development
+- story: bachelor education in adult education and community development entry requirement
+  steps:
+  - intent: bachelor_education_in_adult_education_and_community_development_entry_requirement
+  - action: utter_bachelor_education_in_adult_education_and_community_development_entry_requirement
+- story: bachelor education in adult education and community development careers
+  steps:
+  - intent: bachelor_education_in_adult_education_and_community_development_careers
+  - action: utter_bachelor_education_in_adult_education_and_community_development_careers
+- story: description bachelor of education in arts
+  steps:
+  - intent: description_bachelor_of_education_in_arts
+  - action: utter_description_bachelor_of_education_in_arts
+- story: bachelor of education in arts entry requirements
+  steps:
+  - intent: bachelor_of_education_in_arts_entry_requirements
+  - action: utter_bachelor_of_education_in_arts_entry_requirements
+- story: bachelor of education in arts careers
+  steps:
+  - intent: bachelor_of_education_in_arts_careers
+  - action: utter_bachelor_of_education_in_arts_careers
+- story: description bachelor of education in commerce
+  steps:
+  - intent: description_bachelor_of_education_in_commerce
+  - action: utter_description_bachelor_of_education_in_commerce
+- story: bachelor of education in commerce entry requirements
+  steps:
+  - intent: bachelor_of_education_in_commerce_entry_requirements
+  - action: utter_bachelor_of_education_in_commerce_entry_requirements
+- story: bachelor of education in commerce careers
+  steps:
+  - intent: bachelor_of_education_in_commerce_careers
+  - action: utter_bachelor_of_education_in_commerce_careers
+- story: description bachelor of education in early childhood education
+  steps:
+  - intent: description_bachelor_of_education_early_childhood_education
+  - action: utter_description_bachelor_of_education_early_childhood_education
+- story: bachelor of education in early childhood education entry requirements
+  steps:
+  - intent: bachelor_of_education_early_childhood_education_entry_requirements
+  - action: utter_bachelor_of_education_early_childhood_education_entry_requirements
+- story: bachelor of education in early childhood education careers
+  steps:
+  - intent: bachelor_of_education_early_childhood_education_careers
+  - action: utter_bachelor_of_education_early_childhood_education_careers
+- story: description bachelor of education in guidance and councelling
+  steps:
+  - intent: description_bachelor_of_education_in_guidance_and_councelling
+  - action: utter_description_bachelor_of_education_in_guidance_and_councelling
+- story: bachelor of education in guidance and councelling entry requirements
+  steps:
+  - intent: bachelor_of_education_in_guidance_and_councelling_entry_requirements
+  - action: utter_bachelor_of_education_in_guidance_and_councelling_entry_requirements
+- story: bachelor of education in guidance and councelling careers
+  steps:
+  - intent: bachelor_of_education_in_guidance_and_councelling_careers
+  - action: utter_bachelor_of_education_in_guidance_and_councelling_careers
+- story: description bachelor of education in policy planning and management
+  steps:
+  - intent: description_bachelor_of_education_in_policy_planning_and_management
+  - action: utter_description_bachelor_of_education_in_policy_planning_and_management
+- story: bachelor of education in policy planning and management entry requirements
+  steps:
+  - intent: bachelor_of_education_in_policy_planning_and_management_entry_requirements
+  - action: utter_bachelor_of_education_in_policy_planning_and_management_entry_requirements
+- story: bachelor of education in policy planning and management careers
+  steps:
+  - intent: bachelor_of_education_in_policy_planning_and_management_careers
+  - action: utter_bachelor_of_education_in_policy_planning_and_management_careers
+- story: description bachelor of education in psychology
+  steps:
+  - intent: description_bachelor_of_education_in_psychology
+  - action: utter_description_bachelor_of_education_in_psychology
+- story: bachelor of education in psychology entry requirements
+  steps:
+  - intent: bachelor_of_education_in_psychology_entry_requirements
+  - action: utter_bachelor_of_education_in_psychology_entry_requirements
+- story: bachelor of education in psychology careers
+  steps:
+  - intent: bachelor_of_education_in_psychology_careers
+  - action: utter_bachelor_of_education_in_psychology_careers
+- story: description bachelor of education in science
+  steps:
+  - intent: description_bachelor_education_in_science
+  - action: utter_description_bachelor_education_in_science
+- story: bachelor of education in science entry requirements
+  steps:
+  - intent: bachelor_education_in_science_entry_requirements
+  - action: utter_bachelor_education_in_science_entry_requirements
+- story: bachelor of education in science careers
+  steps:
+  - intent: bachelor_education_in_science_careers
+  - action: utter_bachelor_education_in_science_careers
+- story: description bachelor of education in science with ICT
+  steps:
+  - intent: description_bachelor_of_education_in_science_with_ICT
+  - action: utter_description_bachelor_of_education_in_science_with_ICT
+- story: bachelor of education in science with ICT entry requirements
+  steps:
+  - intent: bachelor_of_education_in_science_with_ICT_entry_requirements
+  - action: utter_bachelor_of_education_in_science_with_ICT_entry_requirements
+- story: bachelor of education in science with ICT careers
+  steps:
+  - intent: bachelor_of_education_in_science_with_ICT_careers
+  - action: utter_bachelor_of_education_in_science_with_ICT_careers
+- story: description bachelor of education in special needs
+  steps:
+  - intent: description_bachelor_of_education_in_special_needs
+  - action: utter_description_bachelor_of_education_in_special_needs
+- story: bachelor of education in special needs entry requirements
+  steps:
+  - intent: bachelor_of_education_in_special_needs_entry_requirements
+  - action: utter_bachelor_of_education_in_special_needs_entry_requirements
+- story: bachelor of education in special needs careers
+  steps:
+  - intent: bachelor_of_education_in_special_needs_careers
+  - action: utter_bachelor_of_education_in_special_needs_careers
+- story: description of the diploma in information and communication technology
+  steps:
+  - intent: description_diploma_in_information_and_communication_technology(DICT)
+  - action: utter_description_diploma_in_information_and_communication_technology(DICT)
+- story: diploma in information and communication technology entry requirements
+  steps:
+  - intent: diploma_in_information_and_communication_technology(DICT)_entry_requirements
+  - action: utter_diploma_in_information_and_communication_technology(DICT)_entry_requirements
+- story: diploma in information and communication technology careers
+  steps:
+  - intent: diploma_in_information_and_communication_technology(DICT)_careers
+  - action: utter_diploma_in_information_and_communication_technology(DICT)_careers
+- story: description diploma in educational technology
+  steps:
+  - intent: description_diploma_in_educational_technology
+  - action: utter_description_diploma_in_educational_technology
+- story: diploma in eductional technology entry requirements
+  steps:
+  - intent: diploma_in_educational_technology_entry_requirements
+  - action: utter_diploma_in_educational_technology_entry_requirements
+- story: diploma in eductional technology careers
+  steps:
+  - intent: diploma_in_educational_technology_careers
+  - action: utter_diploma_in_educational_technology_careers
+- story: description diploma in cyber security and digital forensics
+  steps:
+  - intent: description_diploma_in_cyber_security_and_digital_forensics
+  - action: utter_description_diploma_in_cyber_security_and_digital_forensics
+- story: diploma in cyber security and digital forensics entry requirements
+  steps:
+  - intent: diploma_in_cyber_security_and_digital_forensics_entry_requirements
+  - action: utter_diploma_in_cyber_security_and_digital_forensics_entry_requirements
+- story: diploma in cyber security and digital forensics careers
+  steps:
+  - intent: diploma_in_cyber_security_and_digital_forensics_careers
+  - action: utter_diploma_in_cyber_security_and_digital_forensics_careers
+- story: description bachelor of science in instructional design and information technology
+  steps:
+  - intent: description_bachelor_of_science_in_instructional_design_and_information_technology
+  - action: utter_description_bachelor_of_science_in_instructional_design_and_information_technology
+- story: bachelor of science in instructional design and information technology entry requirements
+  steps:
+  - intent: bachelor_of_science_in_instructional_design_and_information_technology_entry_requirements
+  - action: utter_bachelor_of_science_in_instructional_design_and_information_technology_entry_requirements
+- story: bachelor of science in instructional design and information technology careers
+  steps:
+  - intent: bachelor_of_science_in_instructional_design_and_information_technology_careers
+  - action: utter_bachelor_of_science_in_instructional_design_and_information_technology_careers
+- story: description bachelor of science in telecommunications engineering
+  steps:
+  - intent: description_bachelor_of_science_in_telecommunications_engineering
+  - action: utter_description_bachelor_of_science_in_telecommunications_engineering
+- story: bachelor of science in telecommunications engineering entry requirements
+  steps:
+  - intent: bachelor_of_science_in_telecommunications_engineering_entry_requirements
+  - action: utter_bachelor_of_science_in_telecommunications_engineering_entry_requirements
+- story: bachelor of science in telecommunications engineering careers
+  steps:
+  - intent: bachelor_of_science_in_telecommunications_engineering_careers
+  - action: utter_bachelor_of_science_in_telecommunications_engineering_careers
+- story: description bachelor of science in software engineering
+  steps:
+  - intent: description_bachelor_of_science_in_software_engineering
+  - action: utter_description_bachelor_of_science_in_software_engineering
+- story: bachelor of science in software engineering entry requirements
+  steps:
+  - intent: bachelor_of_science_in_software_engineering_entry_requirements
+  - action: utter_bachelor_of_science_in_software_engineering_entry_requirements
+- story: bachelor of science in software engineering careers
+  steps:
+  - intent: bachelor_of_science_in_software_engineering_careers
+  - action: utter_bachelor_of_science_in_software_engineering_careers
+- story: description bachelor of science in multimedia technology and animation
+  steps:
+  - intent: description_bachelor_of_science_in_multimedia_technology_and_animation
+  - action: utter_description_bachelor_of_science_in_multimedia_technology_and_animation
+- story: bachelor of science in multimedia technology and animation entry requirements
+  steps:
+  - intent: bachelor_of_science_in_multimedia_technology_and_animation_entry_requirements
+  - action: utter_bachelor_of_science_in_multimedia_technology_and_animation_entry_requirements
+- story: bachelor of science in multimedia technology and aninmation
+  steps:
+  - intent: bachelor_of_science_in_multimedia_technology_and_animation_careers
+  - action: utter_bachelor_of_science_in_multimedia_technology_and_animation_careers
+- story: description bachelor of science in health information systems
+  steps:
+  - intent: description_bachelor_of_science_in_health_information_systems
+  - action: utter_description_bachelor_of_science_in_health_information_systems
+- story: bachelor of science in health information systems entry requirements
+  steps:
+  - intent: bachelor_of_science_in_health_information_systems_entry_requirements
+  - action: utter_bachelor_of_science_in_health_information_systems_entry_requirements
+- story: bachelor of science in health information systems careers
+  steps:
+  - intent: bachelor_of_science_in_health_information_systems_careers
+  - action: utter_bachelor_of_science_in_health_information_systems_careers
+- story: description bachelor of science in digital content and broadcsting engineering
+  steps:
+  - intent: description_bachelor_of_science_in_digital_content_and_broadcasting_engineering
+  - action: utter_description_bachelor_of_science_in_digital_content_and_broadcasting_engineering
+- story: bachelor of science in digital content and broadcsting engineering entry requirements
+  steps:
+  - intent: bachelor_of_science_in_digital_content_and_broadcasting_engineering_entry_requirements
+  - action: utter_bachelor_of_science_in_digital_content_and_broadcasting_engineering_entry_requirements
+- story: bachelor of science in digital content and broadcsting engineering careers
+  steps:
+  - intent: bachelor_of_science_in_digital_content_and_broadcasting_engineering_careers
+  - action: utter_bachelor_of_science_in_digital_content_and_broadcasting_engineering_careers
+- story: description bachelor of science in cyber security and forensics engineering
+  steps:
+  - intent: description_bachelor_of_science_in_cyber_security_and_forensics_engineering
+  - action: utter_description_bachelor_of_science_in_cyber_security_and_forensics_engineering
+- story: bachelor of science in cyber security and forensics engineering entry requirements
+  steps:
+  - intent: bachelor_of_science_in_cyber_security_and_forensics_engineering_entry_requirements
+  - action: utter_bachelor_of_science_in_cyber_security_and_forensics_engineering_entry_requirements
+- story: bachelor of science in cyber security and forensics engineering careers
+  steps:
+  - intent: bachelor_of_science_in_cyber_security_and_forensics_engineering_careers
+  - action: utter_bachelor_of_science_in_cyber_security_and_forensics_engineering_careers
+- story: description bachelor of science in computer science
+  steps:
+  - intent: description_bachelor_of_science_in_computer_science
+  - action: utter_description_bachelor_of_science_in_computer_science
+- story: bachelor of science in computer science entry requirements
+  steps:
+  - intent: bachelor_of_science_in_computer_science_entry_requirements
+  - action: utter_bachelor_of_science_in_computer_science_entry_requirements
+- story: bachelor of science in computer science careers
+  steps:
+  - intent: bachelor_of_science_in_computer_science_careers
+  - action: utter_bachelor_of_science_in_computer_science_careers
+- story: description bachelor of science in computer networks and information engineering
+  steps:
+  - intent: description_bachelor_of_science_in_computer_networks_and_information_engineering
+  - action: utter_description_bachelor_of_science_in_computer_networks_and_information_engineering
+- story: bachelor of science in computer networks and information engineering entry requirements
+  steps:
+  - intent: bachelor_of_science_in_computer_networks_and_information_engineering_entry_requirements
+  - action: utter_bachelor_of_science_in_computer_networks_and_information_engineering_entry_requirements
+- story: bachelor of science in computer networks and information engineering careers
+  steps:
+  - intent: bachelor_of_science_in_computer_networks_and_information_engineering_careers
+  - action: utter_bachelor_of_science_in_computer_networks_and_information_engineering_careers
+- story: description bachelor of science in computer engineering
+  steps:
+  - intent: description_bachelor_of_science_in_computer_engineering
+  - action: utter_description_bachelor_of_science_in_computer_engineering
+- story: bachelor of science in computer engineering entry requirements
+  steps:
+  - intent: bachelor_of_science_in_computer_engineering_entry_requirements
+  - action: utter_bachelor_of_science_in_computer_engineering_entry_requirements
+- story: bachelor of science in computer engineering careers
+  steps:
+  - intent: bachelor_of_science_in_computer_engineering_careers
+  - action: utter_bachelor_of_science_in_computer_engineering_careers
+- story: description bachelor of science in information systems
+  steps:
+  - intent: description_bachelor_of_science_in_information_systems
+  - action: utter_description_bachelor_of_science_in_information_systems
+- story: bachelor of science in information systems entry requirements
+  steps:
+  - intent: bachelor_of_science_in_information_systems_entry_requirements
+  - action: utter_bachelor_of_science_in_information_systems_entry_requirements
+- story: bachelor of science in information systems careers
+  steps:
+  - intent: bachelor_of_science_in_information_systems_careers
+  - action: utter_bachelor_of_science_in_information_systems_careers
+- story: description on bachelor of arts in economics and statistics
+  steps:
+  - intent: description_bachelor_of_arts_in_economics_and_statistics
+  - action: utter_description_bachelor_of_arts_in_economics_and_statistics
+- story: bachelor of arts in economics and statistics entry requirements
+  steps:
+  - intent: bachelor_of_arts_in_economics_and_statistics_requirements
+  - action: utter_bachelor_of_arts_in_economics_and_statistics_requirements
+- story: bachelor of arts in economics and statistics careers
+  steps:
+  - intent: bachelor_of_arts_in_economics_and_statistics_careers
+  - action: utter_bachelor_of_arts_in_economics_and_statistics_careers
+- story: desciption bachelor of arts in economics
+  steps:
+  - intent: description_bachelor_of_arts_in_economics
+  - action: utter_description_bachelor_of_arts_in_economics
+- story: bachelor of arts in economics entry requirements
+  steps:
+  - intent: bachelor_of_arts_in_economics_entry_requirements
+  - action: utter_bachelor_of_arts_in_economics_entry_requirements
+- story: bachelor of arts in economics careers
+  steps:
+  - intent: bachelor_of_arts_in_economics_careers
+  - action: utter_bachelor_of_arts_in_economics_careers
+- story: desciption bachelor of arts in economics and sociology
+  steps:
+  - intent: description_bachelor_of_arts_in_economics_and_sociology
+  - action: utter_description_bachelor_of_arts_in_economics_and_sociology
+- story: bachelor of arts in economics and sociology entry requirements
+  steps:
+  - intent: bachelor_of_arts_in_economics_and_sociology_requirements
+  - action: utter_bachelor_of_arts_in_economics_and_sociology_requirements
+- story: bachelor of arts in economics and sociology careers
+  steps:
+  - intent: bachelor_of_arts_in_economics_and_sociology_careers
+  - action: utter_bachelor_of_arts_in_economics_and_sociology_careers
+- story: description bachelor of arts in environmental and economics and policy
+  steps:
+  - intent: description_bachelor_of_arts_in_environmental_economics_and_policy
+  - action: utter_description_bachelor_of_arts_in_environmental_economics_and_policy
+- story: bachelor of arts in environmental and economics and policy entry requirements
+  steps:
+  - intent: bachelor_of_arts_in_environmental_economics_and_policy_entry_requirements
+  - action: utter_bachelor_of_arts_in_environmental_economics_and_policy_entry_requirements
+- story: bachelor of arts in environmental and economics and policy careers
+  steps:
+  - intent: bachelor_of_arts_in_environmental_economics_and_policy_careers
+  - action: utter_bachelor_of_arts_in_environmental_economics_and_policy_careers
+- story: description bachelor of business administration
+  steps:
+  - intent: description_bachelor_of_business_administration
+  - action: utter_description_bachelor_of_business_administration
+- story: bachelor of business administration entry requirements
+  steps:
+  - intent: bachelor_of_business_administration_entry_requirements
+  - action: utter_bachelor_of_business_administration_entry_requirements
+- story: bachelor of business administration careers
+  steps:
+  - intent: bachelor_of_business_administration_careers
+  - action: utter_bachelor_of_business_administration_careers
+- story: description bachelor of commerce in accounting
+  steps:
+  - intent: description_bachelor_of_commerce_in_accounting
+  - action: utter_description_bachelor_of_commerce_in_accounting
+- story: bachelor of commerce in accounting entry requirements
+  steps:
+  - intent: bachelor_of_commerce_in_accounting_entry_requirements
+  - action: utter_bachelor_of_commerce_in_accounting_entry_requirements
+- story: bachelor of commerce in accounting careers
+  steps:
+  - intent: bachelor_of_commerce_in_accounting_careers
+  - action: utter_bachelor_of_commerce_in_accounting_careers
+- story: description bachelor of commerce in enterpreneurship
+  steps:
+  - intent: description_bachelor_of_commerce_in_enterpreneurship
+  - action: utter_description_bachelor_of_commerce_in_enterpreneurship
+- story: bachelor of commerce in enterpreneurship entry requirements
+  steps:
+  - intent: bachelor_of_commerce_in_enterpreneurship_entry_requirements
+  - action: utter_bachelor_of_commerce_in_enterpreneurship_entry_requirements
+- story: bachelor of commerce in enterpreneurship careers
+  steps:
+  - intent: bachelor_of_commerce_in_enterpreneurship_careers
+  - action: utter_bachelor_of_commerce_in_enterpreneurship_careers
+- story: description bachelor of commerce in finance
+  steps:
+  - intent: description_bachelor_of_commerce_in_finance
+  - action: utter_description_bachelor_of_commerce_in_finance
+- story: bachelor of commerce in finance entry requirements
+  steps:
+  - intent: bachelor_of_commerce_in_finance_entry_requirements
+  - action: utter_bachelor_of_commerce_in_finance_entry_requirements
+- story: bachelor of commerce in finance careers
+  steps:
+  - intent: bachelor_of_commerce_in_finance_careers
+  - action: utter_bachelor_of_commerce_in_finance_careers
+- story: description bachelor of commerce in human resource management
+  steps:
+  - intent: description_bachelor_of_commerce_in_human_resource_management
+  - action: utter_description_bachelor_of_commerce_in_human_resource_management
+- story: bachelor of commerce in human resource management entry requirements
+  steps:
+  - intent: bachelor_of_commerce_in_human_resource_management_entry_requirements
+  - action: utter_bachelor_of_commerce_in_human_resource_management_entry_requirements
+- story: bachelor of commerce in human resource management careers
+  steps:
+  - intent: bachelor_of_commerce_in_human_resource_management_careers
+  - action: utter_bachelor_of_commerce_in_human_resource_management_careers
+- story: description bachelor of commerce in information management
+  steps:
+  - intent: description_bachelor_of_commerce_in_information_management
+  - action: utter_description_bachelor_of_commerce_in_information_management
+- story: bachelor of commerce in information management entry requirements
+  steps:
+  - intent: bachelor_of_commerce_in_information_management_entry_requirements
+  - action: utter_bachelor_of_commerce_in_information_management_entry_requirements
+- story: bachelor of commerce in information management careers
+  steps:
+  - intent: bachelor_of_commerce_in_information_management_careers
+  - action: utter_bachelor_of_commerce_in_information_management_careers
+- story: description bachelor of commerce in international business
+  steps:
+  - intent: description_bachelor_of_commerce_in_international_business
+  - action: utter_description_bachelor_of_commerce_in_international_business
+- story: bachelor of commerce in international business  entry requirements
+  steps:
+  - intent: bachelor_of_commerce_in_international_business_entry_requirements
+  - action: utter_bachelor_of_commerce_in_international_business_entry_requirements
+- story: bachelor of commerce in international business careers
+  steps:
+  - intent: bachelor_of_commerce_in_international_business_careers
+  - action: utter_bachelor_of_commerce_in_international_business_careers
+- story: description bachelor of commerce in marketing
+  steps:
+  - intent: description_bachelor_of_commerce_in_marketing
+  - action: utter_description_bachelor_of_commerce_in_marketing
+- story: bachelor of commerce in marketing entry requirements
+  steps:
+  - intent: bachelor_of_commerce_in_marketing_entry_requiremets
+  - action: utter_bachelor_of_commerce_in_marketing_entry_requiremets
+- story: bachelor of commerce in marketing careers
+  steps:
+  - intent: bachelor_of_commerce_in_marketing_careers
+  - action: utter_bachelor_of_commerce_in_marketing_careers
+- story: description bachelor of commerce in procurement and logistics management
+  steps:
+  - intent: description_bachelor_of_commerce_in_procurement_and_logistics_management
+  - action: utter_description_bachelor_of_commerce_in_procurement_and_logistics_management
+- story: bachelor of commerce in procurement and logistics management entry requirements
+  steps:
+  - intent: bachelor_of_commerce_in_procurement_and_logistics_management_entry_requirements
+  - action: utter_bachelor_of_commerce_in_procurement_and_logistics_management_entry_requirements
+- story: bachelor of commerce in procurement and logistics management careers
+  steps:
+  - intent: bachelor_of_commerce_in_procurement_and_logistics_management_careers
+  - action: utter_bachelor_of_commerce_in_procurement_and_logistics_management_careers
+- story: description bachelor of commerce in hospitality management
+  steps:
+  - intent: description_bachelor_of_commerce_in_tourism_and_hospitality_management
+  - action: utter_description_bachelor_of_commerce_in_tourism_and_hospitality_management
+- story: bachelor of commerce in hospitality management entry requirements
+  steps:
+  - intent: bachelor_of_commerce_in_tourism_and_hospitality_management_entry_requirements
+  - action: utter_bachelor_of_commerce_in_tourism_and_hospitality_management_entry_requirements
+- story: bachelor of commerce in hospitality management careers
+  steps:
+  - intent: bachelor_of_commerce_in_tourism_and_hospitality_management_careers
+  - action: utter_bachelor_of_commerce_in_tourism_and_hospitality_management_careers
+- story: description bachelor of science in environmental sciences
+  steps:
+  - intent: description_bachelor_of_science_in_environmental_sciences
+  - action: utter_description_bachelor_of_science_in_environmental_sciences
+- story: bachelor of science in environmental sciences entry requirements
+  steps:
+  - intent: bachelor_of_science_in_environmental_sciences_entry_requirements
+  - action: utter_bachelor_of_science_in_environmental_sciences_entry_requirements
+- story: bachelor of science in environmental sciences careers
+  steps:
+  - intent: bachelor_of_science_in_environmental_sciences_careers
+  - action: utter_bachelor_of_science_in_environmental_sciences_careers
+- story: description bachelor of science in applied geology
+  steps:
+  - intent: description_bachelor_of_science_in_applied_geology
+  - action: utter_description_bachelor_of_science_in_applied_geology
+- story: bachelor of science in applied geology entry requirements
+  steps:
+  - intent: bachelor_of_science_in_applied_geology_entry_requirements
+  - action: utter_bachelor_of_science_in_applied_geology_entry_requirements
+- story: bachelor of science in applied geology careers
+  steps:
+  - intent: bachelor_of_science_in_applied_geology_careers
+  - action: utter_bachelor_of_science_in_applied_geology_careers
+- story: description bachelor of science in chemical and processing engineering
+  steps:
+  - intent: description_bachelor_of_science_in_chemical_and_processing_engineering
+  - action: utter_description_bachelor_of_science_in_chemical_and_processing_engineering
+- story: bachelor of science in chemical and processing engineering entry requirements
+  steps:
+  - intent: bachelor_of_science_in_chemical_and_processing_engineering_entry_requirements
+  - action: utter_bachelor_of_science_in_chemical_and_processing_engineering_entry_requirements
+- story: bachelor of science in chemical and processing engineering careers
+  steps:
+  - intent: bachelor_of_science_in_chemical_and_processing_engineering_careers
+  - action: utter_bachelor_of_science_in_chemical_and_processing_engineering_careers
+- story: description bachelor of science in environmental engineering
+  steps:
+  - intent: description_bachelor_of_science_in_environmental_engineering
+  - action: utter_description_bachelor_of_science_in_environmental_engineering
+- story: bachelor of science in environmental engineering entry requirements
+  steps:
+  - intent: bachelor_of_science_in_environmental_engineering_entry_requirements
+  - action: utter_bachelor_of_science_in_environmental_engineering_entry_requirements
+- story: bachelor of science in environmental engineering careers
+  steps:
+  - intent: bachelor_of_science_in_environmental_engineering_careers
+  - action: utter_bachelor_of_science_in_environmental_engineering_careers
+- story: description bachelor of science in geoinformatics
+  steps:
+  - intent: description_bachelor_of_science_in_geoinformatics
+  - action: utter_description_bachelor_of_science_in_geoinformatics
+- story: bachelor of science in geoinformatics entry requirements
+  steps:
+  - intent: bachelor_of_science_in_geoinformatics_entry_requirements
+  - action: utter_bachelor_of_science_in_geoinformatics_entry_requirements
+- story: bachelor of science in geoinformatics careers
+  steps:
+  - intent: bachelor_of_science_in_geoinformatics_careers
+  - action: utter_bachelor_of_science_in_geoinformatics_careers
+- story: description bachelor of science in metallurgy and mineral processing engineering
+  steps:
+  - intent: description_bachelor_of_science_in_metallurgy_and_mineral_processing_engineering
+  - action: utter_description_bachelor_of_science_in_metallurgy_and_mineral_processing_engineering
+- story: bachelor of science in metallurgy and mineral processing engineering entry requirements
+  steps:
+  - intent: bachelor_of_science_in_metallurgy_and_mineral_processing_engineering_entry_requirements
+  - action: utter_bachelor_of_science_in_metallurgy_and_mineral_processing_engineering_entry_requirements
+- story: bachelor of science in metallurgy and mineral processing engineering careers
+  steps:
+  - intent: bachelor_of_science_in_metallurgy_and_mineral_processing_engineering_careers
+  - action: utter_bachelor_of_science_in_metallurgy_and_mineral_processing_engineering_careers
+- story: description bachelor of science in mining engineering
+  steps:
+  - intent: description_bachelor_of_science_in_mining_engineering
+  - action: utter_description_bachelor_of_science_in_mining_engineering
+- story: bachelor of science in mining engineering entry requirements
+  steps:
+  - intent: bachelor_of_science_in_mining_engineering_entry_requirements
+  - action: utter_bachelor_of_science_in_mining_engineering_entry_requirements
+- story: bachelor of science in mining engineering careers
+  steps:
+  - intent: bachelor_of_science_in_mining_engineering_careers
+  - action: utter_bachelor_of_science_in_mining_engineering_careers
+- story: description bachelor of science in petroleum engineering
+  steps:
+  - intent: description_bachelor_of_science_in_petroleum_enginering
+  - action: utter_description_bachelor_of_science_in_petroleum_enginering
+- story: bachelor of science in petroleum engineering entry requirements
+  steps:
+  - intent: bachelor_of_science_in_petroleum_engineering_entry_requirements
+  - action: utter_bachelor_of_science_in_petroleum_engineering_entry_requirements
+- story: bachelor of science in petroleum engineering careers
+  steps:
+  - intent: bachelor_of_science_in_petroleum_engineering_careers
+  - action: utter_bachelor_of_science_in_petroleum_engineering_careers
+- story: description bachelor of science in renewable energy engineering
+  steps:
+  - intent: description_bachelor_of_science_in_renewable_energy_engineering
+  - action: utter_description_bachelor_of_science_in_renewable_energy_engineering
+- story: bachelor of science in renewable energy engineering entry requirements
+  steps:
+  - intent: bachelor_of_science_in_renewable_energy_engineering_entry_requirements
+  - action: utter_bachelor_of_science_in_renewable_energy_engineering_entry_requirements
+- story: bachelor of science in renewable energy engineering careers
+  steps:
+  - intent: bachelor_of_science_in_renewable_energy_engineering_careers
+  - action: utter_bachelor_of_science_in_renewable_energy_engineering_careers
+- story: description diploma in mineral exploitation and mining geology
+  steps:
+  - intent: description_diploma_in_mineral_exploitation_and_mining_geology
+  - action: utter_description_diploma_in_mineral_exploitation_and_mining_geology
+- story: diploma in mineral exploitation and mining geology entry requirements
+  steps:
+  - intent: diploma_in_mineral_exploitation_and_mining_geology_entry_requirements
+  - action: utter_diploma_in_mineral_exploitation_and_mining_geology_entry_requirements
+- story: diploma in mineral exploitation and mining geology careers
+  steps:
+  - intent: diploma_in_mineral_exploitation_and_mining_geology_careers
+  - action: utter_diploma_in_mineral_exploitation_and_mining_geology_careers
+- story: description diploma in mining engineering
+  steps:
+  - intent: description_diploma_in_mining_engineering
+  - action: utter_description_diploma_in_mining_engineering
+- story: diploma in mining engineering entry requirements
+  steps:
+  - intent: diploma_in_mining_engineering_entry_requirements
+  - action: utter_diploma_in_mining_engineering_entry_requirements
+- story: diploma in mining engineering careers
+  steps:
+  - intent: diploma_in_mining_engineering_careers
+  - action: utter_diploma_in_mining_engineering_careers
+- story: college of natural and mathematical science
+  steps:
+  - intent: college_of_natural_and_mathematical_science
+  - action: utter_college_of_natural_and_mathematical_science
+- story: programmes offered cnms
+  steps:
+  - intent: programmes_offered_cnms
+  - action: utter_programmes_offered_cnms
+- story: description bachelor of science in acturial statistics
+  steps:
+  - intent: description_bachelor_of_science_in_acturial_statistics
+  - action: utter_description_bachelor_of_science_in_acturial_statistics
+- story: bachelor of science in acturial statistics entry requirements
+  steps:
+  - intent: bachelor_of_science_in_acturial_statistics_entry_requirements
+  - action: utter_bachelor_of_science_in_acturial_statistics_entry_requirements
+- story: bachelor of science in acturial statistics carreers
+  steps:
+  - intent: bachelor_of_science_in_acturial_statistics_careers
+  - action: utter_bachelor_of_science_in_acturial_statistics_careers
+- story: description bachelor of science in aquaculture and aquatic science
+  steps:
+  - intent: description_bachelor_of_science_in_aquaculture_and_aquatic_science
+  - action: utter_description_bachelor_of_science_in_aquaculture_and_aquatic_science
+- story: bachelor of science in aquaculture and aquatic science entry requirements
+  steps:
+  - intent: bachelor_of_science_in_aquaculture_and_aquatic_science_entry_requirements
+  - action: utter_bachelor_of_science_in_aquaculture_and_aquatic_science_entry_requirements
+- story: bachelor of science in aquaculture and aquatic science careers
+  steps:
+  - intent: bachelor_of_science_in_aquaculture_and_aquatic_science_careers
+  - action: utter_bachelor_of_science_in_aquaculture_and_aquatic_science_careers
+- story: description bachelor of science in biology
+  steps:
+  - intent: description_bachelor_of_science_in_biology
+  - action: utter_description_bachelor_of_science_in_biology
+- story: bachelor of science in biology entry requirements
+  steps:
+  - intent: bachelor_of_science_in_biology_entry_requirements
+  - action: utter_bachelor_of_science_in_biology_entry_requirements
+- story: bachelor of science in biology careers
+  steps:
+  - intent: bachelor_of_science_in_biology_careers
+  - action: utter_bachelor_of_science_in_biology_careers
+- story: description bachelor of science in biotechnology and bioinformatics
+  steps:
+  - intent: description_bachelor_of_science_in_biotechnology_and_bioinformatics
+  - action: utter_description_bachelor_of_science_in_biotechnology_and_bioinformatics
+- story: bachelor of science in biotechnology and bioinformatics entry requirements
+  steps:
+  - intent: bachelor_of_science_in_biotechnology_and_bioinformatics_entry_requirements
+  - action: utter_bachelor_of_science_in_biotechnology_and_bioinformatics_entry_requirements
+- story: bachelor of science in biotechnology and bioinformatics careers
+  steps:
+  - intent: bachelor_of_science_in_biotechnology_and_bioinformatics_careers
+  - action: utter_bachelor_of_science_in_biotechnology_and_bioinformatics_careers
+- story: description bachelor of science in chemistry
+  steps:
+  - intent: description_bachelor_of_science_in_chemistry
+  - action: utter_description_bachelor_of_science_in_chemistry
+- story: bachelor of science in chemistry entry requirements
+  steps:
+  - intent: bachelor_of_science_in_chemistry_entry_requirements
+  - action: utter_bachelor_of_science_in_chemistry_entry_requirements
+- story: bachelor of science in chemistry careers
+  steps:
+  - intent: bachelor_of_science_in_chemistry_careers
+  - action: utter_bachelor_of_science_in_chemistry_careers
+- story: description bachelor of science in mathematics
+  steps:
+  - intent: description_bachelor_of_science_in_mathematics
+  - action: utter_description_bachelor_of_science_in_mathematics
+- story: bachelor of science in mathematics entry requirements
+  steps:
+  - intent: bachelor_of_science_in_mathematics_entry_requirements
+  - action: utter_bachelor_of_science_in_mathematics_entry_requirements
+- story: bachelor of science in mathematics careers
+  steps:
+  - intent: bachelor_of_science_in_mathematics_careers
+  - action: utter_bachelor_of_science_in_mathematics_careers
+- story: description bachelor of science in mathematics and statistics
+  steps:
+  - intent: description_bachelor_of_science_in_mathematics_and_statistics
+  - action: utter_description_bachelor_of_science_in_mathematics_and_statistics
+- story: bachelor of science in mathematics and statistics entry requirements
+  steps:
+  - intent: bachelor_of_science_in_mathematics_and_statistics_entry_requirements
+  - action: utter_bachelor_of_science_in_mathematics_and_statistics_entry_requirements
+- story: bachelor of science in mathematics and statistics careers
+  steps:
+  - intent: bachelor_of_science_in_mathematics_and_statistics_careers
+  - action: utter_bachelor_of_science_in_mathematics_and_statistics_careers
+- story: description bachelor of science in physics
+  steps:
+  - intent: description_bachelor_of_science_in_physics
+  - action: utter_description_bachelor_of_science_in_physics
+- story: bachelor of science in physics entry requirements
+  steps:
+  - intent: bachelor_of_science_in_physics_entry_requirements
+  - action: utter_bachelor_of_science_in_physics_entry_requirements
+- story: bachelor of science in physics careers
+  steps:
+  - intent: bachelor_of_science_in_physics_careers
+  - action: utter_bachelor_of_science_in_physics_careers
+- story: description bachelor of science in statistcs
+  steps:
+  - intent: description_bachelor_of_science_in_statistics
+  - action: utter_description_bachelor_of_science_in_statistics
+- story: bachelor of science in statistics entry requirements
+  steps:
+  - intent: bachelor_of_science_in_statistics_entry_requirements
+  - action: utter_bachelor_of_science_in_statistics_entry_requirements
+- story: bachelor of science in statistics careers
+  steps:
+  - intent: bachelor_of_science_in_statistics_careers
+  - action: utter_bachelor_of_science_in_statistics_careers
+- story: description bachelor of science with education
+  steps:
+  - intent: description_bachelor_of_science_with_education
+  - action: utter_description_bachelor_of_science_with_education
+- story: bachelor of science with education entry requirements
+  steps:
+  - intent: bachelor_of_science_with_education_entry_requirements
+  - action: utter_bachelor_of_science_with_education_entry_requirements
+- story: bachelor of science with education careers
+  steps:
+  - intent: bachelor_of_science_with_education_careers
+  - action: utter_bachelor_of_science_with_education_careers
+- story: description diploma in forensic science
+  steps:
+  - intent: description_diploma_in_forensic_science
+  - action: utter_description_diploma_in_forensic_science
+- story: diploma in forensic science entry requirements
+  steps:
+  - intent: diploma_in_forensic_science_entry_requirements
+  - action: utter_diploma_in_forensic_science_entry_requirements
+- story: diploma in forensic science careers
+  steps:
+  - intent: diploma_in_forensic_science_careers
+  - action: utter_diploma_in_forensic_science_careers
+- story: description diploma in forest management and nature conservation
+  steps:
+  - intent: description_diploma_in_forest_management_and_nature_conservation
+  - action: utter_description_diploma_in_forest_management_and_nature_conservation
+- story: diploma in forest management and nature conservation entry requirements
+  steps:
+  - intent: diploma_in_forest_management_and_nature_conservation_entry_requirements
+  - action: utter_diploma_in_forest_management_and_nature_conservation_entry_requirements
+- story: diploma in forest management and nature conservation careers
+  steps:
+  - intent: diploma_in_forest_management_and_nature_conservation_careers
+  - action: utter_diploma_in_forest_management_and_nature_conservation_careers
+- story: school of medicine and dentistry
+  steps:
+  - intent: school_of_medicine_and_dentistry
+  - action: utter_school_of_medicine_and_dentistry
+- story: programmes offered school of medicine and dentistry
+  steps:
+  - intent: programmes_offered_school_of_medicine_and_dentistry
+  - action: utter_programmes_offered_school_of_medicine_and_dentistry
+- story: description diploma in medical laboratory
+  steps:
+  - intent: description_diploma_in_medical_laboratory
+  - action: utter_description_diploma_in_medical_laboratory
+- story: diploma in medical laboratory careers
+  steps:
+  - intent: diploma_in_medical_laboratory_careers
+  - action: utter_diploma_in_medical_laboratory_careers
+- story: diploma in medical laboratory entry requirements
+  steps:
+  - intent: diploma_in_medical_laboratory_entry_requirements
+  - action: utter_diploma_in_medical_laboratory_entry_requirements
+- story: description diploma in pharmacy
+  steps:
+  - intent: description_diploma_in_pharmacy
+  - action: utter_description_diploma_in_pharmacy
+- story: diploma in pharmacy entry requirements
+  steps:
+  - intent: diploma_in_phamarcy_entry_requirements
+  - action: utter_diploma_in_phamarcy_entry_requirements
+- story: diploma in pharmacy careers
+  steps:
+  - intent: diploma_in_phamarcy_entry_careers
+  - action: utter_diploma_in_phamarcy_entry_careers
+- story: description doctor of medicine
+  steps:
+  - intent: description_doctor_of_medicine
+  - action: utter_description_doctor_of_medicine
+- story: doctor of medicine entry requirements
+  steps:
+  - intent: doctor_of_medicine_entry_requirements
+  - action: utter_doctor_of_medicine_entry_requirements
+- story: doctor of medicine careers
+  steps:
+  - intent: doctor_of_medicine_careers
+  - action: utter_doctor_of_medicine_careers
+- story: school of nursing and public health
+  steps:
+  - intent: school_of_nursing_and_public_health
+  - action: utter_school_of_nursing_and_public_health
+- story: programmes offered school of nursing and public health
+  steps:
+  - intent: programmes_offered_school_of_nursing_and_public_health
+  - action: utter_programmes_offered_school_of_nursing_and_public_health
+- story: description bachelor of science in clinical nutrition and dietics
+  steps:
+  - intent: description_bachelor_of_science_in_clinical_nutrition_and_dietics
+  - action: utter_description_bachelor_of_science_in_clinical_nutrition_and_dietics
+- story: bachelor of science in clinical nutrition and dietics entry requirements
+  steps:
+  - intent: bachelor_of_science_in_clinical_nutrition_and_dietics_entry_requirements
+  - action: utter_bachelor_of_science_in_clinical_nutrition_and_dietics_entry_requirements
+- story: bachelor of science in clinical nutrition and dietics careers
+  steps:
+  - intent: bachelor_of_science_in_clinical_nutrition_and_dietics_careers
+  - action: utter_bachelor_of_science_in_clinical_nutrition_and_dietics_careers
+- story: description bachelor of science in nursing
+  steps:
+  - intent: description_bachelor_of_science_in_nursing
+  - action: utter_description_bachelor_of_science_in_nursing
+- story: bachelor of science in nursing entry requirements
+  steps:
+  - intent: bachelor_of_science_in_nursing_entry_requirements
+  - action: utter_bachelor_of_science_in_nursing_entry_requirements
+- story: bachelor of science in nursing careers
+  steps:
+  - intent: bachelor_of_science_in_nursing_careers
+  - action: utter_bachelor_of_science_in_nursing_careers
+- story: description diploma in nursing
+  steps:
+  - intent: description_diploma_in_nursing
+  - action: utter_description_diploma_in_nursing
+- story: diploma in nursing entry requirements
+  steps:
+  - intent: diploma_in_nursing_entry_requirements
+  - action: utter_diploma_in_nursing_entry_requirements
+- story: diploma in nursing careers
+  steps:
+  - intent: diploma_in_nursing_careers
+  - action: utter_diploma_in_nursing_careers
+- story: confucius institute
+  steps:
+  - intent: confucius_institute
+  - action: utter_confucius_institute
+- story: programmes offered confucius institute
+  steps:
+  - intent: programmes_offered_confucius_institute
+  - action: utter_programmes_offered_confucius_institute
+- story: description bachelor of arts in oriental languages
+  steps:
+  - intent: description_bachelor_of_arts_in_oriental_languages
+  - action: utter_description_bachelor_of_arts_in_oriental_languages
+- story: bachelor of arts in oriental languages entry requirements
+  steps:
+  - intent: bachelor_of_arts_in_oriental_languages_entry_requirements
+  - action: utter_bachelor_of_arts_in_oriental_languages_entry_requirements
+- story: bachelor of arts in oriental languages careers
+  steps:
+  - intent: bachelor_of_arts_in_oriental_languages_careers
+  - action: utter_bachelor_of_arts_in_oriental_languages_careers
+- story: institute of development studies
+  steps:
+  - intent: institute_of_development_studies
+  - action: utter_institute_of_development_studies
+- story: programmes offered institute of development studies
+  steps:
+  - intent: programmes_offered_institute_of_development_studies
+  - action: utter_programmes_offered_institute_of_development_studies
+- story: description bachelor of arts in project planning and communnity development
+  steps:
+  - intent: description_bachelor_of_arts_in_project_planning_and_community_development
+  - action: utter_description_bachelor_of_arts_in_project_planning_and_community_development
+- story: bachelor of arts in project planning and communnity development entry requirements
+  steps:
+  - intent: bachelor_of_arts_in_project_planning_and_community_development_entry_requirements
+  - action: utter_bachelor_of_arts_in_project_planning_and_community_development_entry_requirements
+- story: bachelor of arts in project planning and communnity development careers
+  steps:
+  - intent: bachelor_of_arts_in_project_planning_and_community_development_careers
+  - action: utter_bachelor_of_arts_in_project_planning_and_community_development_careers
+- story: description bachelor of arts in development studies
+  steps:
+  - intent: description_bachelor_of_arts_in_development_studies
+  - action: utter_description_bachelor_of_arts_in_development_studies
+- story: bachelor of arts in development studies entry requirements
+  steps:
+  - intent: bachelor_of_arts_in_development_studies_entry_requirements
+  - action: utter_bachelor_of_arts_in_development_studies_entry_requirements
+- story: bachelor of arts in development studies careers
+  steps:
+  - intent: bachelor_of_arts_in_development_studies_careers
+  - action: utter_bachelor_of_arts_in_development_studies_careers
+- story: school of law
+  steps:
+  - intent: school_of_law
+  - action: utter_school_of_law
+- story: programmes offered school of law
+  steps:
+  - intent: programmes_offered_school_of_law
+  - action: utter_programmes_offered_school_of_law
+- story: description bachelor of laws
+  steps:
+  - intent: description_bachelor_of_laws
+  - action: utter_description_bachelor_of_laws
+- story: bachelor of laws entry requirements
+  steps:
+  - intent: bachelor_of_laws_entry_requirements
+  - action: utter_bachelor_of_laws_entry_requirements
+- story: bachelor of laws careers
+  steps:
+  - intent: bachelor_of_laws_careers
+  - action: utter_bachelor_of_laws_careers
+- story: about the university of dodoma
+  steps:
+  - intent: about_the_university_of_dodoma
+  - action: utter_about_the_university_of_dodoma
+- story: student support
+  steps:
+  - intent: student_support
+  - action: utter_student_support
+- story: accommodation
+  steps:
+  - intent: accommodation
+  - action: utter_accommodation
+- story: food services
+  steps:
+  - intent: food_services
+  - action: utter_food_services
+- story: sports and recreation
+  steps:
+  - intent: sports_and_recreation
+  - action: utter_sports_and_recreation
+- story: student organization
+  steps:
+  - intent: student_organization
+  - action: utter_student_organization
+- story: medical services
+  steps:
+  - intent: medical_services
+  - action: utter_medical_services
+- story: guidance and counselling
+  steps:
+  - intent: guidance_and_counselling
+  - action: utter_guidance_and_counselling
+- story: academic advisory services
+  steps:
+  - intent: academic_advisory_services
+  - action: utter_academic_advisory_services
+- story: religious life
+  steps:
+  - intent: religious_life
+  - action: utter_religious_life
+- story: scholarship and financial support
+  steps:
+  - intent: scholarships_and_financial_support
+  - action: utter_scholarships_and_financial_support
+- story: banking services
+  steps:
+  - intent: banking_services
+  - action: utter_banking_services
+- story: postal services
+  steps:
+  - intent: postal_services
+  - action: utter_postal_services
+- story: library services
+  steps:
+  - intent: library_services
+  - action: utter_library_services
+- story: transport services
+  steps:
+  - intent: transport_services
+  - action: utter_transport_services
+- story: internationalization
+  steps:
+  - intent: Internationalization
+  - action: utter_Internationalization
+- story: language facilitation
+  steps:
+  - intent: language_facilitation
+  - action: utter_language_facilitation
+- story: innovation and enterpreneurship
+  steps:
+  - intent: innovation_and_enterpreneurship
+  - action: utter_innovation_and_enterpreneurship
+- story: cost of living
+  steps:
+  - intent: cost_of_living
+  - action: utter_cost_of_living
+- story: community services
+  steps:
+  - intent: community_services
+  - action: utter_community_services
+- story: campus safety and security
+  steps:
+  - intent: campus_safety_and_security
+  - action: utter_campus_safety_and_security
+- story: how to apply
+  steps:
+  - intent: how_to_apply
+  - action: utter_how_to_apply
+- story: registration procedures
+  steps:
+  - intent: registration_procedures
+  - action: utter_registration_procedures
+- story: number colleges of udom
+  steps:
+  - intent: number_colleges_of_udom
+  - action: utter_number_colleges_of_udom
+- story: colleges of udom
+  steps:
+  - intent: colleges_of_udom
+  - action: utter_colleges_of_udom
+- story: does udom offer degree programmes
+  steps:
+  - intent: does_udom_offer_degree_programmes
+  - action: utter_does_udom_offer_degree_programmes
+- story: does udom offer diploma programs
+  steps:
+  - intent: does_udom_offer_diploma_programs
+  - action: utter_does_udom_offer_diploma_programs
+- story: diploma programs udom does offer
+  steps:
+  - intent: diploma_programs_udom_offer
+  - action: utter_diploma_programs_udom_offer
+- story: degree programs udom do offer
+  steps:
+  - intent: degree_programmes_udom_offer
+  - action: utter_degree_programmes_udom_offer
+- story: number of degree programs offered cive
+  steps:
+  - intent: number_degree_programs_offered_cive
+  - action: utter_number_degree_programs_offered_cive
+- story: number of diploma programs offered cobe
+  steps:
+  - intent: number_diploma_programs_offered_cive
+  - action: utter_number_diploma_programs_offered_cive
+- story: number of degree programs offered cobe
+  steps:
+  - intent: number_degree_programs_offered_cobe
+  - action: utter_number_degree_programs_offered_cobe
+- story: number of diploma programs offered cobe
+  steps:
+  - intent: number_diploma_programs_offered_cobe
+  - action: utter_number_diploma_programs_offered_cobe
+- story: number of degree programs offered coese
+  steps:
+  - intent: number_degree_programs_offered_coese
+  - action: utter_number_degree_programs_offered_coese
+- story: number of diploma programs offered coese
+  steps:
+  - intent: number_diploma_programs_offered_coese
+  - action: utter_number_diploma_programs_offered_coese
+- story: number of degrees programs offered chss
+  steps:
+  - intent: number_degree_programs_offered_chss
+  - action: utter_number_degree_programs_offered_chss
+- story: number of diploma programs offered chss
+  steps:
+  - intent: number_diploma_programs_offered_chss
+  - action: utter_number_diploma_programs_offered_chss
+- story: number of degrees programs offered cnms
+  steps:
+  - intent: number_degree_programs_offered_cnms
+  - action: utter_number_degree_programs_offered_cnms
+- story: number of diploma programs offered cnms
+  steps:
+  - intent: number_diploma_programs_offered_cnms
+  - action: utter_number_diploma_programs_offered_cnms
+- story: number of degrees programs offered coed
+  steps:
+  - intent: number_degree_programs_offered_coed
+  - action: utter_number_degree_programs_offered_coed
+- story: number of diploma programs offered coed
+  steps:
+  - intent: number_diploma_programs_offered_coed
+  - action: utter_number_diploma_programs_offered_coed
+- story: number of degrees programs offered at school of law
+  steps:
+  - intent: number_degree_programs_offered_school_of_law
+  - action: utter_number_degree_programs_offered_school_of_law
+- story: number of diploma programs offered at the school of law
+  steps:
+  - intent: number_diploma_programs_offered_school_of_law
+  - action: utter_number_diploma_programs_offered_school_of_law
+- story: number of degrees programs offered at the school of medicine and dentistry
+  steps:
+  - intent: number_degree_programs_offered_school_of_medicine_and_dentistry
+  - action: utter_number_degree_programs_offered_school_of_medicine_and_dentistry
+- story: number of diploma programs offered at the school of medicine and dentistry
+  steps:
+  - intent: number_diploma_programs_offered_school_of_medicine_and_dentistry
+  - action: utter_number_diploma_programs_offered_school_of_medicine_and_dentistry
+- story: number of degrees programs offered at the school of nursing and public health
+  steps:
+  - intent: number_degree_programs_offered_school_of_nursing_and_public_health
+  - action: utter_number_degree_programs_offered_school_of_nursing_and_public_health
+- story: number of diploma programs offered at the school of nursing and public health
+  steps:
+  - intent: number_diploma_programs_offered_school_of_nursing_and_public_health
+  - action: utter_number_diploma_programs_offered_school_of_nursing_and_public_health
+- story: number of degrees programs offered at the confucius institute
+  steps:
+  - intent: number_degree_programs_offered_confucius_institute
+  - action: utter_number_degree_programs_offered_confucius_institute
+- story: number of diploma programs offered at the confucius institute
+  steps:
+  - intent: number_diploma_programs_offered_confucius_institute
+  - action: utter_number_diploma_programs_offered_confucius_institute
+- story: number of degrees programs offered at the institute of development studies
+  steps:
+  - intent: number_degree_programs_offered_institute_of_development_studies
+  - action: utter_number_degree_programs_offered_institute_of_development_studies
+- story: number of diploma programs offered at the institute of development studies
+  steps:
+  - intent: number_diploma_programs_offered_institute_of_development_studies
+  - action: utter_number_diploma_programs_offered_institute_of_development_studies
+- story: the distane from dodoma city to udom
+  steps:
+  - intent: how_far_from_dodoma_city
+  - action: utter_how_far_from_dodoma_city
+- story: is doctor of medicine available
+  steps:
+  - intent: is_doctor_of_medicine_available
+  - action: utter_is_doctor_of_medicine_available
+- story: the duration of studying doctor of medicine
+  steps:
+  - intent: time_for_studying_doctor_of_medicine
+  - action: utter_time_for_studying_doctor_of_medicine
+- story: is law studies available
+  steps:
+  - intent: is_law_studies_offered
+  - action: utter_is_law_studies_offered
+- story: fee structure
+  steps:
+  - intent: fee_structure
+  - action: utter_fee_structure
+- story: prospectus
+  steps:
+  - intent: prospectus
+  - action: utter_prospectus
+- story: stationery services
+  steps:
+  - intent: stationery_services
+  - action: utter_stationery_services
+- story: bot misconception
+  steps:
+  - intent: bot_misconception
+  - action: utter_bot_misconception
+- story: bot purpose
+  steps:
+  - intent: bot_purpose
+  - action: utter_bot_purpose
+- story: about cive
+  steps:
+  - intent: about_cive
+  - action: utter_about_cive
+- story: Story from Conversation ID dccc97c4a2a149008e9b2acffc145164
+  steps:
+  - intent: about_cive
+  - action: utter_about_cive
+  - intent: greet
+  - action: utter_greet
+- story: Story from Conversation ID 7c8ed95953b64780b0f65cc440f1d572
+  steps:
+  - intent: how_to_apply
+  - action: utter_how_to_apply
+  - intent: is_law_studies_offered
+  - action: utter_is_law_studies_offered
+- story: are you fine
+  steps:
+  - intent: are_you_fine
+  - action: utter_are_you_fine
+- story: enrolling requirements
+  steps:
+  - intent: enrolling_requirements
+  - action: utter_enrolling_requirements
+- story: what is join instruction
+  steps:
+  - intent: What_is_join_instruction
+  - action: utter_What_is_join_instruction
+- story: why join instruction
+  steps:
+  - intent: why_join_instruction
+  - action: utter_why_join_instruction
+- story: prio documents required
+  steps:
+  - intent: prio_documents_required
+  - action: utter_prio_documents_required
+- story: default action
+  steps:
+  - intent: action_default_fallback
+  - action: utter_default
+- story: Story from Conversation ID b060eb96a9e04e23b4bf1fc7d4577a12
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_the_university_of_dodoma
+  - action: utter_about_the_university_of_dodoma
+  - intent: bot_misconception
+  - action: utter_bot_misconception
+  - intent: about_the_university_of_dodoma
+  - action: action_default_fallback
+- story: Story from Conversation ID eeffc8a6d55f48b7924eb76f5502280b
+  steps:
+  - intent: how_to_apply
+  - action: utter_how_to_apply
+  - intent: is_law_studies_offered
+  - action: utter_is_law_studies_offered
+- story: Story from Conversation ID bab735443e7148d99e90802e0d67535d
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: are_you_fine
+  - action: utter_are_you_fine
+- story: interactive_story_1
+  steps:
+  - intent: description_bachelor_of_science_in_multimedia_technology_and_aninmation
+  - action: utter_description_bachelor_of_science_in_multimedia_technology_and_animation
+  - intent: description_bachelor_of_science_in_business_information_systems
+    entities:
+    - program: bis
+  - action: utter_description_bachelor_of_science_in_business_information_systems
+  - intent: description_bachelor_of_science_in_health_information_systems
+  - action: utter_description_bachelor_of_science_in_health_information_systems
+  - intent: about_cive
+  - action: utter_about_cive
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: need_to_ask
+  - action: utter_need_to_ask
+  - intent: registration_procedures
+    entities: 
+    - process: registration
+  - action: utter_registration_procedures
+  - intent: how_to_apply
+    entities:
+    - process: admission
+  - action: utter_how_to_apply
+  - intent: bachelor_of_science_in_business_information_systems_entry_requirements
+  - action: utter_bachelor_of_science_in_business_information_systems_entry_requirements
+
+- story: interactive_story_1
+  steps:
+  - intent: description_bachelor_of_science_in_business_information_systems
+  - action: utter_description_bachelor_of_science_in_business_information_systems
+  - intent: description_bachelor_of_science_in_business_information_systems
+  - action: utter_description_bachelor_of_science_in_business_information_systems
+  - intent: description_bachelor_of_science_in_multimedia_technology_and_aninmation
+  - action: utter_description_bachelor_of_science_in_multimedia_technology_and_animation
+  - intent: description_bachelor_of_science_in_multimedia_technology_and_aninmation
+  - action: utter_description_bachelor_of_science_in_multimedia_technology_and_animation
+  - intent: description_bachelor_of_science_in_multimedia_technology_and_aninmation
+  - action: utter_description_bachelor_of_science_in_multimedia_technology_and_animation
+
+- story: interactive_story_1
+  steps:
+  - intent: description_bachelor_of_science_in_multimedia_technology_and_aninmation
+  - action: utter_description_bachelor_of_science_in_multimedia_technology_and_animation
+  - intent: description_bachelor_of_science_in_health_information_systems
+  - action: utter_description_bachelor_of_science_in_health_information_systems
+  - intent: description_bachelor_of_science_in_computer_science
+    entities:
+    - program: computer science
+  - action: utter_description_bachelor_of_science_in_computer_science
+  - intent: bachelor_of_science_in_computer_science_entry_requirements
+    entities:
+    - program: computer science
+  - action: utter_bachelor_of_science_in_computer_science_entry_requirements
+  - intent: bachelor_of_science_in_computer_science_careers
+    entities:
+    - program: computer science
+  - action: utter_bachelor_of_science_in_computer_science_careers
+  - intent: about_cive
+    entities:
+    - college: college of informatics and virtual education
+  - action: utter_about_cive

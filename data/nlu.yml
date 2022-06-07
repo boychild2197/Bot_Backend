@@ -1,0 +1,2054 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Hello
+    - mornie
+    - hellow
+    - hlw
+    - morning
+    - mornig
+    - Hellow
+    - mr
+    - miss
+    - HLW
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - ok. thanx
+    - i mean bye
+    - jh
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - I am cool
+    - fine
+    - am fine
+    - good
+    - GOOD
+    - AM OKAY
+    - HOSPITAL
+- intent: are_you_fine
+  examples: |
+    - am good how are you
+    - are you fine
+    - Am fine how about you
+    - Are you Cool
+    - how are you
+    - fine and u?
+    - and you?
+    - doing what?
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - tell me about yourself
+    - you are not smart, are you?
+    - Are you dumb
+    - are you even smart?
+    - Are you a robot?
+    - What is your name?
+    - are you really a bot? or just one dumb kid.
+    - who are u
+    - what is your name
+    - who are you
+    - Are you man or woman
+- intent: college_of_education
+  examples: |
+    - What college offers education related programs?,
+    - Am interested in education related courses,
+    - I want to engage in education
+    - I want to be a teacher
+    - COED,
+    - What is COED?
+    - college of education
+    - education
+- intent: programmes_offered_college_of_education
+  examples: |
+    - What are the Dregree programmes offered in College of Education?
+    - What are the Dregree programmes offered in COED?
+    - programmes do COED offer
+    - programmes do College of Education offer
+    - Programs provided by COED
+    - what are the dregree programmes offered in COED
+    - what are the degree programmes offered in COED
+- intent: description_bachelor_of_education_in_administration_and_management
+  examples: |
+    - What is the BachelorOfEducationInAdministrationAndManagement?,
+    - I need to know about Bachelor of education in administration and management ,
+    - Tell me about Bachelor of education in administration and management ? ,
+    - What are the Bachelor of education in administration and management  for?,
+    - What is the purpose of the Bachelor of education in administration and management ?
+- intent: bachelor_of_education_in_administration_and_management_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of education in administration and management ?,
+    - I need to know the direct qualifications for Bachelor of education in administration and management ,
+    - What are the principal passes for Bachelor of education in administration and management ?,
+    - What things i need to have inoder to qualify for Bachelor of education in administration and management ?
+- intent: bachelor_of_education_in_administration_and_management_careers
+  examples: |
+    - What are the opportunities available for Bachelor of education in administration and management ?,
+    - Which jobs do graduates of Bachelor of education in administration and management  expected to do?,
+    - What are the careers associates with  Bachelor of education in administration and management ?
+- intent: description_bachelor_education_in_adult_education_and_community_development
+  examples: |
+    - What is the Bachelor of education in adult education and community development?,
+    - I need to know about Bachelor of education in adult education and community development,
+    - Tell me about Bachelor of education in adult education and community development? ,
+    - What are the Bachelor of education in adult education and community development for?,
+    - What is the purpose of the Bachelor of education in adult education and community development?
+- intent: bachelor_education_in_adult_education_and_community_development_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of education in adult education and community development?,
+    - I need to know the direct qualifications for Bachelor of education in adult education and community development,
+    - What are the principal passes for Bachelor of education in adult education and community development?,
+    - What things i need to have inoder to qualify for Bachelor of education in adult education and community development?
+- intent: bachelor_education_in_adult_education_and_community_development_careers
+  examples: |
+    - What are the opportunities available for Bachelor of education in adult education and community development?,
+    - Which jobs do graduates of Bachelor of education in adult education and community development expected to do?,
+    - What are the careers associates with  Bachelor of education in adult education and community development?
+- intent: description_bachelor_of_education_in_arts
+  examples: |
+    - What is the Bachelor of Education in Arts?
+    - I need to know about Bachelor of Education in Arts
+    - Tell me about Bachelor of Education in Arts?
+    - What are the Bachelor of Education in Arts for?
+    - What is the purpose of the Bachelor of Education in Arts?
+- intent: bachelor_of_education_in_arts_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Education in Arts?,
+    - I need to know the direct qualifications for Bachelor of Education in Arts,
+    - What are the principal passes for Bachelor of Education in Arts?,
+    - What things i need to have inoder to qualify for Bachelor of Education in Arts?
+- intent: bachelor_of_education_in_arts_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Education in Arts?,
+    - Which jobs do graduates of Bachelor of Education in Arts expected to do?,
+    - What are the careers associates with  Bachelor of Education in Arts?
+- intent: description_bachelor_of_education_in_commerce
+  examples: |
+    - What is the Bachelor of education in commerce?,
+    - I need to know about Bachelor of education in commerce,
+    - Tell me about Bachelor of education in commerce? ,
+    - What are the Bachelor of education in commerce for?,
+    - What is the purpose of the Bachelor of education in commerce?
+- intent: bachelor_of_education_in_commerce_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of education in commerce?,
+    - I need to know the direct qualifications for Bachelor of education in commerce,
+    - What are the principal passes for Bachelor of education in commerce?,
+    - What things i need to have inoder to qualify for Bachelor of education in commerce?
+- intent: bachelor_of_education_in_commerce_careers
+  examples: |
+    - What are the opportunities available for Bachelor of education in commerce?,
+    - Which jobs do graduates of Bachelor of education in commerce expected to do?,
+    - What are the careers associates with  Bachelor of education in commerce?
+- intent: description_bachelor_of_education_early_childhood_education
+  examples: |
+    - What is the Bachelor of education in early childhood education?,
+    - I need to know about Bachelor of education in early childhood education,
+    - Tell me about Bachelor of education in early childhood education? ,
+    - What are the Bachelor of education in early childhood education for?,
+    - What is the purpose of the Bachelor of education in early childhood education?
+- intent: bachelor_of_education_early_childhood_education_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of education in early childhood education?,
+    - I need to know the direct qualifications for Bachelor of education in early childhood education,
+    - What are the principal passes for Bachelor of education in early childhood education?,
+    - What things i need to have inoder to qualify for Bachelor of education in early childhood education?
+- intent: bachelor_of_education_early_childhood_education_careers
+  examples: |
+    - What are the opportunities available for Bachelor of education in early childhood education?,
+    - Which jobs do graduates of Bachelor of education in early childhood education expected to do?,
+    - What are the careers associates with  Bachelor of education in early childhood education?
+- intent: description_bachelor_of_education_in_guidance_and_councelling
+  examples: |
+    - What is the Bachelor of  education in guidance and counselling?,
+    - I need to know about Bachelor of  education in guidance and counselling,
+    - Tell me about Bachelor of  education in guidance and counselling? ,
+    - What are the Bachelor of  education in guidance and counselling for?,
+    - What is the purpose of the Bachelor of  education in guidance and counselling?
+- intent: bachelor_of_education_in_guidance_and_councelling_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of  education in guidance and counselling?,
+    - I need to know the direct qualifications for Bachelor of  education in guidance and counselling,
+    - What are the principal passes for Bachelor of  education in guidance and counselling?,
+    - What things i need to have inoder to qualify for Bachelor of  education in guidance and counselling?
+- intent: bachelor_of_education_in_guidance_and_councelling_careers
+  examples: |
+    - What are the opportunities available for Bachelor of  education in guidance and counselling?,
+    - Which jobs do graduates of Bachelor of  education in guidance and counselling expected to do?,
+    - What are the careers associates with  Bachelor of  education in guidance and counselling?
+- intent: description_bachelor_of_education_in_policy_planning_and_management
+  examples: |
+    - What is the Bachelor of education in policy planning and management?,
+    - I need to know about Bachelor of education in policy planning and management,
+    - Tell me about Bachelor of education in policy planning and management? ,
+    - What are the Bachelor of education in policy planning and management for?,
+    - What is the purpose of the Bachelor of education in policy planning and management?
+- intent: bachelor_of_education_in_policy_planning_and_management_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of education in policy planning and management?,
+    - I need to know the direct qualifications for Bachelor of education in policy planning and management,
+    - What are the principal passes for Bachelor of education in policy planning and management?,
+    - What things i need to have inoder to qualify for Bachelor of education in policy planning and management?
+- intent: bachelor_of_education_in_policy_planning_and_management_careers
+  examples: |
+    - What are the opportunities available for Bachelor of education in policy planning and management?,
+    - Which jobs do graduates of Bachelor of education in policy planning and management expected to do?,
+    - What are the careers associates with  Bachelor of education in policy planning and management?
+- intent: description_bachelor_of_education_in_psychology
+  examples: |
+    - What is the Bachelor of Education in Arts?,
+    - I need to know about Bachelor of Education in Arts,
+    - Tell me about Bachelor of Education in Arts? ,
+    - What are the Bachelor of Education in Arts for?,
+    - What is the purpose of the Bachelor of Education in Arts?
+- intent: bachelor_of_education_in_psychology_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Education in Arts?,
+    - I need to know the direct qualifications for Bachelor of Education in Arts,
+    - What are the principal passes for Bachelor of Education in Arts?,
+    - What things i need to have inoder to qualify for Bachelor of Education in Arts?
+- intent: bachelor_of_education_in_psychology_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Education in Arts?,
+    - Which jobs do graduates of Bachelor of Education in Arts expected to do?,
+    - What are the careers associates with  Bachelor of Education in Arts?
+- intent: description_bachelor_education_in_science
+  examples: |
+    - What is the Bachelor of education in science?,
+    - I need to know about Bachelor of education in science,
+    - Tell me about Bachelor of education in science? ,
+    - What are the Bachelor of education in science for?,
+    - What is the purpose of the Bachelor of education in science?
+- intent: bachelor_education_in_science_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of education in science?,
+    - I need to know the direct qualifications for Bachelor of education in science,
+    - What are the principal passes for Bachelor of education in science?,
+    - What things i need to have inoder to qualify for Bachelor of education in science?
+- intent: bachelor_education_in_science_careers
+  examples: |
+    - What are the opportunities available for Bachelor of education in science?,
+    - Which jobs do graduates of Bachelor of education in science expected to do?,
+    - What are the careers associates with  Bachelor of education in science?
+- intent: description_bachelor_of_education_in_science_with_ICT
+  examples: |
+    - What is the Bachelor of education in science with ICT?,
+    - I need to know about Bachelor of education in science with ICT,
+    - Tell me about Bachelor of education in science with ICT? ,
+    - What are the Bachelor of education in science with ICT for?,
+    - What is the purpose of the Bachelor of education in science with ICT?
+- intent: bachelor_of_education_in_science_with_ICT_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of education in science with ICT?,
+    - I need to know the direct qualifications for Bachelor of education in science with ICT,
+    - What are the principal passes for Bachelor of education in science with ICT?,
+    - What things i need to have inoder to qualify for Bachelor of education in science with ICT?
+- intent: bachelor_of_education_in_science_with_ICT_careers
+  examples: |
+    - What are the opportunities available for Bachelor of education in science with ICT?,
+    - Which jobs do graduates of Bachelor of education in science with ICT expected to do?,
+    - What are the careers associates with  Bachelor of education in science with ICT?
+- intent: description_bachelor_of_education_in_special_needs
+  examples: |
+    - What is the Bachelor of education in science?,
+    - I need to know about Bachelor of education in science,
+    - Tell me about Bachelor of education in science? ,
+    - What are the Bachelor of education in science for?,
+    - What is the purpose of the Bachelor of education in science?
+- intent: bachelor_of_education_in_special_needs_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of education in science?,
+    - I need to know the direct qualifications for Bachelor of education in science,
+    - What are the principal passes for Bachelor of education in science?,
+    - What things i need to have inoder to qualify for Bachelor of education in science?
+- intent: bachelor_of_education_in_special_needs
+  examples: |
+    - What are the opportunities available for Bachelor of education in science?,
+    - Which jobs do graduates of Bachelor of education in science expected to do?,
+    - What are the careers associates with  Bachelor of education in science?
+- intent: college_of_informatics_and_virtual_education
+  examples: |
+    - What college offers technology related programs?
+    - Which college offers informatics related programmes?
+    - In which college do Information Technologies are offered?
+    - In which college do Information systems are offered?
+    - In which college do Information Technologies and systems are offered?
+    - Am interested in information technologies
+    - information
+    - I need to learn information systems
+    - in which college can i study computer science
+- intent: description_diploma_in_information_and_communication_technology(DICT)
+  examples: |
+    - What is the Diploma In Information and Communication Technology(DICT)?
+    - I need to know about Diploma InInformation and Communication Technology(DICT)
+    - Tell me about Diploma InInformation and Communication Technology(DICT)?
+    - What are the Diploma InInformation and Communication Technology(DICT) for?
+    - What is the purpose of the Diploma In Information and Communication Technology(DICT)?
+- intent: diploma_in_information_and_communication_technology(DICT)_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Diploma InInformation and Communication Technology(DICT)?
+    - I need to know the direct qualifications for Diploma InInformation and Communication Technology(DICT)
+    - What are the principal passes for Diploma in Information and Communication Technology(DICT)?
+    - What things I need to have inoder to qualify for Diploma InInformation and Communication Technology(DICT)?
+    - What are the the equivalent requirements for the Diploma In Information and Communication Technology(DICT)?
+    - What are the equivalent qualifications for Diploma In Information and Communication Technology(DICT)?
+    - What are the  entry for Diploma In Information and Communication Technology(DICT)
+- intent: diploma_in_information_and_communication_technology(DICT)_careers
+  examples: |
+    - What are the opportunities available for Diploma in Information and Communication Technology(DICT)?
+    - Which jobs do graduates of Diploma in Information and Communication Technology(DICT) expected to do?
+    - What are the careers associates with  Diploma in Information and Communication Technology(DICT)?
+- intent: description_diploma_in_educational_technology
+  examples: |
+    - What is the Diploma In Educational Technology(DET)?
+    - I need to know about Diploma In Educational Technology(DET)
+    - Tell me about Diploma In Educational Technology(DET)?
+    - What are the Diploma In Educational Technology(DET) for?
+    - What is the purpose of the Diploma In Educational Technology(DET)?
+- intent: diploma_in_educational_technology_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Diploma In Educational Technology(DET)?
+    - I need to know the direct qualifications for Diploma In Educational Technology(DET)
+    - What are the principal passes for Diploma in Educational Technology(DICT)?
+    - What things i need to have inoder to qualify for Diploma In Educational Technology(DET)?
+    - What are the the equivalent requirements for the Diploma In Educational Technology(DET)?
+    - What are the equivalent qualifications for Diploma In Educational Technology(DET)?
+    - What are the  entry for Diploma In Educational Technology(DET)
+- intent: diploma_in_educational_technology_careers
+  examples: |
+    - What are the opportunities available for Diploma in Educational Technology(DICT)?
+    - Which jobs do graduates of Diploma in Educational Technology(DICT) expected to do?
+    - What are the careers associates with  Diploma in Educational Technology(DICT)?
+- intent: description_diploma_in_cyber_security_and_digital_forensics
+  examples: |
+    - What is the Diploma In Cyber Security and Digital Forensics?
+    - I need to know about Diploma In Cyber Security and Digital Forensics
+    - Tell me about Diploma In Cyber Security and Digital Forensics?
+    - What are the Diploma In Cyber Security and Digital Forensics for?
+    - What is the purpose of the Diploma In Cyber Security and Digital Forensics?
+- intent: diploma_in_cyber_security_and_digital_forensics_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Diploma In Cyber Security and Digital Forensics?
+    - I need to know the direct qualifications for Diploma In Cyber Security and Digital Forensics
+    - What are the principal passes for DiplomaInCyberSecurity And Digital Forensic?
+    - What things i need to have inoder to qualify for Diploma In Cyber Security and Digital Forensics?
+    - What are the the equivalent requirements for the Diploma In Cyber Security and Digital Forensics?
+    - What are the equivalent qualifications for Diploma In Cyber Security and Digital Forensics?
+    - What are the  entry for Diploma In Cyber Security and Digital Forensics
+- intent: diploma_in_cyber_security_and_digital_forensics_careers
+  examples: |
+    - What are the opportunities available for DiplomaInCyberSecurity And Digital Forensic?
+    - Which jobs do graduates of DiplomaInCyberSecurity And Digital Forensic expected to do?
+    - What are the careers associates with  DiplomaInCyberSecurity And Digital Forensic?
+- intent: description_bachelor_of_science_in_instructional_design_and_information_technology
+  examples: |
+    - What is the Bachelor of  Science in Instructional Design and Information Technology(BSc IDIT)?
+    - I need to know about Bachelor of  Science in Instructional Design and Information Technology(BSc IDIT)
+    - Tell me about Bachelor of Science in Instructional Design and Information Technology(BSc IDIT)?
+    - What are the Bachelor of Science in Instructional Design and Information Technology(BSc IDIT) for?
+    - What is the purpose of the Bachelor of Science in Instructional Design and Information Technology(BSc IDIT)?
+- intent: bachelor_of_science_in_instructional_design_and_information_technology_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Science in Instructional Design  and Information Technology(BSc IDIT)?
+    - I need to know the direct qualifications for Bachelor of Science in Instructional Design  and Information Technology(BSc IDIT)
+    - What are the principal passes for Bachelor of  Science in Instructional Design  and Information Technology(BSc IDIT)?
+    - What things i need to have inoder to qualify for Bachelor of Science in Instructional Design  and Information Technology(BSc IDIT)?
+    - What are the the equivalent requirements for the Bachelor of  Science in Instructional Design  and Information Technology(BSc IDIT)?
+    - What are the equivalent qualifications for Bachelor of  Science in Instructional Design  and Information Technology(BSc IDIT) for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of  Science in Instructional Design  and Information Technology(BSc IDIT)
+- intent: bachelor_of_science_in_instructional_design_and_information_technology_careers
+  examples: |
+    - What are the opportunities available for Bachelor of  Science in Instructional Design  and Information Technology(BSc IDIT)?
+    - Which jobs do graduates of Bachelor of  Science in Instructional Design  and Information Technology(BSc IDIT) expected to do?
+    - What are the careers associates with  Bachelor of  Science in Instructional Design  and Information Technology(BSc IDIT)?
+- intent: description_bachelor_of_science_in_telecommunications_engineering
+  examples: |
+    - What is the Bachelor of science in Telecomunications Engineering(BSc TE)?
+    - I need to know about Bachelor of science in Telecomunications Engineering(BSc TE)
+    - Tell me about Bachelor of science in Telecomunications Engineering(BSc TE)?
+    - What are the Bachelor of science in Telecomunications Engineering(BSc TE) for?
+    - What is the purpose of the Bachelor of science in Telecomunications Engineering(BSc TE)?
+- intent: bachelor_of_science_in_telecommunications_engineering_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in Telecomunications Engineering(BSc TE)?
+    - I need to know the direct qualifications for Bachelor of science in Telecomunications Engineering(BSc TE)
+    - What are the principal passes for Bachelor of science in Telecomunications Engineering(BSc TE)?
+    - What things i need to have inoder to qualify for Bachelor of science in Telecomunications Engineering(BSc TE)?
+    - What are the the equivalent requirements for the Bachelor of science in Telecomunications Engineering(BSc TE)?
+    - What are the equivalent qualifications for Bachelor of science in Telecomunications Engineering(BSc TE) for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of science in Telecomunications Engineering(BSc TE)
+- intent: bachelor_of_science_in_telecommunications_engineering_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in Telecomunications Engineering(BSc TE)?
+    - Which jobs do graduates of Bachelor of science in Telecomunications Engineering(BSc TE) expected to do?
+    - What are the careers associates with  Bachelor of science in Telecomunications Engineering(BSc TE)?
+- intent: description_bachelor_of_science_in_software_engineering
+  examples: |
+    - What is the Bachelor of science in Software Engineering(BSc SE)?
+    - I need to know about Bachelor of science in Software Engineering(BSc SE)
+    - Tell me about Bachelor of science in Software Engineering(BSc SE)?
+    - What are the Bachelor of science in Software Engineering(BSc SE) for?
+    - What is the purpose of the Bachelor of science in Software Engineering(BSc SE)?
+- intent: bachelor_of_science_in_software_engineering_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in Software Engineering(BSc SE)?
+    - I need to know the direct qualifications for Bachelor of science in Software Engineering(BSc SE)
+    - What are the principal passes for Bachelor of science in Software Engineering(BSc SE)?
+    - What things i need to have inoder to qualify for Bachelor of science in Software Engineering(BSc SE)?
+    - What are the the equivalent requirements for the Bachelor of science in Software Engineering(BSc SE)?
+    - What are the equivalent qualifications for Bachelor of science in Software Engineering(BSc SE) for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of science in Software Engineering(BSc SE)
+- intent: bachelor_of_science_in_software_engineering_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in Software Engineering(BSc SE)?
+    - Which jobs do graduates of Bachelor of science in Software Engineering(BSc SE) expected to do?
+    - What are the careers associates with  Bachelor of science in Software Engineering(BSc SE)?
+- intent: description_bachelor_of_science_in_multimedia_technology_and_aninmation
+  examples: |
+    - What is the Bachelor of science in Multimedia Technology and Animation(MTA)?
+    - What is the Bachelor of science in MTA?
+    - mta
+    - What is the BSc MTA?
+    - I need to know about Bachelor of science in Multimedia Technology and Animation(MTA)
+    - I need to know about MTA
+    - Tell me about Bachelor of science in Multimedia Technology and Animation(MTA)?
+    - What are the Bachelor of science in Multimedia Technology and Animation(MTA) for?
+    - What is the purpose of the Bachelor of science in Multimedia Technology and Animation(MTA)?
+    - tell what you know about mta
+    - am passonate to know about bachelor of science in multimedia and aniamtion
+    - am passonate to know about mta
+- intent: bachelor_of_science_in_multimedia_technology_and_animation_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in Multimedia Technology and Animation(MTA)?
+    - I need to know the direct qualifications for Bachelor of science in Multimedia Technology and Animation(MTA)
+    - What are the principal passes for Bachelor of science in Multimedia Technology and Animation(MTA)?
+    - What things i need to have inoder to qualify for Bachelor of science in Multimedia Technology and Animation(MTA)?
+    - What are the the equivalent requirements for the Bachelor of science in Multimedia Technology and Animation(MTA)?
+    - What are the equivalent qualifications for Bachelor of science in Multimedia Technology and Animation(MTA) for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of science in Multimedia Technology and Animation(MTA)
+- intent: bachelor_of_science_in_multimedia_technology_and_animation_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in Multimedia Technology and Animation(MTA)?
+    - Which jobs do graduates of Bachelor of science in Multimedia Technology and Animation(MTA) expected to do?
+    - What are the careers associates with  Bachelor of science in Multimedia Technology and Animation(MTA)?
+- intent: description_bachelor_of_science_in_health_information_systems
+  examples: |
+    - What is the Bachelor of Science in Health Information Systems(BSc HIS)?
+    - tell me about BSc HIS
+    - Health information systems
+    - Descriptions of health information system
+    - What is health Information systems?
+    - What is Bsc HIS?
+    - I need to know about Bachelor of Science in Health Information Systems(BSc HIS)
+    - I need to know about BSc HIS
+    - Tell me about Bachelor of Science in Health Information Systems(BSc HIS)?
+    - Tell me about BSc HIS
+    - What are the Bachelor of Science in Health Information Systems(BSc HIS) for?
+    - What are the BSc HIS for?
+    - his
+    - am passonate to know about his
+- intent: bachelor_of_science_in_health_information_systems_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Science in Health Information Systems(BSc HIS)?
+    - I need to know the direct qualifications for Bachelor of Science in Health Information Systems(BSc HIS)
+    - What are the principal passes for Bachelor of Science in Health Information Systems(BSc HIS)?
+    - What things i need to have inoder to qualify for Bachelor of Science in Health Information Systems(BSc HIS)?
+    - What are the the equivalent requirements for the Bachelor of Science in Health Information Systems(BSc HIS)?
+    - What are the equivalent qualifications for Bachelor of Science in Health Information Systems(BSc HIS) for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Science in Health Information Systems(BSc HIS)
+- intent: bachelor_of_science_in_health_information_systems_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Science in Health Information Systems(BSc HIS)?
+    - Which jobs do graduates of Bachelor of Science in Health Information Systems(BSc HIS) expected to do?
+    - What are the careers associates with  Bachelor of Science in Health Information Systems(BSc HIS)?
+- intent: description_bachelor_of_science_in_digital_content_and_broadcasting_engineering
+  examples: |
+    - What is the Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE)?
+    - I need to know about Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE)
+    - Tell me about Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE)?
+    - What are the Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE) for?
+    - What is the purpose of the Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE)?
+- intent: bachelor_of_science_in_digital_content_and_broadcasting_engineering_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE)?
+    - I need to know the direct qualifications for Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE)
+    - What are the principal passes for Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE)?
+    - What things i need to have inoder to qualify for Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE)?
+    - What are the the equivalent requirements for the Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE)?
+    - What are the equivalent qualifications for Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE) for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE)
+- intent: bachelor_of_science_in_digital_content_and_broadcasting_engineering_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE)?
+    - Which jobs do graduates of Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE) expected to do?
+    - What are the careers associates with  Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE)?
+- intent: description_bachelor_of_science_in_cyber_security_and_forensics_engineering
+  examples: |
+    - What is the Bachelor of science in Cyber security and Digital Forensic Engineering(BSc CSDFE)?
+    - I need to know about Bachelor of science in Cyber security and Digital Forensic Engineering(BSc CSDFE)
+    - Tell me about Bachelor of science in Cyber security and Digital Forensic Engineering(BSc CSDFE)?
+    - What are the Bachelor of science in Cyber security and Digital Forensic Engineering(BSc CSDFE) for?
+    - What is the purpose of the Bachelor of science in Cyber security and Digital Forensic Engineering(BSc CSDFE)?
+- intent: bachelor_of_science_in_cyber_security_and_forensics_engineering_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in Cyber security and Digital Forensic Engineering(BSc CSDFE)
+    - I need to know the direct qualifications for Bachelor of science in Cyber security and Digital Forensic Engineering(BSc CSDFE)
+    - What are the principal passes for Bachelor of science in Cyber security and Digital Forensic Engineering(BSc CSDFE)?
+    - What things i need to have inoder to qualify for Bachelor of science in Cyber security and Digital Forensic Engineering(BSc CSDFE)?
+    - What are the the equivalent requirements for the Bachelor of science in Cyber security and Digital Forensic Engineering(BSc CSDFE)?
+    - What are the equivalent qualifications for Bachelor of science in Cyber security and Digital Forensic Engineering(BSc CSDFE) for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of science in Cyber security and Digital Forensic Engineering(BSc CSDFE)
+- intent: bachelor_of_science_in_cyber_security_and_forensics_engineering_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in Cyber security and Digital Forensic Engineering(BSc CSDFE)?
+    - Which jobs do graduates of Bachelor of science in Cyber security and Digital Forensic Engineering(BSc CSDFE) expected to do?
+    - What are the careers associates with  Bachelor of science in Cyber security and Digital Forensic Engineering(BSc CSDFE)?
+- intent: description_bachelor_of_science_in_computer_science
+  examples: |
+    - What is the Bachelor of science in Computer Science(BSc CS)?
+    - I need to know about Bachelor of science in Computer Science(BSc CS)
+    - Tell me about Bachelor of science in Computer Science(BSc CS)?
+    - What are the Bachelor of science in Computer Science(BSc CS) for?
+    - What is the purpose of the Bachelor of science in Computer Science(BSc CS)?
+    - am passonate to now about computer science[]{"entity": "program", "value": "computer science"}
+- intent: bachelor_of_science_in_computer_science_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in Computer Science(BSc CS)?
+    - I need to know the direct qualifications for Bachelor of science in Computer Science(BSc CS)
+    - What are the principal passes for Bachelor of science in Computer Science(BSc CS)?
+    - What things i need to have inoder to qualify for Bachelor of science in Computer Science(BSc CS)?
+    - What are the the equivalent requirements for the Bachelor of science in Computer Science(BSc CS)?
+    - What are the equivalent qualifications for Bachelor of science in Computer Science(BSc CS) for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of science in Computer Science(BSc CS)
+    - what are the points required for studying computer science?
+    - what are the cut points of computer science
+    - what is needed to study computer science?[]{"entity": "program", "value": "computer science"}
+- intent: bachelor_of_science_in_computer_science_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in Computer Science(BSc CS)?
+    - Which jobs do graduates of Bachelor of science in Computer Science(BSc CS) expected to do?
+    - What are the careers associates with  Bachelor of science in Computer Science(BSc CS)?
+    - what i do expect  to be if I study computer science?[]{"entity": "program", "value": "computer science"}
+- intent: description_bachelor_of_science_in_computer_networks_and_information_engineering
+  examples: |
+    - What is the Bachelor of Science in Computer Networks and Information Engineering (BSc CNISE)
+    - I need to know about Bachelor of Science in Computer Networks and Information Engineering(BSc CNISE)
+    - Tell me about Bachelor of Science in Computer Networks and Information Engineering(BSc CNISE)?
+    - What are the Bachelor of Science in Computer Networks and Information Engineering(BSc CNISE) for?
+    - What is the purpose of the Bachelor of Science in Computer Networks and Information Engineering(BSc CNISE)?
+- intent: bachelor_of_science_in_computer_networks_and_information_engineering_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Science in Computer Networks and Information Engineering(BSc CNISE)?
+    - I need to know the direct qualifications for Bachelor of Science in Computer Networks and Information Engineering(BSc CNISE)
+    - What are the principal passes for Bachelor of Science in Computer Networks and Information Engineering(BSc CNISE)?
+    - What things I need to have inoder to qualify for Bachelor of Science in Computer Networks and Information Engineering(BSc CNISE)?
+    - What are the the equivalent requirements for the Bachelor of Science in Computer Networks and Information Engineering(BSc CNISE)?
+    - What are the equivalent qualifications for Bachelor of Science in Computer Networks and Information Engineering(BSc CNISE) for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Science in Computer Networks and Information Engineering(BSc CNISE)
+- intent: bachelor_of_science_in_computer_networks_and_information_engineering_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Science in Computer Networks and Information Engineering(BSc CNISE)?
+    - Which jobs do graduates of Bachelor of Science in Computer Networks and Information Engineering(BSc CNISE) expected to do?
+    - What are the careers associates with  Bachelor of Science in Computer Networks and Information Engineering(BSc CNISE)?
+- intent: description_bachelor_of_science_in_computer_engineering
+  examples: |
+    - What is the Bachelor of science in Computer Engineering(BSc CE)?
+    - I need to know about Bachelor of science in Computer Engineering(BSc CE)
+    - Tell me about Bachelor of science in Computer Engineering(BSc CE)?
+    - What are the Bachelor of science in Computer Engineering(BSc CE) for?
+    - What is the purpose of the Bachelor of science in Computer Engineering(BSc CE)?
+- intent: bachelor_of_science_in_computer_engineering_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in Computer Engineering(BSc CE)?
+    - I need to know the direct qualifications for Bachelor of science in Computer Engineering(BSc CE)
+    - What are the principal passes for Bachelor of science in Computer Engineering(BSc CE)?
+    - What things i need to have inoder to qualify for Bachelor of science in Computer Engineering(BSc CE)?
+    - What are the the equivalent requirements for the Bachelor of science in Computer Engineering(BSc CE)?
+    - What are the equivalent qualifications for Bachelor of science in Computer Engineering(BSc CE) for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of science in Computer Engineering(BSc CE)
+- intent: bachelor_of_science_in_computer_engineering_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in Computer Engineering(BSc CE)?
+    - Which jobs do graduates of Bachelor of science in Computer Engineering(BSc CE) expected to do?
+    - What are the careers associates with  Bachelor of science in Computer Engineering(BSc CE)?
+- intent: description_bachelor_of_science_in_information_systems
+  examples: |
+    - What is the Bachelor of Science in Information Systems(BSc IS)?
+    - I need to know about Bachelor of Science in Information Systems(BSc IS)
+    - Tell me about Bachelor of Science in Information Systems(BSc IS)?
+    - What are the Bachelor of Science in Information Systems(BSc IS) for?
+    - What is the purpose of the Bachelor of Science in Information Systems(BSc IS)?
+- intent: bachelor_of_science_in_information_systems_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Science in Information Systems(BSc IS)?
+    - I need to know the direct qualifications for Bachelor of Science in Information Systems(BSc IS)
+    - What are the principal passes for Bachelor of Science in Information Systems(BSc IS)?
+    - What things i need to have inoder to qualify for Bachelor of Science in Information Systems(BSc IS)?
+    - What are the the equivalent requirements for the Bachelor of Science in Information Systems(BSc IS)?
+    - What are the equivalent qualifications for Bachelor of Science in Information Systems(BSc IS) for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Science in Information Systems(BSc IS)
+- intent: bachelor_of_science_in_information_systems_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Science in Information Systems(BSc IS)?
+    - Which jobs do graduates of Bachelor of Science in Information Systems(BSc IS) expected to do?
+    - What are the careers associates with  Bachelor of Science in Information Systems(BSc IS)?
+- intent: description_bachelor_of_science_in_business_information_systems
+  examples: |
+    - What is the Bachelor of Science in Business Information Systems(BSc BIS)?
+    - I need to know about Bachelor of Science in Business Information Systems(BSc BIS)
+    - Tell me about Bachelor of Science in Business Information Systems(BSc BIS)?
+    - What are the Bachelor of Science in Business Information Systems(BSc BIS) for?
+    - What is the purpose of the Bachelor of Science in Business Information Systems(BSc BIS)?
+    - [bis](program)
+    - tell me about bis
+    - what is business information system about?
+- intent: bachelor_of_science_in_business_information_systems_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Science in Business Information Systems(BSc BIS)?
+    - I need to know the direct qualifications for Bachelor of Science in Business Information Systems(BSc BIS)?
+    - What are the principal passes for Bachelor of Science in Business Information Systems(BSc BIS)?
+    - What things i need to have inoder to qualify for Bachelor of Science in Business Information Systems(BSc BIS)?
+    - What are the the equivalent requirements for the Bachelor of Science in Business Information Systems(BSc BIS)?
+    - What are the equivalent qualifications for Bachelor of Science in Business Information Systems(BSc BIS) for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Science in Business Information Systems(BSc BIS)?
+    - how do i qualify to study business information system?
+- intent: bachelor_of_science_in_business_information_systems_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Science in Business Information Systems(BSc BIS)?
+    - Which jobs do graduates of Bachelor of Science in Business Information Systems(BSc BIS)? expected to do?
+    - What are the careers associates with  Bachelor of Science in Business Information Systems(BSc BIS)?
+- intent: description_bachelor_of_arts_in_economics_and_statistics
+  examples: |
+    - What is the Bachelor of Arts in economics and statistics
+    - I need to know about Bachelor of Arts in economics and statistics
+    - Tell me about Bachelor of Arts in economics and statistics?
+    - What are the Bachelor of Arts in economics and statistics for
+    - What is the purpose of the Bachelor of Arts in economics and statistics
+- intent: bachelor_of_arts_in_economics_and_statistics_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Arts in economics and statistics?
+    - I need to know the direct qualifications for Bachelor of Arts in economics and statistics
+    - What are the principal passes for Bachelor of Arts in economics and statistics?
+    - What things i need to have inoder to qualify for Bachelor of Arts in economics and statistics?
+    - What are the the equivalent requirements for the Bachelor of Arts in economics and statistics?
+    - What are the equivalent qualifications for Bachelor of Arts in economics and statistics for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Arts in economics and statistics
+- intent: bachelor_of_arts_in_economics_and_statistics_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Arts in Economics and statistics?
+    - Which jobs do graduates of Bachelor of Arts  in Economics and statistics expected to do?
+    - What are the careers associates with  Bachelor of Arts in Economics and statistics?
+- intent: description_bachelor_of_arts_in_economics
+  examples: |
+    - What is the Bachelor of Arts in Economics?
+    - I need to know about Bachelor of Arts in Economics
+    - Tell me about Bachelor of Arts in Economics?What are the  entry for diploma graduates to Bachelor of Commerce in Accounting
+    - What are the Bachelor of Arts in Economics for
+    - What is the purpose of the Bachelor of Arts in Economics
+- intent: bachelor_of_arts_in_economics_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Arts in Economics?
+    - I need to know the direct qualifications for Bachelor of Arts in Economics
+    - What are the principal passes for Bachelor of Arts in Economics?
+    - What things i need to have inoder to qualify for Bachelor of Arts in Economics?
+    - What are the the equivalent requirements for the Bachelor of Arts in Economics?
+    - What are the equivalent qualifications for Bachelor of Arts in Economics for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Arts in Economics
+- intent: bachelor_of_arts_in_economics_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Arts in Economics?
+    - Which jobs do graduates of Bachelor of Arts  in Economics expected to do?
+    - What are the careers associates with  Bachelor of Arts in Economics
+- intent: description_bachelor_of_arts_in_economics_and_sociology
+  examples: |
+    - What is the Bachelor of Arts in Economics and Sociology?
+    - I need to know about Bachelor of Arts in Economics and Sociology
+    - Tell me about Bachelor of Arts in Economics and Sociology?
+    - What are the Bachelor of Arts in Economics and Sociology for?
+    - What is the purpose of the Bachelor of Arts in Economics and Sociology?
+- intent: bachelor_of_arts_in_economics_and_sociology_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Arts in Economics and Sociology?
+    - I need to know the direct qualifications for Bachelor of Arts in Economics and Sociology
+    - What are the principal passes for Bachelor of Arts in Economics and Sociology?
+    - What things i need to have inoder to qualify for Bachelor of Arts in Economics and Sociology?
+    - What are the the equivalent requirements for the Bachelor of Arts in Economics and Sociology?
+    - What are the equivalent qualifications for Bachelor of Arts in Economics and Sociology for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Arts in Economics and Sociology
+- intent: bachelor_of_arts_in_economics_and_sociology_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Arts in Economics and Sociology?
+    - Which jobs do graduates of Bachelor of Arts  in Economics and statistics expected to do?
+    - What are the careers associates with  Bachelor of Arts in Economics and Sociology?
+- intent: description_bachelor_of_arts_in_environmental_economics_and_policy
+  examples: |
+    - What is the Bachelor of Arts in Environmental Economics and Policy?
+    - I need to know about Bachelor of Arts in Environmental Economics and Policy
+    - Tell me about Bachelor of Arts in Environmental Economics and Policy?
+    - What are the Bachelor of Arts in Environmental Economics and Policy for?
+    - What is the purpose of the Bachelor of Arts in Environmental Economics and Policy?
+- intent: bachelor_of_arts_in_environmental_economics_and_policy_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Arts in Environmental Economics and Policy?
+    - I need to know the direct qualifications for Bachelor of Arts in Environmental Economics and Policy
+    - What are the principal passes for Bachelor of Arts in Environmental Economics and Policy?
+    - What things i need to have inoder to qualify for Bachelor of Arts in Environmental Economics and Policy?
+    - What are the the equivalent requirements for the Bachelor of Arts in Environmental Economics and Policy?
+    - What are the equivalent qualifications for Bachelor of Arts in Environmental Economics and Policy for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Arts in Environmental Economics and Policy
+- intent: bachelor_of_arts_in_environmental_economics_and_policy_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Arts in Environmental Economics and Policy?
+    - Which jobs do graduates of Bachelor of Arts  in Economics and statistics expected to do?
+    - What are the careers associates with  Bachelor of Arts in Environmental Economics and Policy?
+- intent: description_bachelor_of_business_administration
+  examples: |
+    - What is the Bachelor of Business Administration?
+    - I need to know about Bachelor of Business Administration
+    - Tell me about Bachelor of Business Administration?
+    - What are the Bachelor of Business Administration for?
+    - What is the purpose of the Bachelor of Business Administration?
+- intent: bachelor_of_business_administration_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Business Administration?
+    - I need to know the direct qualifications for Bachelor of Business Administration
+    - What are the principal passes for Bachelor of Business Administration?
+    - What things i need to have inoder to qualify for Bachelor of Business Administration?
+    - What are the the equivalent requirements for the Bachelor of Business Administration?
+    - What are the equivalent qualifications for Bachelor of Business Administration for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Business Administration
+- intent: bachelor_of_business_administration_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Business Administration?
+    - Which jobs do graduates of Bachelor of Business Administration expected to do?
+    - What are the careers associates with  Bachelor of Business Administration?
+- intent: description_bachelor_of_commerce_in_accounting
+  examples: |
+    - What is the Bachelor of Commerce in Accounting?
+    - I need to know about Bachelor of Commerce in Accounting
+    - Tell me about Bachelor of Commerce in Accounting?
+    - What are the Bachelor of Commerce in Accounting for?
+    - What is the purpose of the Bachelor of Commerce in Accounting?
+- intent: bachelor_of_commerce_in_accounting_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Commerce in Accounting?
+    - I need to know the direct qualifications for Bachelor of Commerce in Accounting
+    - What are the principal passes for Bachelor of Commerce in Accounting?
+    - What things i need to have inoder to qualify for Bachelor of Commerce in Accounting?
+    - What are the the equivalent requirements for the Bachelor of Commerce in Accounting?
+    - What are the equivalent qualifications for Bachelor of Commerce in Accounting for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Commerce in Accounting
+- intent: bachelor_of_commerce_in_accounting_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Commerce in Accounting?
+    - Which jobs do graduates of Bachelor of Commerce in Accounting expected to do?
+    - What are the careers associates with  Bachelor of Commerce in Accounting?
+- intent: description_bachelor_of_commerce_in_enterpreneurship
+  examples: |
+    - What is the Bachelor of Commerce in Enterpreneurship?
+    - I need to know about Bachelor of Commerce in Enterpreneurship
+    - Tell me about Bachelor of Commerce in Enterpreneurship?
+    - What are the Bachelor of Commerce in Enterpreneurship for?
+    - What is the purpose of the Bachelor of Commerce in Enterpreneurship?
+- intent: bachelor_of_commerce_in_enterpreneurship_entry_requirements
+  examples: |
+    - what are the the direct requirements for the Bachelor of Commerce in Enterpreneurship?
+    - I need to know the direct qualifications for Bachelor of Commerce in Enterpreneurship
+    - What are the principal passes for Bachelor of Commerce in Enterpreneurship?
+    - What things i need to have inoder to qualify for Bachelor of Commerce in Enterpreneurship?
+    - What are the the equivalent requirements for the Bachelor of Commerce in Enterpreneurship?
+    - What are the equivalent qualifications for Bachelor of Commerce in Enterpreneurship for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Commerce in Enterpreneurship
+- intent: bachelor_of_commerce_in_enterpreneurship_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Commerce in Enterpreneurship?
+    - Which jobs do graduates of Bachelor of Commerce in Enterpreneurship expected to do?
+    - What are the careers associates with  Bachelor of Commerce in Enterpreneurship?
+- intent: description_bachelor_of_commerce_in_finance
+  examples: |
+    - What is the Bachelor of Commerce in Finance?
+    - I need to know about Bachelor of Commerce in Finance
+    - Tell me about Bachelor of Commerce in Finance?
+    - What are the Bachelor of Commerce in Finance for?
+    - What is the purpose of the Bachelor of Commerce in Finance?
+- intent: bachelor_of_commerce_in_finance_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Commerce in Finance?
+    - I need to know the direct qualifications for Bachelor of Commerce in Finance
+    - What are the principal passes for Bachelor of Commerce in Finance?
+    - what things i need to have inoder to qualify for Bachelor of Commerce in Finance?
+    - What are the the equivalent requirements for the Bachelor of Commerce in Finance?
+    - What are the equivalent qualifications for Bachelor of Commerce in Finance for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Commerce in Finance
+- intent: bachelor_of_commerce_in_finance_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Commerce in Finance?
+    - Which jobs do graduates of Bachelor of Commerce in Finance expected to do?
+    - What are the careers associates with  Bachelor of Commerce in Finance?
+- intent: description_bachelor_of_commerce_in_human_resource_management
+  examples: |
+    - What is the Bachelor of Commerce in Human Resource Management?
+    - I need to know about Bachelor of Commerce in Human Resource Management
+    - Tell me about Bachelor of Commerce in Human Resource Management?
+    - What are the Bachelor of Commerce in Human Resource Management for?
+    - What is the purpose of the Bachelor of Commerce in Human Resource Management?
+- intent: bachelor_of_commerce_in_human_resource_management_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Commerce in Human Resource Management?
+    - I need to know the direct qualifications for Bachelor of Commerce in Human Resource Management
+    - What are the principal passes for Bachelor of Commerce in Human Resource Management?
+    - What things i need to have inoder to qualify for Bachelor of Commerce in Human Resource Management?
+    - What are the the equivalent requirements for the Bachelor of Commerce in Human Resource Management?
+    - What are the equivalent qualifications for Bachelor of Commerce in Human Resource Management for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Commerce in Human Resource Management
+- intent: bachelor_of_commerce_in_human_resource_management_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Commerce in Human Resource Management?
+    - Which jobs do graduates of Bachelor of Commerce in Human Resource Management expected to do?
+    - What are the careers associates with  Bachelor of Commerce in Human Resource Management?
+- intent: description_bachelor_of_commerce_in_information_management
+  examples: |
+    - What is the Bachelor of Commerce in Information Management?
+    - I need to know about Bachelor of Commerce in Information Management
+    - Tell me about Bachelor of Commerce in Information Management?
+    - What are the Bachelor of Commerce in Information Management for?
+    - What is the purpose of the Bachelor of Commerce in Information Management?
+- intent: bachelor_of_commerce_in_information_management_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Commerce in Information Management?
+    - I need to know the direct qualifications for Bachelor of Commerce in Information Management
+    - What are the principal passes for Bachelor of Commerce in Information Management?
+    - What things i need to have inoder to qualify for Bachelor of Commerce in Information Management?
+    - What are the the equivalent requirements for the Bachelor of Commerce in Information Management?
+    - What are the equivalent qualifications for Bachelor of Commerce in Information Management for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Commerce in Information Management
+- intent: bachelor_of_commerce_in_information_management_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Commerce in Information Management?
+    - Which jobs do graduates of Bachelor of Commerce in Information Management expected to do?
+    - What are the careers associates with  Bachelor of Commerce in Information Management?
+- intent: description_bachelor_of_commerce_in_international_business
+  examples: |
+    - What is the Bachelor of Commerce in International Business?
+    - I need to know about Bachelor of Commerce in International Business
+    - Tell me about Bachelor of Commerce in International Business?
+    - What are the Bachelor of Commerce in International Business for?
+    - What is the purpose of the Bachelor of Commerce in International Business?
+- intent: bachelor_of_commerce_in_international_business_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Commerce in International Business?
+    - I need to know the direct qualifications for Bachelor of Commerce in International Business
+    - What are the principal passes for Bachelor of Commerce in International Business?
+    - What things i need to have inoder to qualify for Bachelor of Commerce in International Business?
+    - What are the the equivalent requirements for the Bachelor of Commerce in International Business?
+    - What are the equivalent qualifications for Bachelor of Commerce in International Business for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Commerce in International Business
+- intent: bachelor_of_commerce_in_international_business_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Commerce in International Business?
+    - Which jobs do graduates of Bachelor of Commerce in International Business expected to do?
+    - What are the careers associates with  Bachelor of Commerce in International Business?
+- intent: description_bachelor_of_commerce_in_marketing
+  examples: |
+    - What is the Bachelor of Commerce in Marketing?
+    - I need to know about Bachelor of Commerce in Marketing
+    - Tell me about Bachelor of Commerce in Marketing?
+    - What are the Bachelor of Commerce in Marketing for?
+    - What is the purpose of the Bachelor of Commerce in Marketing?
+- intent: bachelor_of_commerce_in_marketing_entry_requiremets
+  examples: |
+    - What are the the direct requirements for the Bachelor of Commerce in Marketing?
+    - I need to know the direct qualifications for Bachelor of Commerce in Marketing
+    - What are the principal passes for Bachelor of Commerce in Marketing?
+    - What things i need to have inoder to qualify for Bachelor of Commerce in Marketing?
+    - What are the the equivalent requirements for the Bachelor of Commerce in Marketing?
+    - What are the equivalent qualifications for Bachelor of Commerce in Marketing for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Commerce in Marketing
+- intent: bachelor_of_commerce_in_marketing_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Commerce in Marketing?
+    - Which jobs do graduates of Bachelor of Commerce in Marketing expected to do?
+    - What are the careers associates with  Bachelor of Commerce in Marketing?
+- intent: description_bachelor_of_commerce_in_procurement_and_logistics_management
+  examples: |
+    - What is the Bachelor of Commerce in Procurement and Logistics Management?
+    - I need to know about Bachelor of Commerce in Procurement and Logistics Management
+    - Tell me about Bachelor of Commerce in Procurement and Logistics Management?
+    - What are the Bachelor of Commerce in Procurement and Logistics Management for?
+    - What is the purpose of the Bachelor of Commerce in Procurement and Logistics Management?
+- intent: bachelor_of_commerce_in_procurement_and_logistics_management_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Commerce in Procurement and Logistics Management?
+    - I need to know the direct qualifications for Bachelor of Commerce in Procurement and Logistics Management
+    - What are the principal passes for Bachelor of Commerce in Procurement and Logistics Management?
+    - What things i need to have inoder to qualify for Bachelor of Commerce in Procurement and Logistics Management?
+    - What are the the equivalent requirements for the Bachelor of Commerce in Procurement and Logistics Management?
+    - What are the equivalent qualifications for Bachelor of Commerce in Procurement and Logistics Management for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Commerce in Procurement and Logistics Management
+- intent: bachelor_of_commerce_in_procurement_and_logistics_management_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Commerce in Procurement and Logistics Management?
+    - Which jobs do graduates of Bachelor of Commerce in Procurement and Logistics Management expected to do?
+    - What are the careers associates with  Bachelor of Commerce in Procurement and Logistics Management?
+- intent: description_bachelor_of_commerce_in_tourism_and_hospitality_management
+  examples: |
+    - What is the Bachelor of Commerce in Tourism and Hospitality Management?
+    - I need to know about Bachelor of Commerce in Tourism and Hospitality Management
+    - Tell me about Bachelor of Commerce in Tourism and Hospitality Management?
+    - What are the Bachelor of Commerce in Tourism and Hospitality Management for?
+    - What is the purpose of the Bachelor of Commerce in Tourism and Hospitality Management?
+- intent: bachelor_of_commerce_in_tourism_and_hospitality_management_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Commerce in Tourism and Hospitality Management?
+    - I need to know the direct qualifications for Bachelor of Commerce in Tourism and Hospitality Management
+    - What are the principal passes for Bachelor of Commerce in Tourism and Hospitality Management?
+    - what is needed for bachelor of commerce in tourism and hospitality management?
+    - What things i need to have inoder to qualify for Bachelor of Commerce in Tourism and Hospitality Management?
+    - What are the the equivalent requirements for the Bachelor of Commerce in Tourism and Hospitality Management?
+    - What are the equivalent qualifications for Bachelor of Commerce in Tourism and Hospitality Management for students from Diploma?
+    - What are the  entry for diploma graduates to Bachelor of Commerce in Tourism and Hospitality Management
+- intent: bachelor_of_commerce_in_tourism_and_hospitality_management_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Commerce in Tourism and Hospitality Management?
+    - Which jobs do graduates of Bachelor of Commerce in Tourism and Hospitality Management expected to do?
+    - What are the careers associates with  Bachelor of Commerce in Tourism and Hospitality Management?
+- intent: description_bachelor_of_science_in_environmental_sciences
+  examples: |
+    - What is the Bachelor of Science in Environmental sciences?
+    - I need to know about Bachelor of Science in Environmental sciences,
+    - Tell me about Bachelor of Science in Environmental sciences? ,
+    - What are the Bachelor of Science in Environmental sciences for?,
+    - What is the purpose of the Bachelor of Science in Environmental sciences?
+- intent: bachelor_of_science_in_environmental_sciences_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Science in Environmental sciences?,
+    - I need to know the direct qualifications for Bachelor of Science in Environmental sciences,
+    - What are the principal passes for Bachelor of Science in Environmental sciences?,
+    - What things i need to have inoder to qualify for Bachelor of Science in Environmental sciences?
+- intent: bachelor_of_science_in_environmental_sciences_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Science in Environmental sciences?,
+    - Which jobs do graduates of Bachelor of Science in Environmental sciences expected to do?,
+    - What are the careers associates with  Bachelor of Science in Environmental sciences?
+- intent: description_bachelor_of_science_in_applied_geology
+  examples: |
+    - What is the Bachelor of science In Applied Geology?,
+    - I need to know about Bachelor of science In Applied Geology,
+    - Tell me about Bachelor of science In Applied Geology? ,
+    - What are the Bachelor of science In Applied Geology for?,
+    - What is the purpose of the Bachelor of science In Applied Geology?
+- intent: bachelor_of_science_in_applied_geology_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science In Applied Geology?,
+    - I need to know the direct qualifications for Bachelor of science In Applied Geology,
+    - What are the principal passes for Bachelor of science In Applied Geology?,
+    - What things i need to have inoder to qualify for Bachelor of science In Applied Geology?
+- intent: bachelor_of_science_in_applied_geology_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science In Applied Geology?,
+    - Which jobs do graduates of Bachelor of science In Applied Geology expected to do?,
+    - What are the careers associates with  Bachelor of science In Applied Geology?
+- intent: description_bachelor_of_science_in_chemical_and_processing_engineering
+  examples: |
+    - What is the Bachelor of Science in chemical and Process Engineering?,
+    - I need to know about Bachelor of Science in chemical and Process Engineering,
+    - Tell me about Bachelor of Science in chemical and Process Engineering? ,
+    - What are the Bachelor of Science in chemical and Process Engineering for?,
+    - What is the purpose of the Bachelor of Science in chemical and Process Engineering?
+- intent: bachelor_of_science_in_chemical_and_processing_engineering_entry_requirements
+  examples:
+  - text: |
+      What are the the direct requirements for the Bachelor of Science in chemical and Process Engineering?,
+  - text: |
+      I need to know the direct qualifications for Bachelor of Science in chemical and Process Engineering,
+  - text: |
+      What are the principal passes for Bachelor of Science in chemical and Process Engineering?,
+  - text: |
+      What things i need to have inoder to qualify for Bachelor of Science in chemical and Process Engineering?
+  - text: |
+      entry requirement Bachelor of Science
+      in Chemical and
+      Process Engineering
+- intent: bachelor_of_science_in_chemical_and_processing_engineering_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Science in chemical and Process Engineering?,
+    - Which jobs do graduates of Bachelor of Science in chemical and Process Engineering expected to do?,
+    - What are the careers associates with  Bachelor of Science in chemical and Process Engineering?
+- intent: description_bachelor_of_science_in_environmental_engineering
+  examples: |
+    - What is the Bachelor of science in environmental Engineering?,
+    - I need to know about Bachelor of science in environmental Engineering,
+    - Tell me about Bachelor of science in environmental Engineering? ,
+    - What are the Bachelor of science in environmental Engineering for?,
+    - What is the purpose of the Bachelor of science in environmental Engineering?
+- intent: bachelor_of_science_in_environmental_engineering_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in environmental Engineering?,
+    - I need to know the direct qualifications for Bachelor of science in environmental Engineering,
+    - What are the principal passes for Bachelor of science in environmental Engineering?,
+    - What things i need to have inoder to qualify for Bachelor of science in environmental Engineering?
+- intent: bachelor_of_science_in_environmental_engineering_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in environmental Engineering?,
+    - Which jobs do graduates of Bachelor of science in environmental Engineering expected to do?,
+    - What are the careers associates with  Bachelor of science in environmental Engineering?
+- intent: description_bachelor_of_science_in_geoinformatics
+  examples: |
+    - What is the Bachelor of Science in GeoInformatics?,
+    - I need to know about Bachelor of Science in GeoInformatics,
+    - Tell me about Bachelor of Science in GeoInformatics? ,
+    - What are the Bachelor of Science in GeoInformatics for?,
+    - What is the purpose of the Bachelor of Science in GeoInformatics?
+- intent: bachelor_of_science_in_geoinformatics_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Science in GeoInformatics?,
+    - I need to know the direct qualifications for Bachelor of Science in GeoInformatics,
+    - What are the principal passes for Bachelor of Science in GeoInformatics?,
+    - What things i need to have inoder to qualify for Bachelor of Science in GeoInformatics?
+- intent: bachelor_of_science_in_geoinformatics_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Science in GeoInformatics?,
+    - Which jobs do graduates of Bachelor of Science in GeoInformatics expected to do?,
+    - What are the careers associates with  Bachelor of Science in GeoInformatics?
+- intent: description_bachelor_of_science_in_metallurgy_and_mineral_processing_engineering
+  examples: |
+    - What is the Bachelor of science in metallurgy and mineral processing engineering?,
+    - I need to know about Bachelor of science in metallurgy and mineral processing engineering,
+    - Tell me about Bachelor of science in metallurgy and mineral processing engineering? ,
+    - What are the science in metallurgy and mineral processing engineering for?,
+    - What is the purpose of the Bachelor of science in metallurgy and mineral processing engineering?
+- intent: bachelor_of_science_in_metallurgy_and_mineral_processing_engineering_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in metallurgy and mineral processing engineering?,
+    - I need to know the direct qualifications for Bachelor of science in metallurgy and mineral processing engineering,
+    - What are the principal passes for Bachelor of science in metallurgy and mineral processing engineering?,
+    - What things i need to have inoder to qualify for Bachelor of science in metallurgy and mineral processing engineering?
+- intent: bachelor_of_science_in_metallurgy_and_mineral_processing_engineering_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in metallurgy and mineral processing engineering?,
+    - Which jobs do graduates of Bachelor of science in metallurgy and mineral processing engineering expected to do?,
+    - What are the careers associates with  Bachelor of science in metallurgy and mineral processing engineering?
+- intent: description_bachelor_of_science_in_mining_engineering
+  examples: |
+    - What is the Bachelor of Science in Mining engineering?,
+    - I need to know about Bachelor of Science in Mining engineering,
+    - Tell me about Bachelor of Science in Mining engineering? ,
+    - What are the Bachelor of Science in Mining engineering for?,
+    - What is the purpose of the Bachelor of Science in Mining engineering?
+- intent: bachelor_of_science_in_mining_engineering_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Science in Mining engineering?,
+    - I need to know the direct qualifications for Bachelor of Science in Mining engineering,
+    - What are the principal passes for Bachelor of Science in Mining engineering?,
+    - What things i need to have inoder to qualify for Bachelor of Science in Mining engineering?
+- intent: bachelor_of_science_in_mining_engineering_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Science in Mining engineering?,
+    - Which jobs do graduates of Bachelor of Science in Mining engineering expected to do?,
+    - What are the careers associates with  Bachelor of Science in Mining engineering?
+- intent: description_bachelor_of_science_in_petroleum_enginering
+  examples: |
+    - What is the Bachelor of Science in Petroleum Engineering?,
+    - I need to know about Bachelor of Science in Petroleum Engineering,
+    - Tell me about Bachelor of Science in Petroleum Engineering? ,
+    - What are the Bachelor of Science in Petroleum Engineering for?,
+    - What is the purpose of the Bachelor of Science in Petroleum Engineering?
+- intent: bachelor_of_science_in_petroleum_engineering_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Science in Petroleum Engineering?,
+    - I need to know the direct qualifications for Bachelor of Science in Petroleum Engineering,
+    - What are the principal passes for Bachelor of Science in Petroleum Engineering?,
+    - What things i need to have inoder to qualify for Bachelor of Science in Petroleum Engineering?
+- intent: bachelor_of_science_in_petroleum_engineering_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Science in Petroleum Engineering?,
+    - Which jobs do graduates of Bachelor of Science in Petroleum Engineering expected to do?,
+    - What are the careers associates with  Bachelor of Science in Petroleum Engineering?
+- intent: description_bachelor_of_science_in_renewable_energy_engineering
+  examples: |
+    - What is the Bachelor of Science in Renewable  Energy Engineering?,
+    - I need to know about Bachelor of Science in Renewable  Energy Engineering,
+    - Tell me about Bachelor of Science in Renewable  Energy Engineering? ,
+    - What are the Bachelor of Science in Renewable  Energy Engineering for?,
+    - What is the purpose of the Bachelor of Science in Renewable  Energy Engineering?
+- intent: bachelor_of_science_in_renewable_energy_engineering_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of Science in Renewable  Energy Engineering?,
+    - I need to know the direct qualifications for Bachelor of Science in Renewable  Energy Engineering,
+    - What are the principal passes for Bachelor of Science in Renewable  Energy Engineering?,
+    - What things i need to have inoder to qualify for Bachelor of Science in Renewable  Energy Engineering?
+- intent: bachelor_of_science_in_renewable_energy_engineering_careers
+  examples: |
+    - What are the opportunities available for Bachelor of Science in Renewable  Energy Engineering?,
+    - Which jobs do graduates of Bachelor of Science in Renewable  Energy Engineering expected to do?,
+    - What are the careers associates with  Bachelor of Science in Renewable  Energy Engineering?
+- intent: description_diploma_in_mineral_exploitation_and_mining_geology
+  examples: |
+    - What is the Diploma in Mineral Exploration and Mining Geology?,
+    - I need to know about Diploma in Mineral Exploration and Mining Geology,
+    - Tell me about Diploma in Mineral Exploration and Mining Geology? ,
+    - What are the Diploma in Mineral Exploration and Mining Geology for?,
+    - What is the purpose of the Diploma in Mineral Exploration and Mining Geology?
+- intent: diploma_in_mineral_exploitation_and_mining_geology_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Diploma in Mineral Exploration and Mining Geology?,
+    - I need to know the direct qualifications for Diploma in Mineral Exploration and Mining Geology,
+    - What are the principal passes for Diploma in Mineral Exploration and Mining Geology?,
+    - What things i need to have inoder to qualify for Diploma in Mineral Exploration and Mining Geology?
+- intent: diploma_in_mineral_exploitation_and_mining_geology_careers
+  examples: |
+    - What are the opportunities available for Diploma in Mineral Exploration and Mining Geology?,
+    - Which jobs do graduates of Diploma in Mineral Exploration and Mining Geology expected to do?,
+    - What are the careers associates with  Diploma in Mineral Exploration and Mining Geology?
+- intent: description_diploma_in_mining_engineering
+  examples: |
+    - What is the Diploma in Mining Engineering?,
+    - I need to know about Diploma in Mining Engineering,
+    - Tell me about Diploma in Mining Engineering? ,
+    - What are the Diploma in Mining Engineering for?,
+    - What is the purpose of the Diploma in Mining Engineering?
+- intent: diploma_in_mining_engineering_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Diploma in Mining Engineering?,
+    - I need to know the direct qualifications for Diploma in Mining Engineering,
+    - What are the principal passes for Diploma in Mining Engineering?,
+    - What things i need to have inoder to qualify for Diploma in Mining Engineering?
+- intent: diploma_in_mining_engineering_careers
+  examples: |
+    - What are the opportunities available for Diploma in Mining Engineering?,
+    - Which jobs do graduates of Diploma in Mining Engineering expected to do?,
+    - What are the careers associates with  Diploma in Mining Engineering?
+- intent: college_of_natural_and_mathematical_science
+  examples: |
+    - What college offers natural science related programs?,
+    - Which college offers mathematical related programmes?,
+    - Am interested in mathematical related courses,
+    - I need to learn natural science,
+    - I want to learn mathematical science,
+    - i prefer natural and mathematical sciences,
+    - CNMS,
+    - What is CNMS?
+- intent: programmes_offered_cnms
+  examples: |
+    - What are the Dregree programmes offered in College Of Natural and Mathematical sciences ?,
+    - What are the Dregree programmes offered in CNMS?,
+    - programmes do CNMS offer,
+    - programmes do College Of Natural and Mathematical sciences offer,
+    - Programs provided by CNMS
+- intent: description_bachelor_of_science_in_acturial_statistics
+  examples: |
+    - What is the Bachelor of science in mathematics and statistics?,
+    - I need to know about Bachelor of science in mathematics and statistics,
+    - Tell me about Bachelor of science in mathematics and statistics? ,
+    - What are the Bachelor of science in mathematics and statistics for?,
+    - What is the purpose of the Bachelor of science in mathematics and statistics?
+- intent: bachelor_of_science_in_acturial_statistics_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in mathematics and statistics?,
+    - I need to know the direct qualifications for Bachelor of science in mathematics and statistics,
+    - What are the principal passes for Bachelor of science in mathematics and statistics?,
+    - What things i need to have inoder to qualify for Bachelor of science in mathematics and statistics?
+- intent: bachelor_of_science_in_acturial_statistics_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in mathematics and statistics?,
+    - Which jobs do graduates of Bachelor of science in mathematics and statistics expected to do?,
+    - What are the careers associates with Bachelor of science in mathematics and statistics?
+- intent: description_bachelor_of_science_in_aquaculture_and_aquatic_science
+  examples: |
+    - What is the Bachelor of  science in aquaculture and aquatic science?,
+    - I need to know about Bachelor of  science in aquaculture and aquatic science,
+    - Tell me about Bachelor of  science in aquaculture and aquatic science? ,
+    - What are the Bachelor of  science in aquaculture and aquatic science for?,
+    - What is the purpose of the Bachelor of  science in aquaculture and aquatic science?
+- intent: bachelor_of_science_in_aquaculture_and_aquatic_science_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of  science in aquaculture and aquatic science?,
+    - I need to know the direct qualifications for Bachelor of  science in aquaculture and aquatic science,
+    - What are the principal passes for Bachelor of  science in aquaculture and aquatic science?,
+    - What things i need to have inoder to qualify for Bachelor of  science in aquaculture and aquatic science?
+- intent: bachelor_of_science_in_aquaculture_and_aquatic_science_careers
+  examples: |
+    - What are the opportunities available for Bachelor of  science in aquaculture and aquatic science?,
+    - Which jobs do graduates of Bachelor of  science in aquaculture and aquatic science expected to do?,
+    - What are the careers associates with Bachelor of  science in aquaculture and aquatic science?
+- intent: description_bachelor_of_science_in_biology
+  examples: |
+    - What is the Bachelor of science in Biology?,
+    - I need to know about Bachelor of science in Biology,
+    - Tell me about Bachelor of science in Biology? ,
+    - What are the Bachelor of science in Biology for?,
+    - What is the purpose of the Bachelor of science in Biology?
+- intent: bachelor_of_science_in_biology_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in Biology?,
+    - I need to know the direct qualifications for Bachelor of science in Biology,
+    - What are the principal passes for Bachelor of science in Biology?,
+    - What things i need to have inoder to qualify for Bachelor of science in Biology?
+- intent: bachelor_of_science_in_biology_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in Biology?,
+    - Which jobs do graduates of Bachelor of science in Biology expected to do?,
+    - What are the careers associates with  Bachelor of science in Biology?
+- intent: description_bachelor_of_science_in_biotechnology_and_bioinformatics
+  examples: |
+    - What is the Bachelor of science in Biotechnology and Bioinformatics?,
+    - I need to know about Bachelor of science in Biotechnology and Bioinformatics,
+    - Tell me about Bachelor of science in Biotechnology and Bioinformatics? ,
+    - What are the Bachelor of science in Biotechnology and Bioinformatics for?,
+    - What is the purpose of the Bachelor of science in Biotechnology and Bioinformatics?
+- intent: bachelor_of_science_in_biotechnology_and_bioinformatics_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in Biotechnology and Bioinformatics?,
+    - I need to know the direct qualifications for Bachelor of science in Biotechnology and Bioinformatics,
+    - What are the principal passes for Bachelor of science in Biotechnology and Bioinformatics?,
+    - What things i need to have inoder to qualify for Bachelor of science in Biotechnology and Bioinformatics?
+- intent: bachelor_of_science_in_biotechnology_and_bioinformatics_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in Biotechnology and Bioinformatics?,
+    - Which jobs do graduates of Bachelor of science in Biotechnology and Bioinformatics expected to do?,
+    - What are the careers associates with Bachelor of science in Biotechnology and Bioinformatics?
+- intent: description_bachelor_of_science_in_chemistry
+  examples: |
+    - What is the Bachelor of science in Chemistry?,
+    - I need to know about Bachelor of science in Chemistry,
+    - Tell me about Bachelor of science in Chemistry? ,
+    - What are the Bachelor of science in Chemistry for?,
+    - What is the purpose of the Bachelor of science in Chemistry?
+- intent: bachelor_of_science_in_chemistry_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in Chemistry?,
+    - I need to know the direct qualifications for Bachelor of science in Chemistry,
+    - What are the principal passes for Bachelor of science in Chemistry?,
+    - What things i need to have inoder to qualify for Bachelor of science in Chemistry?
+- intent: bachelor_of_science_in_chemistry_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in Chemistry?,
+    - Which jobs do graduates of Bachelor of science in Chemistry expected to do?,
+    - What are the careers associates with Bachelor of science in Chemistry?
+- intent: description_bachelor_of_science_in_mathematics
+  examples: |
+    - What is the Bachelor of science in Mathematics?,
+    - I need to know about Bachelor of science in Mathematics,
+    - Tell me about Bachelor of science in Mathematics? ,
+    - What are the Bachelor of science in Mathematics for?,
+    - What is the purpose of the Bachelor of science in Mathematics?
+- intent: bachelor_of_science_in_mathematics_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in Mathematics?,
+    - I need to know the direct qualifications for Bachelor of science in Mathematics,
+    - What are the principal passes for Bachelor of science in Mathematics?,
+    - What things i need to have inoder to qualify for Bachelor of science in Mathematics?
+- intent: bachelor_of_science_in_mathematics_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in Mathematics?,
+    - Which jobs do graduates of Bachelor of science in Mathematics expected to do?,
+    - What are the careers associates with Bachelor of science in Mathematics?
+- intent: description_bachelor_of_science_in_mathematics_and_statistics
+  examples: |
+    - What is the Bachelor of science in mathematics and statistics?,
+    - I need to know about Bachelor of science in mathematics and statistics,
+    - Tell me about Bachelor of science in mathematics and statistics? ,
+    - What are the Bachelor of science in mathematics and statistics for?,
+    - What is the purpose of the Bachelor of science in mathematics and statistics?
+- intent: bachelor_of_science_in_mathematics_and_statistics_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in mathematics and statistics?,
+    - I need to know the direct qualifications for Bachelor of science in mathematics and statistics,
+    - What are the principal passes for Bachelor of science in mathematics and statistics?,
+    - What things i need to have inoder to qualify for Bachelor of science in mathematics and statistics?
+- intent: bachelor_of_science_in_mathematics_and_statistics_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in mathematics and statistics?,
+    - Which jobs do graduates of Bachelor of science in mathematics and statistics expected to do?,
+    - What are the careers associates with Bachelor of science in mathematics and statistics?
+- intent: description_bachelor_of_science_in_physics
+  examples: |
+    - What is the Bachelor of science in Physics?,
+    - I need to know about Bachelor of science in Physics,
+    - Tell me about Bachelor of science in Physics? ,
+    - What are the Bachelor of science in Physics for?,
+    - What is the purpose of the Bachelor of science in Physics?
+- intent: bachelor_of_science_in_physics_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in Physics?,
+    - I need to know the direct qualifications for Bachelor of science in Physics,
+    - What are the principal passes for Bachelor of science in Physics?,
+    - What things i need to have inoder to qualify for Bachelor of science in Physics?
+- intent: bachelor_of_science_in_physics_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in Physics?,
+    - Which jobs do graduates of Bachelor of science in Physics expected to do?,
+    - What are the careers associates with Bachelor of science in Physics?
+- intent: description_bachelor_of_science_in_statistics
+  examples: |
+    - What is the Bachelor of science in statistics?,
+    - I need to know about Bachelor of science in statistics,
+    - Tell me about Bachelor of science in statistics? ,
+    - What are the Bachelor of science in statistics for?,
+    - What is the purpose of the Bachelor of science in statistics?
+- intent: bachelor_of_science_in_statistics_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in statistics?,
+    - I need to know the direct qualifications for Bachelor of science in statistics,
+    - What are the principal passes for Bachelor of science in statistics?,
+    - What things i need to have inoder to qualify for Bachelor of science in statistics?
+- intent: bachelor_of_science_in_statistics_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in statistics?,
+    - Which jobs do graduates of Bachelor of science in statistics expected to do?,
+    - What are the careers associates with Bachelor of science in statistics?
+- intent: description_bachelor_of_science_with_education
+  examples: |
+    - What is the Bachelor of science with education?,
+    - I need to know about Bachelor of science with education,
+    - Tell me about Bachelor of science with education? ,
+    - What are the Bachelor of science with education for?,
+    - What is the purpose of the Bachelor of science with education?
+- intent: bachelor_of_science_with_education_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science with education?,
+    - I need to know the direct qualifications for Bachelor of science with education,
+    - What are the principal passes for Bachelor of science with education?,
+    - What things i need to have inoder to qualify for Bachelor of science with education?
+- intent: bachelor_of_science_with_education_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science with education?,
+    - Which jobs do graduates of Bachelor of science with education expected to do?,
+    - What are the careers associates with  Bachelor of science with education?
+- intent: description_diploma_in_forensic_science
+  examples: |
+    - What is the Diploma in Forensic science?,
+    - I need to know about Diploma in Forensic science,
+    - Tell me about Diploma in Forensic science? ,
+    - What are the Diploma in Forensic science for?,
+    - What is the purpose of the Diploma in Forensic science?
+- intent: diploma_in_forensic_science_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Diploma in Forensic science?,
+    - I need to know the direct qualifications for Diploma in Forensic science,
+    - What are the principal passes for Diploma in Forensic science?,
+    - What things i need to have inoder to qualify for Diploma in Forensic science?
+- intent: diploma_in_forensic_science_careers
+  examples: |
+    - What are the opportunities available for Diploma in Forensic science?,
+    - Which jobs do graduates of Diploma in Forensic science expected to do?,
+    - What are the careers associates with Diploma in Forensic science?
+- intent: description_diploma_in_forest_management_and_nature_conservation
+  examples: |
+    - What is the Diploma in Forensic science?,
+    - I need to know about Diploma in Forensic science,
+    - Tell me about Diploma in Forensic science? ,
+    - What are the Diploma in Forensic science for?,
+    - What is the purpose of the Diploma in Forensic science?
+- intent: diploma_in_forest_management_and_nature_conservation_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Diploma in Forensic science?,
+    - I need to know the direct qualifications for Diploma in Forensic science,
+    - What are the principal passes for Diploma in Forensic science?,
+    - What things i need to have inoder to qualify for Diploma in Forensic science?
+- intent: diploma_in_forest_management_and_nature_conservation_careers
+  examples: |
+    - What are the opportunities available for Diploma in Forensic science?,
+    - Which jobs do graduates of Diploma in Forensic science expected to do?,
+    - What are the careers associates with Diploma in Forensic science?
+- intent: school_of_medicine_and_dentistry
+  examples: |
+    - What college offers health related programs?,
+    - I need to learn health studies,
+    - I want to be a doctor,
+    - i wish to become a dentist,
+    - I want to be a phamacist
+- intent: programmes_offered_school_of_medicine_and_dentistry
+  examples: |
+    - What are the Dregree programmes offered in School of medicine and dentisty ?,
+    - programmes do School of medicine and dentisty offer,
+    - Programs provided by school of medicine and dentisty
+    - what degree programs are offered at the school of medicine and dentistry
+- intent: description_diploma_in_medical_laboratory
+  examples: |
+    - What is the Diploma in medical laboratory technology,
+    - I need to know about Diploma in medical laboratory technology,
+    - Tell me about Diploma in medical laboratory technology ,
+    - What are the Diploma in medical laboratory technology for?,
+    - What is the purpose of the Diploma in medical laboratory technology
+- intent: diploma_in_medical_laboratory_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Diploma in medical laboratory technology,
+    - I need to know the direct qualifications for Diploma in medical laboratory technology,
+    - What are the principal passes for Diploma in medical laboratory technology,
+    - What things i need to have inoder to qualify for Diploma in medical laboratory technology
+- intent: diploma_in_medical_laboratory_careers
+  examples: |
+    - What are the opportunities available for Diploma in medical laboratory technology,
+    - Which jobs do graduates of Diploma in Pharmacy expected to do?,
+    - What are the careers associates with  Diploma in medical laboratory technology
+- intent: description_diploma_in_phamarcy
+  examples: |
+    - What is the Diploma in Pharmacy?,
+    - I need to know about Diploma in Pharmacy,
+    - Tell me about Diploma in Pharmacy? ,
+    - What are the Diploma in Pharmacy for?,
+    - What is the purpose of the Diploma in Pharmacy?
+- intent: diploma_in_phamarcy_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Diploma in Pharmacy?,
+    - I need to know the direct qualifications for Diploma in Pharmacy,
+    - What are the principal passes for Diploma in Pharmacy?,
+    - What things i need to have inoder to qualify for Diploma in Pharmacy?
+- intent: diploma_in_phamarcy_entry_careers
+  examples: |
+    - What are the opportunities available for Diploma in Pharmacy?,
+    - Which jobs do graduates of Diploma in Pharmacy expected to do?,
+    - What are the careers associates with  Diploma in Pharmacy?
+- intent: description_doctor_of_medicine
+  examples: |
+    - What is the Doctor of medicine?,
+    - I need to know about Doctor of medicine,
+    - Tell me about Doctor of medicine? ,
+    - What are the Doctor of medicine for?,
+    - What is the purpose of the Doctor of medicine?
+- intent: doctor_of_medicine_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Doctor of medicine?,
+    - I need to know the direct qualifications for Doctor of medicine,
+    - What are the principal passes for Doctor of medicine?,
+    - What things i need to have inoder to qualify for Doctor of medicine?
+- intent: doctor_of_medicine_careers
+  examples: |
+    - What are the opportunities available for Doctor of medicine?,
+    - Which jobs do graduates of Doctor of medicine expected to do?,
+    - What are the careers associates with  Doctor of medicine?
+- intent: school_of_nursing_and_public_health
+  examples: |
+    - What college offers public health related programs?,
+    - I need to learn nursing studies,
+    - i wish to become a nurse
+- intent: programmes_offered_school_of_nursing_and_public_health
+  examples: |
+    - What are the Dregree programmes offered in School of nursing and public health?,
+    - programmes do School of nursing and public health offer,
+    - Programs provided by school of nursing and public health,
+- intent: description_bachelor_of_science_in_clinical_nutrition_and_dietics
+  examples: |
+    - What is the Bachelor of  science in clinical nutrition and dietics?,
+    - I need to know about Bachelor of  science in clinical nutrition and dietics,
+    - Tell me about Bachelor of  science in clinical nutrition and dietics? ,
+    - What are the Bachelor of  science in clinical nutrition and dietics for?,
+    - What is the purpose of the Bachelor of  science in clinical nutrition and dietics?
+- intent: bachelor_of_science_in_clinical_nutrition_and_dietics_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of  science in clinical nutrition and dietics?,
+    - I need to know the direct qualifications for Bachelor of  science in clinical nutrition and dietics,
+    - What are the principal passes for Bachelor of  science in clinical nutrition and dietics?,
+    - What things i need to have inoder to qualify for Bachelor of  science in clinical nutrition and dietics?
+- intent: bachelor_of_science_in_clinical_nutrition_and_dietics_careers
+  examples: |
+    - What are the opportunities available for Bachelor of  science in clinical nutrition and dietics?,
+    - Which jobs do graduates of Bachelor of  science in clinical nutrition and dietics expected to do?,
+    - What are the careers associates with  Bachelor of  science in clinical nutrition and dietics?
+- intent: description_bachelor_of_science_in_nursing
+  examples: |
+    - What is the Bachelor of science in nursing?,
+    - I need to know about Bachelor of science in nursing,
+    - Tell me about Bachelor of science in nursing? ,
+    - What are the Bachelor of science in nursing for?,
+    - What is the purpose of the Bachelor of science in nursing?
+- intent: bachelor_of_science_in_nursing_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of science in nursing?,
+    - I need to know the direct qualifications for Bachelor of science in nursing,
+    - What are the principal passes for Bachelor of science in nursing?,
+    - What things i need to have inoder to qualify for Bachelor of science in nursing?
+- intent: bachelor_of_science_in_nursing_careers
+  examples: |
+    - What are the opportunities available for Bachelor of science in nursing?,
+    - Which jobs do graduates of Bachelor of science in nursing expected to do?,
+    - What are the careers associates with  Bachelor of science in nursing?
+- intent: description_diploma_in_nursing
+  examples: |
+    - What is the Diploma in nursing?,
+    - I need to know about Diploma in nursing,
+    - Tell me about Diploma in nursing? ,
+    - What are the Diploma in nursing for?,
+    - What is the purpose of the Diploma in nursing?
+- intent: diploma_in_nursing_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Diploma in nursing?,
+    - I need to know the direct qualifications for Diploma in nursing,
+    - What are the principal passes for Diploma in nursing?,
+    - What things i need to have inoder to qualify for Diploma in nursing?
+- intent: diploma_in_nursing_careers
+  examples: |
+    - What are the opportunities available for Diploma in nursing?,
+    - Which jobs do graduates of Diploma in nursing expected to do?,
+    - What are the careers associates with Diploma in nursing?
+- intent: confucius_institute
+  examples: |
+    - What college offers chinnese related programs?,
+    - I need to learn chinnese studies,
+    - I want to learn chinnese language,
+    - i wish to become familiar with chinnese culture.
+- intent: programmes_offered_confucius_institute
+  examples: |
+    - What are the Dregree programmes offered in Confucius institute ?,
+    - programmes do Confucius institute offer,
+    - Programs provided by confucius institute
+- intent: description_bachelor_of_arts_in_oriental_languages
+  examples: |
+    - What is the Bachelor of arts in oriental languages?,
+    - I need to know about Bachelor of arts in oriental languages,
+    - Tell me about Bachelor of arts in oriental languages? ,
+    - What are the Bachelor of arts in oriental languages for?,
+    - What is the purpose of the Bachelor of arts in oriental languages?
+- intent: bachelor_of_arts_in_oriental_languages_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of arts in oriental languages?,
+    - I need to know the direct qualifications for Bachelor of arts in oriental languages,
+    - What are the principal passes for Bachelor of arts in oriental languages?,
+    - What things i need to have inoder to qualify for Bachelor of arts in oriental languages?
+- intent: bachelor_of_arts_in_oriental_languages_careers
+  examples: |
+    - What are the opportunities available for Bachelor of arts in oriental languages?,
+    - Which jobs do graduates of Bachelor of arts in oriental languages expected to do?,
+    - What are the careers associates with Bachelor of arts in oriental languages?
+- intent: institute_of_development_studies
+  examples: |
+    - What college offers development related programs?,
+    - I need to learn development studies
+- intent: programmes_offered_institute_of_development_studies
+  examples: |
+    - What are the Dregree programmes offered in Institute of development studies ?,
+    - programmes do Institute of development studies offer,
+    - Programs provided by institute of development studies,
+- intent: description_bachelor_of_arts_in_project_planning_and_community_development
+  examples: |
+    - What is the Bachelor of arts in project Planning management and Community development?,
+    - I need to know about Bachelor of arts in project Planning management and Community development,
+    - Tell me about Bachelor of arts in project Planning management and Community development? ,
+    - What are the Bachelor of arts in project Planning management and Community development for?,
+    - What is the purpose of the Bachelor of arts in project Planning management and Community development?
+- intent: bachelor_of_arts_in_project_planning_and_community_development_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of arts in project Planning management and Community development?,
+    - I need to know the direct qualifications for Bachelor of arts in project Planning management and Community development,
+    - What are the principal passes for Bachelor of arts in project Planning management and Community development?,
+    - What things i need to have inoder to qualify for Bachelor of arts in project Planning management and Community development?
+- intent: bachelor_of_arts_in_project_planning_and_community_development_careers
+  examples: |
+    - What are the opportunities available for Bachelor of arts in project Planning management and Community development?,
+    - Which jobs do graduates of Bachelor of arts in project Planning management and Community development expected to do?,
+    - What are the careers associates with  Bachelor of arts in project Planning management and Community development?
+- intent: description_bachelor_of_arts_in_development_studies
+  examples: |
+    - What is the Bachelor of arts in development studies?,
+    - I need to know about Bachelor of arts in development studies,
+    - Tell me about Bachelor of arts in development studies? ,
+    - What are the Bachelor of arts in development studies for?,
+    - What is the purpose of the Bachelor of arts in development studies?
+- intent: bachelor_of_arts_in_development_studies_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of arts in development studies?,
+    - I need to know the direct qualifications for Bachelor of arts in development studies,
+    - What are the principal passes for Bachelor of arts in development studies?,
+    - What things i need to have inoder to qualify for Bachelor of arts in development studies?
+- intent: bachelor_of_arts_in_development_studies_careers
+  examples: |
+    - What are the opportunities available for Bachelor of arts in development studies?,
+    - Which jobs do graduates of Bachelor of arts in development studies expected to do?,
+    - What are the careers associates with  Bachelor of arts in development studies?
+- intent: school_of_law
+  examples: |
+    - What college offers law related programs?,
+    - I need to learn law studies,
+    - I want to learn law,
+    - i wish to become a lawyer
+    - school of law
+- intent: programmes_offered_school_of_law
+  examples: |
+    - What are the Dregree programmes offered in School of law ?,
+    - programmes do School of law offer,
+    - Programs provided by school of law
+- intent: description_bachelor_of_laws
+  examples: |
+    - What is the Bachelor of laws?,
+    - I need to know about Bachelor of laws,
+    - Tell me about Bachelor of laws? ,
+    - What are the Bachelor of laws for?,
+    - What is the purpose of the Bachelor of laws?
+- intent: bachelor_of_laws_entry_requirements
+  examples: |
+    - What are the the direct requirements for the Bachelor of laws?,
+    - I need to know the direct qualifications for Bachelor of laws,
+    - What are the principal passes for Bachelor of laws?,
+    - What things i need to have inoder to qualify for Bachelor of laws?
+- intent: bachelor_of_laws_careers
+  examples: |
+    - What are the opportunities available for Bachelor of laws?,
+    - Which jobs do graduates of Bachelor of laws expected to do?,
+    - What are the careers associates with  Bachelor of laws?
+- intent: about_the_university_of_dodoma
+  examples: |
+    - tell me about the university of dodoma
+    - What is UDOM
+    - i need brief information about the University of dodoma
+    - Can you help me understand more about udom
+    - where exactly is udom located?
+    - Tell me about udom
+    - Can you tell me anything you know?
+    - can you tell me about udom
+    - can i study for LLB at udom
+    - What do you know
+    - udom
+    - tell me what you know
+    - ok!. tell me about udom
+- intent: student_support
+  examples: |
+    - what are the supports that the UDOM provide to the students
+    - Which actions do the university of dodoma do to support the students
+- intent: accommodation
+  examples: |
+    - does the university offers the accomodation services?
+    - Does the university provide accommodation services?
+    - is there any accomodation service available at the University
+    - Does the school has the hostels for students?
+    - Where do students live?
+    - Is there any living rooms available for students?
+    - Can I get a room in the campus
+    - Does the University allows the students to live off campus?
+    - Is it allowed to live off Campus?
+    - Can I live outside the campus?
+    - Is there any restrictions to live away from the campus?
+    - Is there any accommodation service
+    - Do you offer accommodation
+    - does udom offer accomodation
+    - does the university offers the accommodation services
+    - accomodation
+    - What are the  accommodation facilities
+    - campus
+    - hostel
+    - HOSTELS
+- intent: food_services
+  examples: |
+    - are food services available at the University of dodoma
+    - Is there any place to eat at UDOM
+    - where do I find food
+    - are there cafeteria services available at the University of dodoma
+    - Are there any food places at udom
+    - are there any restaurants at udom
+    - Am hungry, where can I find restaurants?
+    - Are there food services in the campus?
+    - Are food available within the campus?
+    - Can I find food and drinks within the university?
+    - Where do students eat?
+    - Where do students find foods and drinks?
+    - are there any food services at udom?
+    - are there any places to eat at udom?
+    - are there any cafeterias at udom?
+    - are there any canteens at udom?
+    - food
+    - FOOD
+- intent: sports_and_recreation
+  examples: |
+    - does the university of dodoma suport sports?
+    - how about sports
+    - can I find sports facilities around the unversity?
+    - What is the place of UDOM in supportng sports?
+- intent: student_organization
+  examples: |
+    - is there any student organization?
+    - tell me about student organization
+- intent: medical_services
+  examples: |
+    - are the medical facilities available at the University
+    - Are there any hospital abround the university
+    - how about the medical services?
+    - and medical facilities!?
+- intent: guidance_and_counselling
+  examples: |
+    - are there any guidance and councelling services?
+    - how about councelling
+    - how about guidance and councelling services?
+- intent: academic_advisory_services
+  examples: |
+    - do student get advice concerned with the academic issues?
+    - are there academic advices provied?
+- intent: religious_life
+  examples: |
+    - what about religious life
+    - how about religious matters
+    - does unversity provide the freedom to worship?
+- intent: scholarships_and_financial_support
+  examples: |
+    - does the university provide scholarship?
+    - does the university offers the financial support to the students
+    - where can I find out about funding
+    - Where can find the finance for my program?
+    - Do you offer fundings to the students?
+    - Do you provide funds for undergraduate students?
+- intent: banking_services
+  examples: |
+    - are there banking services around the University
+    - is there any bank in the university compound?
+- intent: postal_services
+  examples: |
+    - are there postal services around the University
+    - what about postal services?
+- intent: library_services
+  examples: |
+    - are there libary services around the University
+    - what about library services
+    - LIBRARY
+- intent: transport_services
+  examples: |
+    - are there transport services around the University
+    - what about transport services
+    - do they have stable transportation at udom?
+- intent: Internationalization
+  examples: |
+    - does the University have an internationalization
+    - does the university support an internationalization
+- intent: language_facilitation
+  examples: |
+    - how does the unversity facilitates Languages
+    - does the University facilitates languages?
+- intent: innovation_and_enterpreneurship
+  examples: |
+    - does the university supports innovation
+    - does the university supports enterpreneurship?
+    - what are the initiatives does the university takes towards innovation
+- intent: cost_of_living
+  examples: |
+    - how much does it cost to live in the University
+    - what is the average amount of money does the student need to survive for a month
+- intent: community_services
+  examples: |
+    - are there community services around the University
+    - are student participate in community services?
+- intent: campus_safety_and_security
+  examples: |
+    - what measures does the university take to ensure security around the university
+    - is the university safe for students
+    - how safe is univervsity is?
+- intent: how_to_apply
+  examples: |
+    - how can I apply for the accademic year
+    - i need to apply for Udom this year
+    - I want to apply for UDOM
+    - how can I get enrolled to the university
+    - Am trying to make an application here at udom
+    - i want to apply for udom
+    - how can i apply
+    - i want to start my aplication
+    - where do we apply
+    - whre to apply
+    - can i apply for udom online?
+    - how easy is applying online?
+    - my name is khadija i would like to enroll to university
+    - my name is khadija i would like to join to university
+    - How do I join the UDOM?
+    - How do I enroll the UDOM?
+    - enrolled udom
+    - how to get enrolled to udom
+    - admission
+    - i want to join to udom
+    - online application
+    - academic year
+    - i need to apply for this accademic year
+    - ADMISSION
+    - what are the admission procedures?[]{"entity": "process", "value": "admission"}
+- intent: registration_procedures
+  examples: |
+    - what are the registration procedures
+    - what procedures are to be taken for a student to be registered to the university
+    - i need to know admisnistration procedures
+- intent: number_colleges_of_udom
+  examples: |
+    - how many colleges are there?
+    - can you tell me the number of colleges found in udom?
+    - how many colleges are there at udom
+    - how many colleges are there in Udom
+- intent: colleges_of_udom
+  examples: |
+    - what are the colleges found in udom
+    - What are the colleges found in the university of dodoma?
+    - mention the colleges that the university of dodoma has
+    - colleges in udom
+- intent: does_udom_offer_degree_programmes
+  examples: |
+    - does udom offer degree programs?
+    - are degree programs offered at udom?
+- intent: does_udom_offer_diploma_programs
+  examples: |
+    - does udom offer diploma programs?
+    - are diploma programs offered at udom?
+- intent: degree_programmes_udom_offer
+  examples: |
+    - what degree programs does udom offer
+    - what degree programs that university offer
+    - can you tell me the available degree programs at udom
+    - bachelor programs in udom
+    - BACHELOR PROGRAM
+    - programs in udom
+    - undergraduate programs in udom
+    - Programs
+    - programs available in udom
+    - what are the programs offered
+    - undergraduate programs
+    - bachelor programs
+    - What are the courses offered?
+    - courses offered
+    - bachelor program
+- intent: diploma_programs_udom_offer
+  examples: |
+    - what diploma programs does udom offer
+    - can you tell me the diploma programs provided at the university of dodoma
+    - diploma
+- intent: number_degree_programs_offered_cive
+  examples: |
+    - how many degree programs does the college of informatics offer
+    - how many degree programs does the college of cive offers
+- intent: number_diploma_programs_offered_cive
+  examples: |
+    - how many diploma programs does the college of informatics offer
+    - how many diploma programs does the college of cive offers
+- intent: number_degree_programs_offered_cobe
+  examples: |
+    - how many degree programs does the college of business and economics offer
+    - is there any degree program available at the college of business and economics?
+- intent: number_diploma_programs_offered_cobe
+  examples: |
+    - how many diploma programs does the college of business and economics offer
+    - how many diploma programs does the cobe offers
+    - Is there any diploma program available at the college of business and economics?
+- intent: number_degree_programs_offered_coese
+  examples: |
+    - how many degree programs does the college of earth sciences and engineering offer
+    - is there any degree program available at the college of earth sciences and engineering ?
+- intent: number_diploma_programs_offered_coese
+  examples: |
+    - how many diploma programs does the college of earth sciences and engineering offer
+    - Is there any diploma program available at the college of earth sciences and engineering
+- intent: number_degree_programs_offered_chss
+  examples: |
+    - how many degree programs does the college of humanities and social sciences offer
+    - is there any degree program available at the college of humanities and social sciences?
+- intent: number_diploma_programs_offered_chss
+  examples: |
+    - how many diploma programs does the college of humanities and social sciences offer
+    - Is there any diploma program available at the college of humanities and social sciences
+- intent: number_degree_programs_offered_cnms
+  examples: |
+    - how many degree programs does the college of natural and mathematical sciences offer
+    - is there any degree program available at the college of natural and mathematical sciences?
+- intent: number_diploma_programs_offered_cnms
+  examples: |
+    - how many diploma programs does the college of natural and mathematical sciences offer
+    - Is there any diploma program available at the college of natural and mathematical sciences
+- intent: number_degree_programs_offered_coed
+  examples: |
+    - how many degree programs does the college of education offers
+    - is there any degree program available at the college of education?
+- intent: number_diploma_programs_offered_coed
+  examples: |
+    - how many diploma programs does the college of education offers
+    - Is there any diploma program available at the college of education
+- intent: number_degree_programs_offered_school_of_law
+  examples: |
+    - how many degree programs does the school of law offers
+    - is there any degree program available at the school of law?
+- intent: number_diploma_programs_offered_school_of_law
+  examples: |
+    - how many diploma programs does the school of law offer
+    - Is there any diploma program available at the school of law
+- intent: number_degree_programs_offered_school_of_medicine_and_dentistry
+  examples: |
+    - how many degree programs does the school of medicine and dentistry offers
+    - is there any degree program available at the school of medicine and dentistry?
+- intent: number_diploma_programs_offered_school_of_medicine_and_dentistry
+  examples: |
+    - how many diploma programs does the school of medicine and dentistry offer
+    - Is there any diploma program available at the school of medicine and dentistry
+- intent: number_degree_programs_offered_school_of_nursing_and_public_health
+  examples: |
+    - how many degree programs does the school of nursing and public health offers
+    - is there any degree program available at the school of nursing and public health ?
+- intent: number_diploma_programs_offered_school_of_nursing_and_public_health
+  examples: |
+    - how many diploma programs does the school of nursing and public health offer
+    - Is there any diploma program available at the school of nursing and public health
+- intent: number_degree_programs_offered_confucius_institute
+  examples: |
+    - how many degree programs does the confucius institute offers
+    - is there any degree program available at the confucius institute?
+- intent: number_diploma_programs_offered_confucius_institute
+  examples: |
+    - how many diploma programs does the confucius institute offer
+    - Is there any diploma program available at the confucius institute
+- intent: number_degree_programs_offered_institute_of_development_studies
+  examples: |
+    - how many degree programs does the institute of development studies offers
+    - is there any degree program available at the institute of development studies?
+- intent: number_diploma_programs_offered_institute_of_development_studies
+  examples: |
+    - how many diploma programs does the institute of development studies offer
+    - Is there any diploma program available at the institute of development studies
+- intent: how_far_from_dodoma_city
+  examples: |
+    - how far is udom from dodoma city center?
+    - how many kilometers from the city centre to udom?
+    - what is the distance from the dodoma town to the university of dodoma
+- intent: is_doctor_of_medicine_available
+  examples: |
+    - can i study for doctor of medicine in udom?
+    - is it possibe to study doctor of medicine in the university of dodoma
+- intent: time_for_studying_doctor_of_medicine
+  examples: |
+    - how long does it take to study for degree in doctor of medicine
+    - the duration of doctor of medicine
+- intent: is_law_studies_offered
+  examples: |
+    - do they offer degree in law studies?
+    - can i study law at the university of dodoma?
+    - is there LLB available
+- intent: fee_structure
+  examples: |
+    - can you show me the fee structures at udom?
+    - i need to know how much do programs cost
+    - fee structure
+- intent: prospectus
+  examples: |
+    - need the udom prospectus
+    - can i find the udom prospectus
+    - prospectus
+- intent: stationery_services
+  examples: |
+    - are there any stationery services
+    - can i find the stationery facilities around the unversity
+- intent: bot_misconception
+  examples: |
+    - How long have you been
+    - how old are you
+    - since when have you existed?
+    - are you a male or a female
+    - what is your gender
+    - do you have gender?
+    - Where from are you from
+    - what is your orign ?
+    - can you tell me your origin
+    - are you male or female?
+    - 12541
+    - weert
+    - Mbn umezingua
+    - do you know gervas
+    - Why are you running
+    - hiv
+    - unaendeleaje
+    - female
+    - mambo
+    - postgraduate
+    - male
+    - do you want to kill me?
+    - are you a female or male?
+    - are a male or female
+    - MAMBO
+- intent: bot_purpose
+  examples: |
+    - Can you tell me what is you purpose
+    - what is you purpose
+    - what was intended to create you
+- intent: about_cive
+  examples: |
+    - college of information and virtual Education
+    - Do you know any thing about cive
+    - tell me about cive
+    - cive
+    - What is CIVE?
+    - wow!. can you tell me about cive
+    - can you brief tell me about college of infomatics and virtual education?[]{"entity": "college", "value": "college of informatics and virtual education"}
+- intent: enrolling_requirements
+  examples: |
+    - enrolling requirement
+    - entry requirement
+- intent: What_is_join_instruction
+  examples: |
+    - what is the join instruction
+    - tell me about the UDOM join instruction
+    - What is the UDOM join instruction
+- intent: why_join_instruction
+  examples: |
+    - why the join instruction
+    - why the UDOM join instruction
+    - why do I need the UDOM join instruction
+    - is join instruction important?
+- intent: prio_documents_required
+  examples: |
+    - what are the documents required before reporting to the university of dodoma?
+    - Before reporting the university of Dodoma, what are the needed documents?
+- intent: need_to_ask
+  examples: |
+    - i need to ask

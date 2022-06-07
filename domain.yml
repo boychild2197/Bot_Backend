@@ -1,0 +1,2498 @@
+version: '3.1'
+intents:
+- Internationalization
+- What_is_join_instruction
+- about_cive
+- about_the_university_of_dodoma
+- academic_advisory_services
+- accommodation
+- action_default_fallback
+- affirm
+- are_you_fine
+- bachelor_education_in_adult_education_and_community_development_careers
+- bachelor_education_in_adult_education_and_community_development_entry_requirement
+- bachelor_education_in_adult_education_and_community_development_entry_requirements
+- bachelor_education_in_science_careers
+- bachelor_education_in_science_entry_requirements
+- bachelor_of_arts_in_development_studies_careers
+- bachelor_of_arts_in_development_studies_entry_requirements
+- bachelor_of_arts_in_economics_and_sociology_careers
+- bachelor_of_arts_in_economics_and_sociology_requirements
+- bachelor_of_arts_in_economics_and_statistics_careers
+- bachelor_of_arts_in_economics_and_statistics_requirements
+- bachelor_of_arts_in_economics_careers
+- bachelor_of_arts_in_economics_entry_requirements
+- bachelor_of_arts_in_environmental_economics_and_policy_careers
+- bachelor_of_arts_in_environmental_economics_and_policy_entry_requirements
+- bachelor_of_arts_in_oriental_languages_careers
+- bachelor_of_arts_in_oriental_languages_entry_requirements
+- bachelor_of_arts_in_project_planning_and_community_development_careers
+- bachelor_of_arts_in_project_planning_and_community_development_entry_requirements
+- bachelor_of_business_administration_careers
+- bachelor_of_business_administration_entry_requirements
+- bachelor_of_commerce_in_accounting_careers
+- bachelor_of_commerce_in_accounting_entry_requirements
+- bachelor_of_commerce_in_enterpreneurship_careers
+- bachelor_of_commerce_in_enterpreneurship_entry_requirements
+- bachelor_of_commerce_in_finance_careers
+- bachelor_of_commerce_in_finance_entry_requirements
+- bachelor_of_commerce_in_human_resource_management_careers
+- bachelor_of_commerce_in_human_resource_management_entry_requirements
+- bachelor_of_commerce_in_information_management_careers
+- bachelor_of_commerce_in_information_management_entry_requirements
+- bachelor_of_commerce_in_international_business_careers
+- bachelor_of_commerce_in_international_business_entry_requirements
+- bachelor_of_commerce_in_marketing_careers
+- bachelor_of_commerce_in_marketing_entry_requiremets
+- bachelor_of_commerce_in_procurement_and_logistics_management_careers
+- bachelor_of_commerce_in_procurement_and_logistics_management_entry_requirements
+- bachelor_of_commerce_in_tourism_and_hospitality_management_careers
+- bachelor_of_commerce_in_tourism_and_hospitality_management_entry_requirements
+- bachelor_of_education_early_childhood_education_careers
+- bachelor_of_education_early_childhood_education_entry_requirements
+- bachelor_of_education_in_administration_and_management_careers
+- bachelor_of_education_in_administration_and_management_entry_requirements
+- bachelor_of_education_in_arts_careers
+- bachelor_of_education_in_arts_entry_requirements
+- bachelor_of_education_in_commerce_careers
+- bachelor_of_education_in_commerce_entry_requirements
+- bachelor_of_education_in_guidance_and_councelling_careers
+- bachelor_of_education_in_guidance_and_councelling_entry_requirements
+- bachelor_of_education_in_policy_planning_and_management_careers
+- bachelor_of_education_in_policy_planning_and_management_entry_requirements
+- bachelor_of_education_in_psychology_careers
+- bachelor_of_education_in_psychology_entry_requirements
+- bachelor_of_education_in_science_with_ICT_careers
+- bachelor_of_education_in_science_with_ICT_entry_requirements
+- bachelor_of_education_in_special_needs
+- bachelor_of_education_in_special_needs_careers
+- bachelor_of_education_in_special_needs_entry_requirements
+- bachelor_of_laws_careers
+- bachelor_of_laws_entry_requirements
+- bachelor_of_science_in_acturial_statistics_careers
+- bachelor_of_science_in_acturial_statistics_entry_requirements
+- bachelor_of_science_in_applied_geology_careers
+- bachelor_of_science_in_applied_geology_entry_requirements
+- bachelor_of_science_in_aquaculture_and_aquatic_science_careers
+- bachelor_of_science_in_aquaculture_and_aquatic_science_entry_requirements
+- bachelor_of_science_in_biology_careers
+- bachelor_of_science_in_biology_entry_requirements
+- bachelor_of_science_in_biotechnology_and_bioinformatics_careers
+- bachelor_of_science_in_biotechnology_and_bioinformatics_entry_requirements
+- bachelor_of_science_in_business_information_systems_careers
+- bachelor_of_science_in_business_information_systems_entry_requirements
+- bachelor_of_science_in_chemical_and_processing_engineering_careers
+- bachelor_of_science_in_chemical_and_processing_engineering_entry_requirements
+- bachelor_of_science_in_chemistry_careers
+- bachelor_of_science_in_chemistry_entry_requirements
+- bachelor_of_science_in_clinical_nutrition_and_dietics_careers
+- bachelor_of_science_in_clinical_nutrition_and_dietics_entry_requirements
+- bachelor_of_science_in_computer_engineering_careers
+- bachelor_of_science_in_computer_engineering_entry_requirements
+- bachelor_of_science_in_computer_networks_and_information_engineering_careers
+- bachelor_of_science_in_computer_networks_and_information_engineering_entry_requirements
+- bachelor_of_science_in_computer_science_careers
+- bachelor_of_science_in_computer_science_entry_requirements
+- bachelor_of_science_in_cyber_security_and_forensics_engineering_careers
+- bachelor_of_science_in_cyber_security_and_forensics_engineering_entry_requirements
+- bachelor_of_science_in_digital_content_and_broadcasting_engineering_careers
+- bachelor_of_science_in_digital_content_and_broadcasting_engineering_entry_requirements
+- bachelor_of_science_in_environmental_engineering_careers
+- bachelor_of_science_in_environmental_engineering_entry_requirements
+- bachelor_of_science_in_environmental_sciences_careers
+- bachelor_of_science_in_environmental_sciences_entry_requirements
+- bachelor_of_science_in_geoinformatics_careers
+- bachelor_of_science_in_geoinformatics_entry_requirements
+- bachelor_of_science_in_health_information_systems_careers
+- bachelor_of_science_in_health_information_systems_entry_requirements
+- bachelor_of_science_in_information_systems_careers
+- bachelor_of_science_in_information_systems_entry_requirements
+- bachelor_of_science_in_instructional_design_and_information_technology_careers
+- bachelor_of_science_in_instructional_design_and_information_technology_entry_requirements
+- bachelor_of_science_in_mathematics_and_statistics_careers
+- bachelor_of_science_in_mathematics_and_statistics_entry_requirements
+- bachelor_of_science_in_mathematics_careers
+- bachelor_of_science_in_mathematics_entry_requirements
+- bachelor_of_science_in_metallurgy_and_mineral_processing_engineering_careers
+- bachelor_of_science_in_metallurgy_and_mineral_processing_engineering_entry_requirements
+- bachelor_of_science_in_mining_engineering_careers
+- bachelor_of_science_in_mining_engineering_entry_requirements
+- bachelor_of_science_in_multimedia_technology_and_animation_careers
+- bachelor_of_science_in_multimedia_technology_and_animation_entry_requirements
+- bachelor_of_science_in_nursing_careers
+- bachelor_of_science_in_nursing_entry_requirements
+- bachelor_of_science_in_petroleum_engineering_careers
+- bachelor_of_science_in_petroleum_engineering_entry_requirements
+- bachelor_of_science_in_physics_careers
+- bachelor_of_science_in_physics_entry_requirements
+- bachelor_of_science_in_renewable_energy_engineering_careers
+- bachelor_of_science_in_renewable_energy_engineering_entry_requirements
+- bachelor_of_science_in_software_engineering_careers
+- bachelor_of_science_in_software_engineering_entry_requirements
+- bachelor_of_science_in_statistics_careers
+- bachelor_of_science_in_statistics_entry_requirements
+- bachelor_of_science_in_telecommunications_engineering_careers
+- bachelor_of_science_in_telecommunications_engineering_entry_requirements
+- bachelor_of_science_with_education_careers
+- bachelor_of_science_with_education_entry_requirements
+- banking_services
+- bot_challenge
+- bot_misconception
+- bot_purpose
+- campus_safety_and_security
+- college_of_education
+- college_of_informatics_and_virtual_education
+- college_of_natural_and_mathematical_science
+- colleges_of_udom
+- community_services
+- confucius_institute
+- cost_of_living
+- degree_programmes_udom_offer
+- description_bachelor_education_in_adult_education_and_community_development
+- description_bachelor_education_in_science
+- description_bachelor_of_arts_in_development_studies
+- description_bachelor_of_arts_in_economics
+- description_bachelor_of_arts_in_economics_and_sociology
+- description_bachelor_of_arts_in_economics_and_statistics
+- description_bachelor_of_arts_in_environmental_economics_and_policy
+- description_bachelor_of_arts_in_oriental_languages
+- description_bachelor_of_arts_in_project_planning_and_community_development
+- description_bachelor_of_business_administration
+- description_bachelor_of_commerce_in_accounting
+- description_bachelor_of_commerce_in_enterpreneurship
+- description_bachelor_of_commerce_in_finance
+- description_bachelor_of_commerce_in_human_resource_management
+- description_bachelor_of_commerce_in_information_management
+- description_bachelor_of_commerce_in_international_business
+- description_bachelor_of_commerce_in_marketing
+- description_bachelor_of_commerce_in_procurement_and_logistics_management
+- description_bachelor_of_commerce_in_tourism_and_hospitality_management
+- description_bachelor_of_education_early_childhood_education
+- description_bachelor_of_education_in_administration_and_management
+- description_bachelor_of_education_in_arts
+- description_bachelor_of_education_in_commerce
+- description_bachelor_of_education_in_guidance_and_councelling
+- description_bachelor_of_education_in_policy_planning_and_management
+- description_bachelor_of_education_in_psychology
+- description_bachelor_of_education_in_science_with_ICT
+- description_bachelor_of_education_in_special_needs
+- description_bachelor_of_laws
+- description_bachelor_of_science_in_acturial_statistics
+- description_bachelor_of_science_in_applied_geology
+- description_bachelor_of_science_in_aquaculture_and_aquatic_science
+- description_bachelor_of_science_in_biology
+- description_bachelor_of_science_in_biotechnology_and_bioinformatics
+- description_bachelor_of_science_in_business_information_systems
+- description_bachelor_of_science_in_chemical_and_processing_engineering
+- description_bachelor_of_science_in_chemistry
+- description_bachelor_of_science_in_clinical_nutrition_and_dietics
+- description_bachelor_of_science_in_computer_engineering
+- description_bachelor_of_science_in_computer_networks_and_information_engineering
+- description_bachelor_of_science_in_computer_science
+- description_bachelor_of_science_in_cyber_security_and_forensics_engineering
+- description_bachelor_of_science_in_digital_content_and_broadcasting_engineering
+- description_bachelor_of_science_in_environmental_engineering
+- description_bachelor_of_science_in_environmental_sciences
+- description_bachelor_of_science_in_geoinformatics
+- description_bachelor_of_science_in_health_information_systems
+- description_bachelor_of_science_in_information_systems
+- description_bachelor_of_science_in_instructional_design_and_information_technology
+- description_bachelor_of_science_in_mathematics
+- description_bachelor_of_science_in_mathematics_and_statistics
+- description_bachelor_of_science_in_metallurgy_and_mineral_processing_engineering
+- description_bachelor_of_science_in_mining_engineering
+- description_bachelor_of_science_in_multimedia_technology_and_animation
+- description_bachelor_of_science_in_multimedia_technology_and_aninmation
+- description_bachelor_of_science_in_nursing
+- description_bachelor_of_science_in_petroleum_enginering
+- description_bachelor_of_science_in_physics
+- description_bachelor_of_science_in_renewable_energy_engineering
+- description_bachelor_of_science_in_software_engineering
+- description_bachelor_of_science_in_statistics
+- description_bachelor_of_science_in_telecommunications_engineering
+- description_bachelor_of_science_with_education
+- description_diploma_in_cyber_security_and_digital_forensics
+- description_diploma_in_educational_technology
+- description_diploma_in_forensic_science
+- description_diploma_in_forest_management_and_nature_conservation
+- description_diploma_in_information_and_communication_technology(DICT)
+- description_diploma_in_medical_laboratory
+- description_diploma_in_mineral_exploitation_and_mining_geology
+- description_diploma_in_mining_engineering
+- description_diploma_in_nursing
+- description_diploma_in_phamarcy
+- description_diploma_in_pharmacy
+- description_doctor_of_medicine
+- diploma_in_cyber_security_and_digital_forensics_careers
+- diploma_in_cyber_security_and_digital_forensics_entry_requirements
+- diploma_in_educational_technology_careers
+- diploma_in_educational_technology_entry_requirements
+- diploma_in_forensic_science_careers
+- diploma_in_forensic_science_entry_requirements
+- diploma_in_forest_management_and_nature_conservation_careers
+- diploma_in_forest_management_and_nature_conservation_entry_requirements
+- diploma_in_information_and_communication_technology(DICT)_careers
+- diploma_in_information_and_communication_technology(DICT)_entry_requirements
+- diploma_in_medical_laboratory_careers
+- diploma_in_medical_laboratory_entry_requirements
+- diploma_in_mineral_exploitation_and_mining_geology_careers
+- diploma_in_mineral_exploitation_and_mining_geology_entry_requirements
+- diploma_in_mining_engineering_careers
+- diploma_in_mining_engineering_entry_requirements
+- diploma_in_nursing_careers
+- diploma_in_nursing_entry_requirements
+- diploma_in_phamarcy_entry_careers
+- diploma_in_phamarcy_entry_requirements
+- diploma_programs_udom_offer
+- doctor_of_medicine_careers
+- doctor_of_medicine_entry_requirements
+- does_udom_offer_degree_programmes
+- does_udom_offer_diploma_programs
+- enrolling_requirements
+- fee_structure
+- food_services
+- goodbye
+- greet
+- guidance_and_counselling
+- how_far_from_dodoma_city
+- how_to_apply
+- innovation_and_enterpreneurship
+- institute_of_development_studies
+- is_doctor_of_medicine_available
+- is_law_studies_offered
+- language_facilitation
+- library_services
+- medical_services
+- mood_great
+- mood_unhappy
+- need_to_ask
+- number_colleges_of_udom
+- number_degree_programmes_offered_cive
+- number_degree_programs_offered_chss
+- number_degree_programs_offered_cive
+- number_degree_programs_offered_cnms
+- number_degree_programs_offered_cobe
+- number_degree_programs_offered_coed
+- number_degree_programs_offered_coese
+- number_degree_programs_offered_confucius_institute
+- number_degree_programs_offered_institute_of_development_studies
+- number_degree_programs_offered_school_of_law
+- number_degree_programs_offered_school_of_medicine_and_dentistry
+- number_degree_programs_offered_school_of_nursing_and_public_health
+- number_diploma_programs_offered_chss
+- number_diploma_programs_offered_cive
+- number_diploma_programs_offered_cnms
+- number_diploma_programs_offered_cobe
+- number_diploma_programs_offered_coed
+- number_diploma_programs_offered_coese
+- number_diploma_programs_offered_confucius_institute
+- number_diploma_programs_offered_institute_of_development_studies
+- number_diploma_programs_offered_school_of_law
+- number_diploma_programs_offered_school_of_medicine_and_dentistry
+- number_diploma_programs_offered_school_of_nursing_and_public_health
+- postal_services
+- prio_documents_required
+- programmes_offered_cive
+- programmes_offered_cnms
+- programmes_offered_college_of_education
+- programmes_offered_confucius_institute
+- programmes_offered_institute_of_development_studies
+- programmes_offered_school_of_law
+- programmes_offered_school_of_medicine_and_dentistry
+- programmes_offered_school_of_nursing_and_public_health
+- prospectus
+- registration_procedures
+- religious_life
+- scholarships_and_financial_support
+- school_of_law
+- school_of_medicine_and_dentistry
+- school_of_nursing_and_public_health
+- sports_and_recreation
+- stationery_services
+- student_organization
+- student_support
+- time_for_studying_doctor_of_medicine
+- transport_services
+- why_join_instruction
+responses:
+  utter_degree_programs_offered_cive:
+  - text: '|'
+  utter_need_to_ask:
+  - text: what you wanna ask?
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: Am admission chabot
+  utter_college_of_education:
+  - text: Absolutely the College of Education (COED),
+  - text: You can find all of those Staff at the College of Education (COED)
+  - text: College of Education (COED) is the right option for you
+  utter_programmes_offered_college_of_education:
+  - text: |
+      1 Bachelor of Education in Arts (Bed-Arts)
+      2 Bachelor of Education in Adult Education and Community Development (Bed-ADEC)
+      3 Bachelor of Education in Administration and Management (Bed-ADMAN)
+      4 Bachelor of Education in Policy, Planning and Management (BEd -PPM)
+      5 Bachelor of Education in Guidance and Counseling (Bed-GUCO)
+      6 Bachelor of Education in Psychology (Bed-PSY)
+      7 Bachelor of Education in Early Childhood Education (Bed-ECE)
+      8 Bachelor of Education in Science (Bed-Sc)
+      9 Bachelor of Education in Special Needs (Bed-SPEN)
+      10 Bachelor of Education in Science with ICT (Bed. SC. ICT)
+      11 Bachelor of Education in Commerce (Bed-COM)
+  utter_description_bachelor_of_education_in_administration_and_management:
+  - text: Bachelor of education in administration and management  is meant to prepare professionals with cutting-age educational, administrative and management skills capable of not only stabilizing institutional microclimates but also raising institutional performance beyond customary expectations.
+  utter_bachelor_of_education_in_administration_and_management_entry_requirements:
+  - text: |
+      Two principal passes in any of the
+      following subjects: Kiswahili, English,
+      Literature, History, Geography,
+      French, Arabic, Economics,
+      Mathematics, Physics, Chemistry or
+      Biology..
+
+      Diploma in Educational Management,
+      Diploma in Education, Diploma in Primary
+      Teacher Education, Diploma in Secondary
+      Education, with an average of “B” or GPA
+      of 3.0 and either four passes at “O” Level
+      for Form Six leavers or Certificate in
+      Teaching (Grade A) for non –form six
+      leavers.
+  utter_bachelor_of_education_in_administration_and_management_careers:
+  - text: |
+      The graduates from this programme will be
+      competent and qualified teachers to work and teach
+      in government and private secondary schools and
+      teachers’ colleges. Graduates from this degree
+      programme will also work for the Government,
+      private institutions as well as NGOs where they will
+      find good positions such as educational managers
+      and leaders.
+  utter_description_bachelor_education_in_adult_education_and_community_development:
+  - text: Bachelor of education in adult education and community development seeks to address the challenging and exciting facets of adult continuing education and community development by producing professionals who understand essential topical issues and capable of dealing with its complexities.
+  utter_bachelor_education_in_adult_education_and_community_development_entry_requirement:
+  - text: |
+      Two principal passes in any of the following subjects:
+      Kiswahili, English, Literature, History, Geography,
+      French, Arabic, Economics, Mathematics, Physics,
+      Chemistry, or Biology
+
+
+      Diploma in Education, Diploma in Adult Education, Diploma,
+      in Community Development with an average of “B” or GPA
+      of 3.0 and either four passes at “O” Level for Form Six
+      leavers or Certificate in Teaching (Grade A) for non –form six
+      leavers.
+  utter_bachelor_education_in_adult_education_and_community_development_careers:
+  - text: |
+      Graduates from this degree programme work for the Govermnet, private sector as well as NGOs where
+      they find good positions as Community Development Officers, Adult Educators, Community Change Agents,
+      Development Consultants.
+  utter_description_bachelor_of_education_in_arts:
+  - text: Bachelor of Education in Arts is meant to prepare qualified biologist to meet the stakeholders demand, to go with the advancement of science and technology as well as to promote self employment.
+  utter_bachelor_of_education_in_arts_entry_requirements:
+  - text: |
+      Two principal passes in any of
+      the following two Arts subjects:
+      Kiswahili, English, Literature,
+      History, Geography, French,
+      Arabic or Economics.
+
+      Diploma in Education, Diploma in Primary
+      Teacher Education, Diploma in Secondary
+      Education, with specialization in language
+      subjects (English, Kiswahili, Arabic, French)
+      and social science subjects (History,
+      Geography, Economics) teaching subjects with
+      an average of “B” or GPA of 3.0 and either four
+      passes at “O” Level for Form Six leavers or
+      Certificate in Teaching (Grade A) for non
+      –form six leavers.
+  utter_bachelor_of_education_in_arts_careers:
+  - text: |
+      The graduates from this programme are competent
+      and qualified teachers and tutors who are highly
+      demanded to teach in government and private
+      secondary schools and teachers’ colleges.
+  utter_description_bachelor_of_education_in_commerce:
+  - text: Bachelor of education in commerce seeks to prepare teachers or teacher educators who will teach in secondary schools and teachers’ colleges.
+  utter_bachelor_of_education_in_commerce_entry_requirements:
+  - text: |
+      Two principal passes, one of which
+      must be Economics, Commerce, Accountancy or
+      Mathematics. A subsidiary pass at A- Level or grade
+      “D” in Mathematics at O' Level is required.
+
+      Diploma in Education (Economics, Accountancy,
+      Commerce, Book-Keeping) or Diploma in
+      Accountancy, Commerce, Book-keeping,
+      Procurement and Entrepreneurship with an average of
+      “B” or GPA of 3.0 and a pass in Mathematics plus
+      other 3 subjects at “O” Level.
+  utter_bachelor_of_education_in_commerce_careers:
+  - text: |
+      Teaching in Economics, Accountancy & Business Studies related courses; teachers’ training institutions
+      and Educational Commerce programmes; Educatioanl Commerce Curriculum developers, Commerce policy
+      planners, and inspectors of Commerce programmes. Some of other areas employing business graduates
+      are: Accountancy, Advertising, Banking, Investment and Financial Services, general Management, HR/
+      personnel, Management Consultancy and Retail Management.
+  utter_description_bachelor_of_education_early_childhood_education:
+  - text: Bachelor of education in early childhood education is meant to prepare high-quality Early Childhood Education professionals.
+  utter_bachelor_of_education_early_childhood_education_entry_requirements:
+  - text: |
+      Two principal passes in any of the following subjects:
+      Kiswahili, English, Literature, History, Geography,
+      French, Arabic, Economics, Mathematics, Physics,
+      Chemistry or Biology.
+
+      Diploma in Early Childhood Education, Diploma
+      in Primary Teacher Education with an average of
+      “B” or GPA of 3.0 and either four passes at “O”
+      Level for Form Six leavers or Certificate in
+      Teaching (Grade A) for non –form six leavers.
+  utter_bachelor_of_education_early_childhood_education_careers:
+  - text: |
+      Teaching in ECE, teacher training institutions and ECE programmes; ECE curriculum developers,
+      ECE policy planners, programme administrators and inspectors of ECE programmes.
+  utter_description_bachelor_of_education_in_guidance_and_councelling:
+  - text: Bachelor of education in guidance and counselling is meant to prepare high-quality Guidance and Counselling professionals focusing on career choice and its influence.
+  utter_bachelor_of_education_in_guidance_and_councelling_entry_requirements:
+  - text: |
+      Two principal passes in any of the following subjects:
+      Kiswahili, English, Literature, History, Geography,
+      French, Arabic, Economics, Mathematics, Physics,
+      Chemistry or Biology.
+
+      Diploma in Education, Diploma in Primary
+      Teacher Education, Diploma in Secondary
+      Education, Diploma in Social Work with an
+      average of “B” or GPA of 3.0 and either four
+      passes at O‟ Level for Form Six leavers or
+      Certificate in Teaching (Grade A) for non –form
+      six leavers.
+  utter_bachelor_of_education_in_guidance_and_councelling_careers:
+  - text: |
+      Graduates from this programme are professional Teachers teaching in programmes serving career
+      development and planning, Guidance and Counselling Curriculum Developers, Guidance and Counselling
+      Policy Planners, Programme Administrators and Inspectors of guidance and counselling programmes.
+  utter_description_bachelor_of_education_in_policy_planning_and_management:
+  - text: |
+      Bachelor of education in policy planning and management is meant to prepare professionals with cutting-age educational, administrative and management skills capable of not only stabilizing institutional microclimates 
+      but also raising institutional performance beyond customary expectations.
+  utter_bachelor_of_education_in_policy_planning_and_management_entry_requirements:
+  - text: |
+      Two principal passes in any of the following subjects:
+      Kiswahili, English, Literature, History, Geography,
+      French, Arabic, Economics, Mathematics, Physics,
+      Chemistry, or Biology.
+
+      Diploma in Educational Management, Diploma in
+      Education, Diploma in Primary Teacher Education,
+      Diploma in Secondary Education, Diploma in Planning,
+      Policy or Management with an average of “B” or GPA of
+      3.0 and either four passes at “O” Level for Form Six
+      leavers or Certificate in Teaching (Grade A) for non
+      –form six leavers.
+  utter_bachelor_of_education_in_policy_planning_and_management_careers:
+  - text: |
+      Graduates from this degree programme work
+      for the Government, Private institutions as well
+      as NGOs where they find good positions such
+      as Public Policy Analysts, Education Planning
+      Officers, Education Managers.
+  utter_description_bachelor_of_education_in_psychology:
+  - text: Bachelor of Education in Arts seeks to address and prepares high-quality psychologists capable of handling matters related to education at various levels of education.
+  utter_bachelor_of_education_in_psychology_entry_requirements:
+  - text: |
+      Two principal passes in any of the following subjects:
+      Kiswahili, English, Literature, History, Geography,
+      French, Arabic, Economics, Mathematics, Physics,
+      Chemistry, or Biology.
+
+      Diploma in Education, Diploma in Primary Teacher
+      Education, Diploma in Secondary Education with an
+      average of “B” or GPA of 3.0 and either four passes
+      at “O” Level for Form Six leavers or Certificate in
+      Teaching (Grade A) for non–form six leavers.
+  utter_bachelor_of_education_in_psychology_careers:
+  - text: |
+      Graduates from this degree programme are highly needed for teaching in programmes addressing psychological
+      issues, becoming programme administrators and inspectors of counselling programmes in schools, colleges,
+      governmental and NGOs.
+  utter_description_bachelor_education_in_science:
+  - text: Bachelor of education in science is meant to prepare teachers and teacher educators who will teach in secondary schools and teachers’ colleges.
+  utter_bachelor_education_in_science_entry_requirements:
+  - text: |
+      Two principal passes in any of the following
+      Science subjects: Physics, Chemistry, Biology and/or
+      Mathematics.
+
+      Diploma in Education, Diploma in Primary
+      Teacher Education, Diploma in Secondary
+      Education, with specialization in Science
+      subjects (Physics, Chemistry, Biology or
+      Mathematics) with an average of “B” or GPA
+      of 3.0 and either four passes at “O” Level for
+      Form Six leavers or Certificate in Teaching
+      (Grade A) for non –form six leavers.
+  utter_bachelor_education_in_science_careers:
+  - text: |
+      Teachers in schools and teachers’ colleges,
+      Educational Science Curriculum Developers and
+      Policy Planners, and Educatioanal Administrators
+  utter_description_bachelor_of_education_in_science_with_ICT:
+  - text: Bachelor of education in science with ICT is meant to prepare teachers and teacher educators who will teach in secondary schools and teacher’s colleges teaching science subjects and Information and Communication Technology(ICT).
+  utter_bachelor_of_education_in_science_with_ICT_entry_requirements:
+  - text: |
+      Two principal passes in any of
+      the following Science subjects:
+      Physics, Chemistry, Biology and/ or
+      Mathematics.
+
+      Diploma in Educational Technology with
+      specialization in ICT, Diploma in Education,
+      Diploma in Primary Teacher Education, Diploma
+      in Secondary Education, with specialization in
+      Science subjects (Physics, Chemistry, Biology or
+      Mathematics) with an average of “B” or GPA of
+      3.0 and either four passes at “O” Level for Form
+      Six leavers or Certificate in Teaching (Grade A)
+      for non –form six leavers.
+  utter_bachelor_of_education_in_science_with_ICT_careers:
+  - text: |
+      Teaching Sciences and ICT courses in schools and teachers’ colleges, Educational Science curriculum
+      Developers and Policy Planners, and Educatioanal Administrators.
+  utter_description_bachelor_of_education_in_special_needs:
+  - text: Bachelor of education in science is meant to prepare with high-quality Special Needs professionals focusing on the actual developmental and learning needs of learners with special needs.
+  utter_bachelor_of_education_in_special_needs_entry_requirements:
+  - text: |
+      Two principal passes in Arts subjects
+
+      Diploma in Special Needs Education
+      with an average of “B” or GPA of 3.0
+      and either four passes at “O” Level for
+      form six leavers or certificate in Special
+      Needs Education for non –form six
+      leavers.
+  utter_bachelor_of_education_in_special_needs_careers:
+  - text: |
+      Teachers in training programmes as well as for teaching learners with special needs at Primary and
+      Secondary Schools, become special needs Curriculum Frame Workers, special needs Policy Planners,
+      Programme Administrators and Inspectors of special needs programmes.
+  utter_description_diploma_in_information_and_communication_technology(DICT):
+  - text: Diploma InInformation and Communication Technology(DICT) prepares teachers, administrators, and other educational professionals for the thoughtful use of technologies to support teaching and learning in a range of educational environments.
+  utter_diploma_in_information_and_communication_technology(DICT)_entry_requirements:
+  - text: |
+      (i) At least ONE Principal pass in any
+      subject in Advanced Level Secondary
+      Education Examination or the East
+      African Certificate of Education (‘A’) Level
+      or Equivalent,
+      OR
+      (ii) At least TWO subsidiary passes in
+      any SCIENCE subjects in Advanced Level
+      Secondary Education Examination or
+      the East African Certificate of Education
+      (‘A’) Level or Equivalent,
+      OR
+      (iii). A University of Dodoma Certificate
+      or its Equivalent from any other
+      University recognized by the Tanzania
+      Commission of Universities with an
+      average of grade ‘B’
+
+      An Ordinary Certificate with
+      good grades (Average of B) or
+      a qualification of an Equivalent
+      standard awarded by legal bodies
+      such as National Council for
+      Technical Education (NACTE)
+  utter_diploma_in_information_and_communication_technology(DICT)_careers:
+  - text: |
+      The programme prepares students to work
+      in various areas, such as
+      production and service sector,ICT hardware
+      and software technicians as well
+      as self-employment
+  utter_description_diploma_in_educational_technology:
+  - text: |
+      Diploma In Educational Technology(DET) prepares teachers, administrators, 
+      and other educational professionals for the thoughtful use of technologies 
+      to support teaching and learning in a range of educational environments.
+  utter_diploma_in_educational_technology_entry_requirements:
+  - text: |
+      (i) At least ONE Principal pass in any subject in
+      Advanced Level Secondary Education Examination or
+      the East African Certificate of Education (‘A’) Level
+      or Equivalent, OR
+      (ii) At least TWO subsidiary passes in any SCIENCE
+      subject in Advanced Level Secondary Education
+      Examination or the East African Certificate of
+      Education (‘A’) Level or Equivalent, OR
+      (iii) A University of Dodoma Certificate or its
+      Equivalent from any otherUniversity recognized by
+      the Tanzania Commission of Universities with
+      average of grade ‘B’.
+
+      An Ordinary Certificate with good grades (Average o  
+      B) or a qualification of an equivalent standard
+      awarded by legal bodies such as National Council for
+      Technical Education (NACTE).
+  utter_diploma_in_educational_technology_careers:
+  - text: |
+      The programme prepares competent
+      professionals who can work as: Secondary school
+      teachers of computer science, Secondary school
+      computer lab System Administrators, Digital
+      Broadcasters, New Media Designers, Corporate
+      Communications Specialists, Television Pre and
+      Post- Producer
+  utter_description_diploma_in_cyber_security_and_digital_forensics:
+  - text: Diploma In Cyber Security and Digital Forensics prepares competent professionals who can fight against cyber-crime and hackers.
+  utter_diploma_in_cyber_security_and_digital_forensics_entry_requirements:
+  - text: |
+      At least ONE Principal pass in any SCIENCE subject (Mathematics, Physics, Chemistry, Biology, Computer
+      Science) in Advanced Level Secondary Education Examination or the East African Certificate of Education
+      (‘A’) Level or Equivalent. OR At least TWO subsidiary passes in any SCIENCE subjects (Mathematics,
+      Physics, Chemistry, Biology, Computer Science) in Advanced Level Secondary Education Examination or the
+      East African Certificate of Education (‘A’) Level or Equivalent.
+
+      An Ordinary Certificate with good grades (Average of B) or a qualification of an equivalent standard awarded
+      by legal bodies such as NACTE. This includes a Technician Certificate in Police Communication, Certificate in
+      Criminal investigation, Certificate in Police Science, and Certificate in ICT
+  utter_diploma_in_cyber_security_and_digital_forensics_careers:
+  - text: |
+      Graduates from the Diploma in Cybersecurity and Digital Forensics will have good employment opportunities
+      with local and multinational businesses, governments, telecommunications, manufacturing, healthcare,
+      financial and banking institutions, and consulting firms as: Security Penetration Testers, Security Operations
+      Analysts, Incident/Forensic/Threat Investigators, Cyber Security Analyst, Security Operation Tester, Security
+      Engineer/Executive.
+  utter_description_bachelor_of_science_in_instructional_design_and_information_technology:
+  - text: |
+      Bachelor of Science in Instructional Design and Information Technology(BSc IDIT) aims at maximizing the effectiveness, 
+      efficiency and appeal of digital and computational technology in creation, development, storage and transmission of 
+      digital content (knowledge creation and transmission) for assignments, independent study and tutorials. 
+  utter_bachelor_of_science_in_instructional_design_and_information_technology_entry_requirements:
+  - text: |
+      Two principal passes in the following subjects: Advanced Mathematics, Computer Science, Physics, Geography,
+      Chemistry, Economics, Biology, Nutrition or Agriculture
+
+      Diploma or Full Technician Certificate (FTC) in Computer Science, Information and Communication
+      Technology, Computer Engineering, Telecommunication Engineering with an average of “B’’ or a minimum
+      GPA of 3.0.
+  utter_bachelor_of_science_in_instructional_design_and_information_technology_careers:
+  - text: |
+      Job opportunities may include:Digital Broadcasting Content Developers,web designers,
+      corporate education trainers; Instructional designer,
+      Instructional Project manager and, Software Instructional Developers.
+  utter_description_bachelor_of_science_in_telecommunications_engineering:
+  - text: Bachelor of science in Telecomunications Engineering(BSc TE) is a four-year degree programme which is aimed at training those who aspire to become engineers in modern digital telecommunications.
+  utter_bachelor_of_science_in_telecommunications_engineering_entry_requirements:
+  - text: |
+      Two principal passes in Advanced Mathematics and Physics
+
+      Diploma or Full Technician Certificate (FTC)
+      in Electronics and Telecommunication
+      Engineering, Telecommunication Networks,
+      Computer Engineering, Computer Networks,
+      or Telecommunication with an average of
+      “B’’ or a minimum GPA of 3.0.
+  utter_bachelor_of_science_in_telecommunications_engineering_careers:
+  - text: |
+      Graduates from this programme are employed by wired and wireless telecommunication
+      companies, engineering consulting firms as well as government agencies.
+  utter_description_bachelor_of_science_in_software_engineering:
+  - text: Bachelor of science in Software Engineering(BSc SE) is a four-year degree programme which focuses mainly on the use of tools, techniques and processes for analysis, design and development of software systems.
+  utter_bachelor_of_science_in_software_engineering_entry_requirements:
+  - text: |
+      Two principal passes in Advanced
+      Mathematics and either Physics or Computer
+      science.
+
+      Holder of Ordinary Diploma in Information
+      Technology, Computer Engineering,
+      Computer with at least an average of “B” or
+      a GPA of 3.0 and at least four passes in
+      non-Religious Subjects at O-Level.
+  utter_bachelor_of_science_in_software_engineering_careers:
+  - text: |
+      A software engineering graduate shall be able to solve complex, large, software –
+      intensive projects, manage software projects, and make effective use of software
+      development and testing tools
+  utter_description_bachelor_of_science_in_multimedia_technology_and_animation:
+  - text: Bachelor of science in Multimedia Technology and Animation(MTA) is aimed at imparting knowledge and skills on designing and development techniques using multimedia technologies to develop content for teaching and communication purposes.
+  utter_bachelor_of_science_in_multimedia_technology_and_animation_entry_requirements:
+  - text: |
+      Two principal passes in the following subjects:
+      Advanced Mathematics, Computer Science,
+      Physics, Geography, Chemistry, Economics,
+      Biology, Nutrition or Agriculture.
+
+      Diploma or Full Technician Certificate (FTC) in
+      Multimedia Technology, Computer Science,
+      Information and Communication Technology,
+      Computer Engineering, Telecommunication
+      Engineering with an average of “B’’ or a minimum
+      GPA of 3.0.
+  utter_bachelor_of_science_in_multimedia_technology_and_animation_careers:
+  - text: |
+      Our graduates are in high demand in Government and private institutions as well as NGOs which need
+      professionals who can competently design interactive media content for various promotion, advertising and
+      education purposes.
+  utter_description_bachelor_of_science_in_health_information_systems:
+  - text: Bachelor of Science in Health Information Systems imparts skills in designing, building and maintaining computer-based information systems for hospitals and other health facilities and agencies.
+  utter_bachelor_of_science_in_health_information_systems_entry_requirements:
+  - text: |
+      Two principal passes in the following subjects: Advanced
+      Mathematics, Physics, Geography, Chemistry, Biology or
+      Computer Science.
+
+      Diploma or Full Technician Certificate (FTC) in Health
+      Sciences, Health Information Science, Nursing, Clinical
+      Medicine, Public Health, Environmental Health,
+      Nutrition, Information Technology or Computer Science
+      with an average of “B’’ or a minimum GPA of 3.0.
+  utter_bachelor_of_science_in_health_information_systems_careers:
+  - text: |
+      Graduates of this degree programme are in high demand in both government and private health facilities.
+      Majority have secured good job positions as Electronic Health Records Manager, Medical Records
+      Auditor, Medical Records Analyst,Health Information Manager.
+  utter_description_bachelor_of_science_in_digital_content_and_broadcasting_engineering:
+  - text: Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE) is aimed at imparting skills and knowledge in designing, mounting and broadcasting digital content using the modern digital-based communication technology
+  - text: Bachelor of science in Digital Content and Broadcasting Engineering(BSc DC&BE) is aimed at training modern technologists in digital content design and broadcasting enggineering
+  utter_bachelor_of_science_in_digital_content_and_broadcasting_engineering_entry_requirements:
+  - text: |
+      Two principal passes in Advanced Mathematics and Physics, Geography, Chemistry or Computer Science.
+
+      Diploma or Full Technician Certificate (FTC) in Electronics, Telecommunication Engineering,
+      Telecommunication Networks, Computer Engineering, Computer Sciences, Information Communication
+      Technology with an average of “B’’ or a minimum GPA of 3.0.
+  utter_bachelor_of_science_in_digital_content_and_broadcasting_engineering_careers:
+  - text: |
+      Graduates from this programme are highly demanded in the Government and private companies where there is
+      great application of digital content and broadcasting. Moreover, the graduates can become entrepreneurs, and
+      others work as IT professionals in a variety of settings
+  utter_description_bachelor_of_science_in_cyber_security_and_forensics_engineering:
+  - text: Bachelor of science in Cyber security and Digital Forensic Engineering(BSc CSDFE) is aimed at students who aspire to become; digital forensics analysts, cryptologists,Infomation security engineers, information systems security analysts.
+  utter_bachelor_of_science_in_cyber_security_and_forensics_engineering_entry_requirements:
+  - text: |
+      Two principal passes in Advanced Mathematics and in either Physics or Computer science.
+
+      Appropriate Diploma with at least four O’-level passes (Ds and above) or NVA Level III with less
+      than four ‘O’ level passes or equivalent foreign qualifications as established by either NECTA or
+      VETA.
+  utter_bachelor_of_science_in_cyber_security_and_forensics_engineering_careers:
+  - text: |
+      Job opportunities may include cyber incidents responders, cyber security analysts, digital forensics analysts,
+      cyber investigators, educators, digital forensics engineer, IT security specialist, digital data forensics
+      examiners, information security auditors.
+  utter_description_bachelor_of_science_in_computer_science:
+  - text: Bachelor of science in Computer Science(BSc CS) is is aimed at individuals who aspire to master the knowledge and skills in designing and construction of computers and computer-based systems.
+  utter_bachelor_of_science_in_computer_science_entry_requirements:
+  - text: |
+      Two principal passes in Advanced Mathematics or Computer
+      science and one of the following subjects; Physics,
+      Geography, Economics or Chemistry
+
+      Diploma or Full Technician Certificate (FTC) in Information
+      Technology, Computer Engineering, Computer Science,
+      Electronics, Software Engineering or Telecommunication
+      Engineering with an average of “B’’ or a minimum GPA of
+      3.0.
+  utter_bachelor_of_science_in_computer_science_careers:
+  - text: |
+      Our graduates are employed in various government and private institutions as data base administrator,
+      software developer, Computer systems analyst, Information security analyst, web developer, IT project
+      manager
+  utter_description_bachelor_of_science_in_computer_networks_and_information_engineering:
+  - text: Bachelor of Science in Computer Networks and Information Engineering(BSc CNISE) is designed to produce highly qualified personnel with knowledge and skills required to address new and evolving computer networks and information security challenges facing governments, companies and individuals.
+  utter_bachelor_of_science_in_computer_networks_and_information_engineering_entry_requirements:
+  - text: |
+      Two principal passes in Advanced
+      Mathematics and either Physics or Computer
+      science.
+
+      Diploma or Full Technician Certificate (FTC)
+      in Electronics and Telecommunication
+      Engineering, Telecommunication Networks,
+      “B’’ or a minimum GPA of 3.0.
+  utter_bachelor_of_science_in_computer_networks_and_information_engineering_careers:
+  - text: |
+      Job opportunities may include computer networks
+      engineer, information security engineer, educators,
+      IT security specialist, information security auditors
+  utter_description_bachelor_of_science_in_computer_engineering:
+  - text: Bachelor of science in Computer Engineering(BSc CE) is aimed at individuals who aspire to master the knowledge and skills in designing and construction of computers and computer-based systems.
+  utter_bachelor_of_science_in_computer_engineering_entry_requirements:
+  - text: |
+      Two principal passes in Advanced Mathematics and
+      either Physics or Computer science
+
+      Diploma or Full Technician Certificate (FTC) in
+      Information Technology, Computer Engineering,
+      Computer Science, Electronics, Software Engineering,
+      Computer Networks, or Telecommunication Engineering
+      with an average of “B’’ or a minimum GPA of 3.0
+  utter_bachelor_of_science_in_computer_engineering_careers:
+  - text: |
+      The graduates of this programme are competently
+      designing computer based systems, and managing them in
+      various government and private institutions as systems
+      analysts, software engineer, hardware engineer, testing
+      engineer, IT consultant
+  utter_description_bachelor_of_science_in_information_systems:
+  - text: Bachelor of Science in Business Information Systems is aimed at training those who aspire to become professionals in designing, bulding and managing computer-based infomation systems.
+  utter_bachelor_of_science_in_information_systems_entry_requirements:
+  - text: |
+      Two principal passes in Advanced Mathematics
+      and one of the following subjects: Physics,
+      Geography, Chemistry, Computer Science,
+      Economics, Accountancy or Commerce.
+
+      Diploma or Full Technician Certificate (FTC) in
+      Information Technology, Computer Engineering,
+      Computer Science, Electronic, Software Electronics,
+      Software
+      Engineering or Telecommunication Engineering
+      with an average of “B’’ or a minimum GPA of 3.0
+  utter_bachelor_of_science_in_information_systems_careers:
+  - text: |
+      Our graduates are competitive in the current labour market where the
+      majority are employed in government and private institutions where
+      they hold various positions as Application Analysts, Data Analysts, IT
+      Consultants, Information Systems Managers,Business Analysts
+  utter_description_bachelor_of_science_in_business_information_systems:
+  - text: The BSc -BIS degree programme is aimed at those who want to become information systems professionals specializing in business processes
+  utter_bachelor_of_science_in_business_information_systems_entry_requirements:
+  - text: |
+      Two principal passes in Mathematics/ Physics/
+      Geography/ Chemistry/ Economics/Accountancy/
+      Commerce
+
+      Diploma or Full Technician Certificate (FTC) in Information
+      Technology, Computer Engineering, Computer Science,
+      Electronics, Software Engineering, Computer Networks, or
+      Telecommunication Engineering with an average of “B’’ or a
+      minimum GPA of 3.0.
+  utter_bachelor_of_science_in_business_information_systems:
+  - text: |
+      Our graduates are competitive in the current labour market where the
+      majority are employed in government and private institutions where
+      they hold various positions as Application Analysts, Data Analysts, IT
+      Consultants, Information Systems Managers,Business Analysts,etc.
+  utter_description_bachelor_of_arts_in_economics_and_statistics:
+  - text: Bachelor of Arts in economics and statistics aims to prepare students who seek to aquire advanced knowledge of the theories, principles and analytical techniques in the economics and statistics disciplines
+  utter_bachelor_of_arts_in_economics_and_statistics_requirements:
+  - text: |
+      Two principal passes in the following
+      subjects: Physics, Chemistry, Biology,
+      Advanced Mathematics, Geography,
+      Economics, History, Commerce or
+      Accountancy. In addition, a subsidiary pass
+      in Advanced Mathematics /Basic Applied
+      Mathematics or a minimum of “C” grade in
+      Mathematics at O-Level is required.
+
+      Diploma in Economics or
+      Statistics with an average of ‘B’ or
+      GPA of 3.0 and four passess at
+      O’Level.
+  utter_bachelor_of_arts_in_economics_and_statistics_careers:
+  - text: |
+      Graduates of this degree programme work as
+      Economists, Statisticians, Business Analysts, etc.
+      Prospective employers include research institutions,
+      NGOs, financial Institutions, government and private
+      institutions
+  utter_description_bachelor_of_arts_in_economics:
+  - text: Bachelor of Arts in Economics aims to prepare a cadre of high quality understanding in economics
+  - text: Bachelor of Arts in Economics prepares graduates to be able to use analytical knowledge and skills for effective economic planning and policy formulation
+  utter_bachelor_of_arts_in_economics_entry_requirements:
+  - text: |
+      Two principal passes in the following subjects: Physics, Chemistry, 
+      Biology, Advanced Mathematics, Geography, Economics, History, 
+      Commerce or Accountancy. In addition, a subsidiary pass in 
+      Advanced Mathematics /Basic Applied Mathematics or a minimum of “C” grade in 
+      Mathematics at O-Level is required.
+
+      Diploma in Economics, Accountancy, Commerce, Banking and Finance, 
+      or Tax Administration with an average of ‘B’ or GPA of 3.0 and four passes at O’Level.
+  utter_bachelor_of_arts_in_economics_careers:
+  - text: |
+      Graduates of this degree programme work as Economists, Statisticians, 
+      Business Analysts, etc. Prospective employers include research institutions, 
+      NGOs, financial Institutions, government and private institutions.
+  utter_description_bachelor_of_arts_in_economics_and_sociology:
+  - text: Bachelor of Arts in Economics and Sociology aims to prepare a cadre of high quality understanding in economics
+  utter_bachelor_of_arts_in_economics_and_sociology_requirements:
+  - text: |
+      Two principal passes in the following subjects:
+      Physics, Chemistry, Biology, Advanced
+      Mathematics, Geography, Economics, History,
+      Commerce or Accountancy. In addition, a
+      subsidiary pass in Advanced Mathematics
+      /Basic Applied Mathematics or a minimum of
+      “C” grade in Mathematics at O-Level is
+      required.
+
+      Diploma in Economics or
+      Statistics with an average of ‘B’ or
+      GPA of 3.0 and four passess at
+      O’Level.
+  utter_bachelor_of_arts_in_economics_and_sociology_careers:
+  - text: |
+      Graduates of this degree programme work as
+      Economists, Statisticians, Business Analysts, etc.
+      Prospective employers include research institutions,
+      NGOs, financial Institutions, government and private
+      institutions.
+  utter_description_bachelor_of_arts_in_environmental_economics_and_policy:
+  - text: Bachelor of Arts in Environmental Economics and Policy is structured to assist in the intellectual, social and personal development of the students, preparing them for a range of specialist and generalist positions in the areas of environmental economics as well as serving as professional economists.
+  utter_bachelor_of_arts_in_environmental_economics_and_policy_entry_requirements:
+  - text: |
+      Two principal passes in the following subjects:
+      Biology, Advanced Physics, Chemistry,
+      Mathematics, Geography, Economics, History,
+      Commerce or Accountancy. In addition, a
+      subsidiary pass in Advanced Mathematics /Basic
+      Applied Mathematics or a minimum of “C”
+      grade in Mathematics at O-Level is required.
+
+      Diploma in Environmental Studies, Statistics,
+      Mathematics, Development Studies,
+      Community Development, Economics or
+      Environmental Engineering with an average of
+      “B’’ or a minimum GPA of 3.0.
+  utter_bachelor_of_arts_in_environmental_economics_and_policy_careers:
+  - text: |
+      Graduates of this degree programme work as
+      economists, environmental policy analysts,
+      business consultants, etc. Prospective employers
+      include research institutions, NGOs, Government and private institutions, etc.
+  utter_description_bachelor_of_business_administration:
+  - text: Bachelor of Business Administration prepares competent Business Leaders in the today’s competitive Business Environment
+  utter_bachelor_of_business_administration_entry_requirements:
+  - text: |
+      Two principal passes in the following subjects: History,
+      Geography, Kiswahili, English Language, French,
+      Arabic, Fine Art, Economics, Commerce, Accountancy,
+      Physics, Chemistry, Biology, Advanced Mathematics,
+      Agriculture, Computer Science or Nutrition. If one of
+      the principals is not Advanced Mathematics an
+      applicant must have at least a subsidiary pass in
+      Advanced Mathematics or a minimum of “C” grade in
+      Basic Mathematics at O-Level.
+
+      Diploma in Accountancy, Business Administration,
+      Commerce, Economics, Taxation, Customs and Tax
+      Management, Statistics, Banking and Finance,
+      Financial Administration, Accounting, Government
+      Accounting and Finance, Procurement and Supplies
+      Management or Public Sector Finance Management
+      with an average of “B’’ or a minimum GPA of 3.0.
+  utter_bachelor_of_business_administration_careers:
+  - text: |
+      Career prospects for Business
+      Administration graduates are good all the
+      time. Our graduates are employed by the
+      governemnt and private sector, holding such
+      good positions as: Business project
+      Manager, Bank officer, Sales Manager,
+      Marketing Manager, Loans Officer,
+      Management Consultant,etc
+  utter_description_bachelor_of_commerce_in_accounting:
+  - text: Bachelor of Commerce in Accounting provides professional education for those wishing to become accounting professionals
+  utter_bachelor_of_commerce_in_accounting_entry_requirements:
+  - text: |
+      Two principal passes in the following
+      subjects: History, Geography, Kiswahili,
+      English Language, French, Arabic, Fine Art,
+      Economics,
+      Commerce,
+      Accountancy,
+      Physics, Chemistry, Biology, Advanced
+      Mathematics, Agriculture, Computer Science
+      or Nutrition. If one of the principals is not
+      Advanced Mathematics an applicant must
+      have at least a subsidiary pass in Advanced
+      Mathematics or a minimum of “C” grade in
+      Basic Mathematics at O-Level.
+
+      Diploma in Accountancy, Business Administration, Commerce, Economics,
+      Taxation, Customs and Tax Management,
+      Statistics, Banking and Finance, Financial
+      Administration, Accounting, Government
+      Accounting and Finance, Procurement and
+      Supplies Management or Public Sector
+      Finance Management with an average of “B’’
+      or a minimum GPA of 3.0
+  utter_bachelor_of_commerce_in_accounting_careers:
+  - text: |
+      Our graduates are in high demand, both locally and in
+      international labour markets. Our recent graduates
+      have obtained various positions as Public Accountants,
+      Corporate Accountants, Internal Auditors, Tax
+      Advisors, Management Consultants, Forencis
+      Accountant.
+  utter_description_bachelor_of_commerce_in_enterpreneurship:
+  - text: Bachelor of Commerce in Enterpreneurship focuses on the rapidly changing global economic environment and the opportunities for entrepreneurial activities
+  utter_bachelor_of_commerce_in_enterpreneurship_entry_requirements:
+  - text: |
+      Two principal passes in the following subjects:
+      History, Geography, Kiswahili, English Language,
+      French, Arabic, Fine Art, Economics, Commerce,
+      Accountancy, Physics, Chemistry, Biology,
+      Advanced Mathematics, Agriculture, Computer
+      Science or Nutrition. If one of the principals is not
+      Advanced Mathematics an applicant must have at
+      least a subsidiary pass in Advanced Mathematics or a
+      minimum of “C” grade in Basic Mathematics at
+      O-Level.
+
+      Diploma in Business Administration
+      Entrepreneurship or Procurement and Logistics
+      Management, Accountancy, Banking and Finance,
+      Marketing, Economics or any other related Diploma in
+      Business with an average of ‘B’ or GPA of 3.0 and four
+      passes at O’ Level with an average of ‘B’ or GPA of 3.0
+      and four passes at O’ Level.
+  utter_bachelor_of_commerce_in_enterpreneurship_careers:
+  - text: |
+      While a good number of our graduates are
+      succefully running their own businesses,
+      others have obtained good positions in the
+      government and private sector such as
+      Business Manager, Marketing Researcher,
+      Loans Advisor, Sales Manager, Business
+      Consultant, NGO Fund raiser,etc.
+  utter_description_bachelor_of_commerce_in_finance:
+  - text: |
+      Bachelor of Commerce in Finance is designed for those who are fascinated with managing financial resources.
+      It focuses on issues related to financial markets and financial risk management.
+  utter_bachelor_of_commerce_in_finance_entry_requirements:
+  - text: |
+      Two principal passes in the following subjects: History,
+      Geography, Kiswahili, English Language, French, Arabic,
+      Fine Art, Economics, Commerce, Accountancy, Physics,
+      Chemistry, Biology, Advanced Mathematics, Agriculture,
+      Computer Science or Nutrition. If one of the principals is
+      not Advanced Mathematics an applicant must have at least
+      a subsidiary pass in Advanced Mathematics or a minimum
+      of “C” grade in Basic Mathematics at O-Level.
+
+      Diploma in Accountancy, Business Administration,
+      Commerce, Economics, Taxation, Customs and Tax
+      Management, Statistics, Banking and Finance,
+      Financial Administration, Accounting, Government
+      Accounting and Finance, Procurement and Supplies
+      Management or Public Sector Finance Management
+      with an average of “B’’ or a minimum GPA of 3.0.
+  utter_bachelor_of_commerce_in_finance_careers:
+  - text: |
+      Graduates from this programme work as
+      Financial Analysts,Funds Managers,
+      Investment Managers, Risk Management
+      Analysts, etc. Recent and prospective
+      employers include Government, Banking
+      Institutions, Microfinance Institutions, as well
+      as Corporate recruiters such as KPMG, PWC,
+      Ernst & Young
+  utter_description_bachelor_of_commerce_in_human_resource_management:
+  - text: |
+      Bachelor of Commerce in Human Resource Management is designed for those who are fascinated with managing people 
+      as effectively as possible for the benefits of the individua, the organization and society.
+  utter_bachelor_of_commerce_in_human_resource_management_entry_requirements:
+  - text: |
+      Two principal passes in the following
+      subjects: History, Geography, Kiswahili,
+      English Language, French, Arabic, Fine Art,
+      Economics, Commerce, Accountancy,
+      Physics, Chemistry, Biology, Advanced
+      Mathematics, Agriculture, Computer Science
+      or Nutrition. If one of the principals is not
+      Advanced Mathematics an applicant must
+      have at least a subsidiary pass in Advanced
+      Mathematics or a minimum of “C” grade in
+      Basic Mathematics at O-Level.
+
+      Diploma in Accountancy, Business Administration, Commerce, Economics,
+      Taxation, Customs and Tax Management,
+      Statistics, Banking and Finance, Financial
+      Administration, Accounting, Government
+      Accounting and Finance, Procurement and
+      Supplies Management or Public Sector
+      Finance Management with an average of “B’’
+      or a minimum GPA of 3.0.
+  utter_bachelor_of_commerce_in_human_resource_management_careers:
+  - text: |
+      Our graduates in HRM have found jobs in the
+      government and public institutions, holding such
+      good positions as HR Managers, Compensation
+      Managers, Employee Relations Officers,
+      Administrative Managers, HR Consultants
+  utter_description_bachelor_of_commerce_in_information_management:
+  - text: Bachelor of Commerce in Information Management is designed for creating professionals that are capable of applying Information Technology to manage and analyze operations and solve business problems.
+  utter_bachelor_of_commerce_in_information_management_entry_requirements:
+  - text: |
+      Two principal passes in the following subjects: History,
+      Geography, Kiswahili, English Language, French,
+      Arabic, Fine Art, Economics, Commerce, Accountancy,
+      Physics, Chemistry, Biology, Advanced Mathematics,
+      Agriculture, Computer Science or Nutrition. If one of the
+      principals is not Advanced Mathematics an applicant
+      must have at least a subsidiary pass in Advanced
+      Mathematics or a minimum of “C” grade in Basic
+      Mathematics at O-Level.
+
+      Diploma in Accountancy, Business Administration,
+      Commerce, Economics, Taxation, Customs and Tax
+      Management, Statistics, Banking and Finance,
+      Financial Administration, Accounting, Government
+      Accounting and Finance, Procurement and Supplies
+      Management or Public Sector Finance Management
+      with an average of “B’’ or a minimum GPA of 3.0
+  utter_bachelor_of_commerce_in_information_management_careers:
+  - text: |
+      Graduates of this programme obtain
+      good positions in the Government and
+      Private institutions as Information Managers,
+      Content Strategist, Business managers,
+      IT sales Managers, Business Information Analysts.
+  utter_description_bachelor_of_commerce_in_international_business:
+  - text: Bachelor of Commerce in International Business produces graduates who are capable of working either in a multinational company, multinational team, or in a business abroad.
+  utter_bachelor_of_commerce_in_international_business_entry_requirements:
+  - text: |
+      Two principal passes in the following subjects: History,
+      Geography, Kiswahili, English Language, French,
+      Arabic, Fine Art, Economics, Commerce, Accountancy,
+      Physics, Chemistry, Biology, Advanced Mathematics,
+      Agriculture, Computer Science or Nutrition. If one of
+      the principals is not Advanced Mathematics an
+      applicant must have at least a subsidiary pass in
+      Advanced Mathematics or a minimum of “C” grade in
+      Basic Mathematics at O-Level.
+
+      Diploma in Accountancy, Business Administration,
+      Commerce, Economics, Taxation, Customs and Tax
+      Management, Statistics, Banking and Finance,
+      Financial Administration, Accounting, Government
+      Accounting and Finance, Procurement and Supplies
+      Management or Public Sector Finance Management
+      with an average of “B’’ or a minimum GPA of 3.0
+  utter_bachelor_of_commerce_in_international_business_careers:
+  - text: |
+      Marketing Manager, International Banker, International HR Manager, International
+      Investment Manager, Importer and Exporter, Customs Officer, International Management
+      Consultant
+  utter_description_bachelor_of_commerce_in_marketing:
+  - text: Bachelor of Commerce in Marketing is designed to provide students with a sound background in business, together with an understanding of marketing’s role within and between organizations.
+  utter_bachelor_of_commerce_in_marketing_entry_requiremets:
+  - text: |
+      Two principal passes in the following subjects: History,
+      Geography, Kiswahili, English Language, French,
+      Arabic, Fine Art, Economics, Commerce, Accountancy,
+      Physics, Chemistry, Biology, Advanced Mathematics,
+      Agriculture, Computer Science or Nutrition. If one of the
+      principals is not Advanced Mathematics an applicant
+      must have at least a subsidiary pass in Advanced
+      Mathematics or a minimum of “C” grade in Basic
+      Mathematics at O-Level.
+
+      Diploma in Accountancy, Business Administration,
+      Commerce, Economics, Taxation, Customs and Tax
+      Management, Statistics, Banking and Finance,
+      Financial Administration, Accounting, Government
+      Accounting and Finance, Procurement and Supplies
+      Management or Public Sector Finance Management
+      with an average of “B’’ or a minimum GPA of 3.0.
+  utter_bachelor_of_commerce_in_marketing_careers:
+  - text: |
+      Our graduates work for various organizations
+      as Marketing Manager, Marketing researcher,
+      Advertiser, Sales Manager, Product/Brand
+      Manager, Fundraiser, Public Relations Officer.
+  utter_description_bachelor_of_commerce_in_procurement_and_logistics_management:
+  - text: Bachelor of Commerce in Procurement and Logistics Management aims to provide a broad theoretical and applied knowledge required to manage effectively the development, procurement, contracting, and channeling of material, services, and major systems.
+  utter_bachelor_of_commerce_in_procurement_and_logistics_management_entry_requirements:
+  - text: |
+      Two principal passes in the following subjects: History,
+      Geography, Kiswahili, English Language, French, Arabic,
+      Fine Art, Economics, Commerce, Accountancy, Physics,
+      Chemistry, Biology, Advanced Mathematics, Agriculture,
+      Computer Science or Nutrition. If one of the principals is not
+      Advanced Mathematics an applicant must have at least a
+      subsidiary pass in Advanced Mathematics or a minimum of
+      “C” grade in Basic Mathematics at O-Level.
+
+      Diploma in Accountancy, Business Administration,
+      Commerce, Economics, Taxation, Customs and Tax
+      Management, Statistics, Banking and Finance, Financial
+      Administration, Accounting, Government Accounting and
+      Finance, Procurement and Supplies Management or Public
+      Sector Finance Management with an average of “B’’ or a
+      minimum GPA of 3.0
+  utter_bachelor_of_commerce_in_procurement_and_logistics_management_careers:
+  - text: |
+      Graduates in procurement and logistics
+      management are in high demand practically in all
+      local and international organizations. Our
+      graduates are employed in both public and
+      private institutions holding such positions as
+      Procurement Officer, Supply chain Manager,
+      Purchasing Manager, Distribution Manager
+  utter_description_bachelor_of_commerce_in_tourism_and_hospitality_management:
+  - text: Bachelor of Commerce in Tourism and Hospitality Management prepares students for employment in the tourism and hospitality industry.
+  utter_bachelor_of_commerce_in_tourism_and_hospitality_management_entry_requirements:
+  - text: |
+      Two principal passes in the following subjects:
+      History, Geography, Kiswahili, English Language,
+      French, Arabic, Fine Art, Economics, Commerce,
+      Accountancy, Physics, Chemistry, Biology,
+      Advanced Mathematics, Agriculture, Computer
+      Science or Nutrition. If one of the principals is not
+      Advanced Mathematics an applicant must have at
+      least a subsidiary pass in Advanced Mathematics or a
+      minimum of “C” grade in Basic Mathematics at O-Level.
+
+      Diploma in Accountancy, Business Administration,
+      Commerce, Economics, Taxation, Customs and Tax
+      Management, Statistics, Banking and Finance,
+      Financial Administration, Accounting, Government
+      Accounting and Finance, Procurement and Supplies
+      Management or Public Sector Finance Management
+      with an average of “B’’ or a minimum GPA of 3.0.
+  utter_bachelor_of_commerce_in_tourism_and_hospitality_management_careers:
+  - text: |
+      Our graduates find jobs in both Government
+      and Private institutions where they work as
+      Tourism Managers, Hotel Managers,
+      Reservation Officers, Travel Manager, Resort
+      Manager, Tourist Information Centre
+      Supervisor.
+  utter_description_bachelor_of_science_in_environmental_sciences:
+  - text: Bachelor of Science in Environmental sciences offers interdisciplinary insights into the study of solving these problems.
+  utter_bachelor_of_science_in_environmental_sciences_entry_requirements:
+  - text: |
+      Two principal passes in any of
+      the following subjects: Advanced
+      Mathematics, Physics, Chemistry,
+      Biology or Geography.
+
+      Diploma in Laboratory Science
+      and Technology, Food Science and
+      Technology, Environmental Health
+      Sciences, Water Supply and Sanitation
+      Engineering, Civil Engineering,
+      Mining Engineering,Water Resources
+      Engineering, Irrigation Engineering,
+      Geology, Aquaculture/ Marine Sciences,
+      Agriculture, Forestry, or Botany, with an
+      average of ‘B’ or a GPA of 3.0.
+  utter_bachelor_of_science_in_environmental_sciences_careers:
+  - text: |
+      Graduates from this degree programme work
+      for both government and private institutions as
+      well as NGOs. They are holding good positions
+      such as Environmental Scientist, Environmental
+      Officers, Environmental Managers, Environmental
+      Coordinators, Environmental Consultant.
+  utter_description_bachelor_of_science_in_applied_geology:
+  - text: Bachelor of science In Applied Geology is a three year programme specially designed to produce highly qualified professionals in the field of applied geology.
+  utter_bachelor_of_science_in_applied_geology_entry_requirements:
+  - text: |
+      Two principal passes in the following subjects:
+      Advanced Mathematics, Physics, Chemistry,
+      Biology or Geography. In addition, an applicant
+      must have a minimum of “D” grade in Physics and
+      Chemistry at O-level.
+
+      Diploma in Petroleum, Mining Engineering,
+      Mineral Processing Engineering, Geology, Oil and
+      Gas Engineering or Mineral Exploration with an
+      average of “B’’ or a minimum GPA of 3.0. In
+      addition, the applicant must have a minimum of
+      “D” grade in any two of the following subjects:
+      Mathematics, Physics or Chemistry at O-Level.
+  utter_bachelor_of_science_in_applied_geology_careers:
+  - text: |
+      Our graduates work for both government and
+      private companies, occupying good positions
+      as geologist, Geochemist, Geophysist,
+      Hydrogeologist, Minerals surveyor.
+  utter_description_bachelor_of_science_in_chemical_and_processing_engineering:
+  - text: Bachelor of Science in chemical and Process Engineering aims at providing the processing industry with highly trained processing Engineers who are able to exploit the potential resources sustainably and in an environmentally sound manner.
+  utter_bachelor_of_science_in_chemical_and_processing_engineering_entry_requirements:
+  - text: |
+      Two principal passes in Advanced Mathematics and Chemistry.
+
+      Diploma in Chemical engineering, Petroleum engineering, Mining Engineering, Mineral Processing
+      Engineering, Geology, Oil and Gas Engineering or Mineral Exploration with an average of “B’’ or a minimum
+      GPA of 3.0.
+  utter_bachelor_of_science_in_chemical_and_processing_engineering_careers:
+  - text: |
+      Graduate of this degree programme are highly demanded in chemical and processing industries for undertaking
+      plant designing, operations and maintenance.
+  utter_description_bachelor_of_science_in_environmental_engineering:
+  - text: Bachelor of science in environmental Engineering is a four year degree programme aimed at producing sufficient environmental engineers that will be able to provide tangible solutions to environmental challenges which are currently facing Tanzania and the world at large.
+  utter_bachelor_of_science_in_environmental_engineering_entry_requirements:
+  - text: |
+      Two principal passes at “D” grade in Advanced Mathematics and
+      Physics. In addition, an applicant must have a minimum of “E”
+      grade in either Chemistry or Geography at A-Level. Those without
+      a principal pass in Chemistry must have a minimum of “C” grade
+      in Chemistry at O-Level.
+
+      Diploma in Water Supply and Sanitation Engineering,
+      Environmental Engineering, Civil Engineering, Mining
+      Engineering, Water Resources Engineering or Irrigation
+      Engineering with an average of “B” or a minimum GPA
+      of 3.0. In addition, an applicant must have a minimum of
+      “D” grade in Mathematics and in two of the following
+      subjects: Physics, Chemistry, Biology or Geography at
+      O-Level.
+  utter_bachelor_of_science_in_environmental_engineering_careers:
+  - text: |
+      Graduates from this degree programme work
+      for government and private institutions as well
+      as NGOs. They are holding good positions
+      such as Environmental Engineers, Environmental Officers,
+      Environmental Managers, Environmental Coordinators, Environmental Consultant
+  utter_description_bachelor_of_science_in_geoinformatics:
+  - text: Bachelor of Science in GeoInformatics is the most contemporary and evolving degree programme that uses information science infrastructure to address the problems of the earth and related branches of science and engineering.
+  utter_bachelor_of_science_in_geoinformatics_entry_requirements:
+  - text: |
+      Two principal passes in Physics and Advanced
+      Mathematics.
+
+      Diploma or Full Technician Certificate (FTC) in
+      Geomatics, Land Surveying, Cartography, Mining
+      Surveying, Civil Engineering, Civil and Transport
+      Engineering, Irrigation Engineering or Computer
+      Science with an average of “B” or a minimum
+      GPA of 3.0. In addition, an applicant must have a
+      minimum of “C” grade in Mathematics and in two
+      of the following subjects: Physics, Chemistry or
+      Geography at O-Level.
+  utter_bachelor_of_science_in_geoinformatics_careers:
+  - text: |
+      Our graduates work for various governmental and private companies, holding
+      good positions as Environmental Engineer, Environmental Project Manager,
+      Environmental Health and Safety Coordinator, Environmental Engineering
+      Consultant
+  utter_description_bachelor_of_science_in_metallurgy_and_mineral_processing_engineering:
+  - text: Bachelor of science in metallurgy and mineral processing engineering is a four year programme aiming at offering aspects of mineral science engineering and technology that is professionally related o the ever expanding minerals industry of Tanzania.
+  utter_bachelor_of_science_in_metallurgy_and_mineral_processing_engineering_entry_requirements:
+  - text: |
+      Two principal passes of at least
+      ‘D’ grade in Mathematics, Physics
+      or Chemistry at A’ Level, and
+      those without principal pass in
+      Chemistry, must have at least ‘C’
+      in Chemistry at O’ Level.
+
+      Diploma or FTC in Mineral
+      Processing, with a credit pass
+      in Mathematics and with a GPA
+      not less than 3.5, or ‘B+’ grade or
+      distinction or ‘‘B’ grade for FTC,
+      and five passes with at least three
+      credits at O’ Level.
+  utter_bachelor_of_science_in_metallurgy_and_mineral_processing_engineering_careers:
+  - text: |
+      There is a growing demand for mineral science
+      engineers due to increasing consumption worldwide
+      of mineral resources. Hence the future in this career
+      is quite bright. Our graduates find such lucrative
+      positions as Minerologist, Extraction Metallurgist,
+      Petroleum Technologist
+  utter_description_bachelor_of_science_in_mining_engineering:
+  - text: Bachelor of Science in Mining engineering is designed to provide students with a broad background for a modern mining career and thus to produce highly qualified mining engineers to suit the fast growing mining industry
+  utter_bachelor_of_science_in_mining_engineering_entry_requirements:
+  - text: |
+      Direct entry qualifications
+      Two principal passes of at least a ‘D’
+      grade in Mathematics and Physics
+      and at least an ‘E’ grade in Chemistry
+      or Geography at A’ Level.
+
+      Diploma/ FTC in Mining Engineering
+      with an average of ‘B’ or GPA of 3.0
+      and four passes at O’ Level Science
+      subjects.
+  utter_bachelor_of_science_in_mining_engineering_careers:
+  - text: |
+      Our graduates are in high demand in government and private companies as
+      Mining Engineers, Mining Managers, Mining Consultants.
+  utter_description_bachelor_of_science_in_petroleum_enginering:
+  - text: Bachelor of Science in Renewable Energy Engineering is designed to provide the oil and gas industry with highly trained Petroleum Engineers who are able to exploit the potential resources sustainably and in an environmentally sound manner. With appropriate practical exposure, graduates from this program will meet the requirements for professional registration and will be able to develop careers in the higher levels of the petroleum industry.
+  utter_bachelor_of_science_in_petroleum_engineering_entry_requirements:
+  - text: |
+      The candidate should have TWO principal pass of at
+      least “D” at A’ level in Advanced Mathematics and
+      Physics.
+
+      Appropriate Diploma with “B” average credit or higher
+      from a recognized institution approved by the Senate.
+      In addition one must have at least “B” grade pass in any
+      Mathematics related subject in the Diploma or “C” pass
+      in Mathematics and any two principal passes in Physics,
+      Chemistry and Geography in “O” level.
+  utter_bachelor_of_science_in_petroleum_engineering_careers:
+  - text: The oil and gas industry in Tanzania is expected to grow significantly in the coming ten years and hence giving promising future for our graduates in Petroleum engineering. Prospective employers include both government and private companies in the petroleum industry.
+  utter_description_bachelor_of_science_in_renewable_energy_engineering:
+  - text: Bachelor of Science in Renewable Energy Engineering is designed to ideally produce graduates who are well grounded in the fundamental and scientific principles appropriate to their discipline, have a basic knowledge of applied engineering and management and are able to think independently, critically, logically, scientifically, deductively, inductively and creatively.
+  utter_bachelor_of_science_in_renewable_energy_engineering_entry_requirements:
+  - text: |
+      Two principal passes in Mathematics and Physics,
+      and a principal or subsidiary pass in Chemistry at A’
+      Level. Those without a principal or subsidiary pass in
+      Chemistry must have at least a pass at O’ Level.
+
+      Diploma in Renewable Energy or any
+      other related Diplomas with an average
+      of ‘B’ or a GPA of 3.0 from a recognized
+      institution approved by the Senate. In
+      addition, one must have at least ‘B’ grade
+      pass in any mathematics related subject
+      in the Diploma or “C” pass in Mathematics
+      and any two principal passes in Physics,
+      Chemistry, and Geography in O’ Level.
+  utter_bachelor_of_science_in_renewable_energy_engineering_careers:
+  - text: |
+      Career prospects for our graduates in this programme
+      are quite promising, especially in companies that are
+      envolved in enviromentally friendly energy production.
+      Common employers include the government and
+      private energy companies.
+  utter_description_diploma_in_mineral_exploitation_and_mining_geology:
+  - text: Diploma in Mineral Exploration and Mining Geology aims to address the shortage of professionally trained middle level man power in the mining industry in Tanzania.
+  utter_diploma_in_mineral_exploitation_and_mining_geology_entry_requirements:
+  - text: |
+      (i) One Principal in one of the following subjects:
+      Mathematics, Physics, Chemistry and a Subsidiary
+      pass in any of the mentioned subjects in A’ Level. OR
+      ii) Two subsidiaries in A’ Level in the subjects listed
+      above and a credit in O’ level Mathematics or Physics
+      OR
+      iii) NTA level 5 certificate or Professional Technician
+      Level II Certificate in a related programme from the
+      University of Dodoma or any relevant institution with
+      minimum pass of “B”
+  utter_diploma_in_mineral_exploitation_and_mining_geology_careers:
+  - text: |
+      Graduates of this programme are expected to fill in the labour shortage in the sector of mining and gas in the
+      country. Prospective employers include government as well as private mining companies
+  utter_description_diploma_in_mining_engineering:
+  - text: Diploma in Mining Engineering attracts people who wish to be knowledgeable on how to locate, design, develop, exploit and manage mines.
+  utter_diploma_in_mining_engineering_entry_requirements:
+  - text: |
+      (i) One Principal in one of the following subjects:
+      Mathematics, Physics, Chemistry and a Subsidiary
+      pass in any of the mentioned subjects in A’ Level. OR
+      ii) Two subsidiaries in A’ Level in the subjects listed
+      above and a credit in O’ level Mathematics or Physics
+      OR
+      iii) NTA level 5 certificate or Professional Technician
+      Level II Certificate in a related programme from the
+      University of Dodoma or any relevant institution with
+      minimum pass of “B”
+  utter_diploma_in_mining_engineering_careers:
+  - text: |
+      The professionals with a diploma in Mining
+      Engineering from our University are very
+      competitive in the labour market. The majority
+      are working for the government and private
+      companies in the mining industry
+  utter_college_of_natural_and_mathematical_science:
+  - text: Absolutely the College Of Natural and Mathematical sciences (CNMS),
+  - text: You can find all of those Staff at the College Of Natural and Mathematical sciences (CNMS),
+  - text: College Of Natural and Mathematical sciences (CNMS) is the right option for you
+  utter_programmes_offered_cnms:
+  - text: |
+      1 Bachelor of Science with Education (BSc-ED)
+      2 Bachelor of Science in Biology (BSc. BIOL)
+      3 Bachelor of Science in Chemistry (BSc. CHEM)
+      4 Bachelor of Science in Mathematics (BSc. Mathematics)
+      5 Bachelor of Science in Aquaculture and Aquatic Science
+      6 Bachelor of Science in Statistics (BSc. Statistics)
+      7 Bachelor of Science in Mathematics & Statistics (There are courses for two years only)
+      8 Bachelor of Science in Actuarial Statistics (BSc. Actuarial Statistics)
+      9 Bachelor of Science in Physics (BSc – Physics)
+      10 Bachelor of Science in Biotechnology and Bioinformatics
+      11 Diploma in Forensic Science
+      12 Diploma in Forest Management and Nature Conservation
+  utter_description_bachelor_of_science_in_acturial_statistics:
+  - text: Bachelor of science in mathematics and statistics is planned to produce graduates with the theoretical and practical knowledge of Statistics, Mathematics and Actuarial science
+  utter_bachelor_of_science_in_acturial_statistics_entry_requirements:
+  - text: |
+      Two principal passes in Advanced Mathematics at a minimum of “D” gradeand in one of the following
+      subjects: Geography, Economics, Commerce, Accountancy, Physics, Chemistry, Biology, Computer Science
+
+      Diploma in Mathematics or Statistics with an average of “B’’ or a minimum GPA of 3.0
+  utter_bachelor_of_science_in_acturial_statistics_careers:
+  - text: |
+      Most actuaries are employed by insurance companies or employee benefits consulting firms.
+      Employment prospects for actuaries are excellent and remain in high demand for
+      foreseeable future, particularly in various government sectors, banking industry, non-government financial
+      organizations dealing with various actuarial work plans, and insurance companies
+  utter_description_bachelor_of_science_in_aquaculture_and_aquatic_science:
+  - text: Bachelor of science in aquaculture and aquatic science produces highly qualified graduates with knowledge and skills towards sustainable management of aquatic resources and environment.
+  utter_bachelor_of_science_in_aquaculture_and_aquatic_science_entry_requirements:
+  - text: |
+      Two principal passes in Science
+      subjects, one of which must be in
+      Biology.
+
+      Diploma in Aquaculture and Aquatic Sciences,
+      Marine Sciences, Agriculture, Forestry or Botany
+      with an average of “B’’ or a minimum GPA of 3.0.
+      In addition, an applicant must have a minimum of
+      “C” grade in Biology at O-Level.
+  utter_bachelor_of_science_in_aquaculture_and_aquatic_science_careers:
+  - text: |
+      Our graduates are highly demanded by the NGOs, Government and private
+      institutions where they work as Fisheries Managers, Aquatic Ecologists and
+      Marine Resources Conservationists
+  utter_description_bachelor_of_science_in_biology:
+  - text: Bachelor of science in Biology is meant to prepare qualified biologist to meet the stakeholders demand, to go with the advancement of science and technology as well as to promote self employment.
+  utter_bachelor_of_science_in_biology_entry_requirements:
+  - text: |
+      Two principal passes at a ‘D’ grade
+      or higher in Biology and one of the
+      following subjects: Chemistry, Physics
+      or Geography
+
+      Diploma in Education, Agriculture,
+      Forestry with an average of ‘B’ or
+      a GPA of 3.0 and four passes at O’
+      Level and a credit pass in Biology
+      at O’ Level.
+        
+  utter_bachelor_of_science_in_biology_careers:
+  - text: |
+      Graduates of this degree programme find positions in the Government,
+      NGOs as well as private institutions where they work as biolgists,
+      Microbiologists, Research Scientists, Nature Conservationists, Sustainability
+      Consultants and Ecologists.
+  utter_description_bachelor_of_science_in_biotechnology_and_bioinformatics:
+  - text: Bachelor of science in Biotechnology and Bioinformatics will equip an individual to be competent in the modern world which requires the use of biological molecular science in various fields, such as agriculture industries and health.
+  utter_bachelor_of_science_in_biotechnology_and_bioinformatics_entry_requirements:
+  - text: |
+      Two principal passes with a total of 4.0 points from two subjects in advanced secondary education, one of
+      which must be Biology
+        
+      Diploma in fields with components of Biology, Chemistry or Physics with an average of “B’’ or a minimum
+      GPA of 3.0
+  utter_bachelor_of_science_in_biotechnology_and_bioinformatics_careers:
+  - text: |
+      Graduates of this degree programme are highly required in Livestock, laboratory, agriculture, hospital,
+      industries, research institute, conservation sectors and academic institutions
+  utter_description_bachelor_of_science_in_chemistry:
+  - text: Bachelor of science in Chemistry seeks to produce graduates who will have working knowledge in the main areas of chemistry.
+  utter_bachelor_of_science_in_chemistry_entry_requirements:
+  - text: |
+      Two principal passesin Chemistry and one of the
+      following subjects: Physics,Mathematics, Biology, Geography or
+      Nutrition, with a minimum of “C” grade in
+      Chemistry at A-Level.
+
+      Diploma in Education (with one of the science
+      teaching subjects being Chemistry),
+      Pharmaceutical Sciences or Laboratory
+      Technology with an average of “B’’ or a
+      minimum GPA of 3.0.In addition, an applicant
+      must have a minimum of “C” grade in Chemistry
+      at O-Level.
+  utter_bachelor_of_science_in_chemistry_careers:
+  - text: |
+      Graduates of this degree programme find positions in the Government, NGOs as well as private
+      institutions where they work as Analytical Chemists, Quality Control and Assurance Officers,
+      Chemistry Teachers, Toxicologists, Forensic Scientists at the Government Chemist Laboratory
+      Authority (GCLA), and other Chemistry related industries
+  utter_description_bachelor_of_science_in_mathematics:
+  - text: Bachelor of science in Mathematics aims at preparing qualified mathematicians who can serve different sectors in the country and worldwide which include, but not limited to, financial institutions; statistical bureaus; research institutions industries.
+  utter_bachelor_of_science_in_mathematics_entry_requirements:
+  - text: |
+      Two principal passes at a minimum of
+      “D” grade in Advanced Mathematics
+      and in one of the following subjects:
+      Geography, Economics, Commerce,
+      Accountancy, Physics, Chemistry, or
+      Computer Science.
+
+      Diploma in Education, Mathematics, Statistics
+      or Engineering with an average of “B’’ or a
+      minimum GPA of 3.0.
+  utter_bachelor_of_science_in_mathematics_careers:
+  - text: |
+      Graduates of this degree programme find positions in the Government, NGOs as well as private
+      institutions that need skills in mathematics, such as insurance agencies, financial institutions, real
+      estate firms, aviation authorities, meteorology, schools, etc. Mathematicians can also work with other
+      science related fields such as physics, chemistry, biology and engineering in the area of mathematical
+      modelling
+  utter_description_bachelor_of_science_in_mathematics_and_statistics:
+  - text: Bachelor of science in mathematics and statistics is geared to produce graduates with the skills necessary to assist in planning, decision making and research.
+  utter_bachelor_of_science_in_mathematics_and_statistics_entry_requirements:
+  - text: |
+      Two principal passes in Advanced
+      Mathematics at a minimum of “D” gradeand in
+      one of the following subjects: Geography,
+      Economics, Commerce, Accountancy,
+      Physics, Chemistry, Biology, Computer Science.
+  utter_bachelor_of_science_in_mathematics_and_statistics_careers:
+  - text: |
+      In this internet era, everywhere in the world raw data are available for exploring and understanding the
+      physical situation. Mathematicians and statisticians are highly sought to analyse and make sense of the
+      available vast data, to provide usable information to businesses and governments that include but not
+      limited to: the finance industry, the retail industry, the pharmaceuticals industry, banking, the
+      government and local councils, the manufacturing industry and the IT industry
+  utter_description_bachelor_of_science_in_physics:
+  - text: Bachelor of science in Physics is a three year programme which offers a wider variety of options in the area of physics, electronics as well as materials science. The programme suits all people since Physics is all around us.
+  utter_bachelor_of_science_in_physics_entry_requirements:
+  - text: |
+      Two principal passes at a ‘D’ grade or
+      higher in Physics and in the following
+      subjects: Mathematics, Chemistry,
+      Biology or Geography.
+
+      Diploma in Education, Engineering,
+      Laboratory Technology with an average
+      of “B’’ or a minimum GPA of 3.0. In
+      addition, an applicant must have a
+      minimum of “C” grade in Physics at
+      O-LeveL.
+  utter_bachelor_of_science_in_physics_careers:
+  - text: |
+      Our graduates work with various government, NGO and private institutions as Physicists at Tanzania
+      Atomic Energy Commission (TAEC), Hospitals (Medical physicist), Tanzania Bureau of Standards
+      (TBS), Tanzania Civil Aviation Authority (TCAA), Meteorology, Renewable Energy sector, mining,
+      physics teachers and Research scientists
+  utter_description_bachelor_of_science_in_statistics:
+  - text: Bachelor of science in statistics is geared to produce graduates with the skills necessary to assist in planning, decision making and research.
+  utter_bachelor_of_science_in_statistics_entry_requirements:
+  - text: |
+      Two principal passes at a minimum of “D” grade in
+      Advanced Mathematics and in one of the following
+      subjects: Geography,Economics,Commerce,
+      Accountancy, Physics, Chemistry, or Computer
+      Science.
+
+      Full Technician Certificate (FTC) or Diploma in
+      Statistics, Mathematics or Engineering with an average of
+      “B’’ or a minimum GPA of 3.0.
+  utter_bachelor_of_science_in_statistics_careers:
+  - text: |
+      Graduates in this degree programme are highly demanded by the NGOs, government authorities and
+      private institutions such as insurance companies and bureau of statistics, where they secure good positions
+      as Statisticians, Market Research Analysts, Operation Research Analysts, Biostatisticians, in etc.
+      Statisticians can also openor get employed in consultancy firms.
+  utter_description_bachelor_of_science_with_education:
+  - text: Bachelor of Science with education aiming at preparing qualified teachers in their respective science subject specializations.
+  utter_bachelor_of_science_with_education_entry_requirements:
+  - text: |
+      Two principal passes, with a minimum of “D”
+      grade in the following subjects: Biology,
+      Chemistry, Advanced Mathematics, Physics or
+      Geography
+
+      Diploma in Education with an average of “B’’ or a
+      minimum GPA of 3.0. In addition, an applicant
+      must have a minimum of “C” grade in two of the
+      following Subjects: (Physics, Chemistry, Biology,
+      Mathematics, or Geography) at O- Level.
+  utter_bachelor_of_science_with_education_careers:
+  - text: |
+      Graduates of this programme are very competitive in the local and international labour markets.
+      Most of our graduates secure teaching positions in the government and private institutions.
+      Through the science teaching subjects, graduates can venture into other science related industries.
+  utter_description_diploma_in_forensic_science:
+  - text: Diploma in Forensic science is very useful in the forensic science laboratories, police departments, academic libraries, law firms and law school libraries, academic departments teaching forensics, government agencies and public libraries. Also it creates a strong bridge between science and law.
+  utter_diploma_in_forensic_science_entry_requirements:
+  - text: |
+      Students who completed A’ level
+      subjects including Chemistry,
+      Biology, Physics, Food Science and
+      other science related field with at
+      least two subsidiaries (S) or above
+      wherein one is of Chemistry
+
+      Diploma in laboratory technology
+      with an average pass of “B” or above,
+      from a recognized institution
+  utter_diploma_in_forensic_science_careers:
+  - text: |
+      Along with having an educational foundation for continuing
+      education, graduates obtain employment in chemical analysis,
+      forensic technology, police departments, agriculture and food
+      research, chemical production, technical sales, occupational health
+      and hygiene, environmental protection, mining and industrial
+      laboratories
+  utter_description_diploma_in_forest_management_and_nature_conservation:
+  - text: Diploma in Forensic science is a two-year programme which equips students with ability to solve terrestrial environmental and socio- cultural challenges that are  facing communities and the country in general, through application of biological approaches.
+  utter_diploma_in_forest_management_and_nature_conservation_entry_requirements:
+  - text: |
+      One Principal pass in any science
+      subjects in Advanced Level of A’
+      leve OR Subsidiary passes in two science
+      based subjectsone being Biology
+      in A’ level
+
+      A relevant Certificate from a
+      recognized institution with a
+      minimum average pass of “B”
+  utter_diploma_in_forest_management_and_nature_conservation_careers:
+  - text: |
+      This programme produces technicians who obtain good positions in
+      the NGOs, Governmentand private institutions dealing with issues
+      related to Forest Management and Nature Conservation.
+  utter_school_of_medicine_and_dentistry:
+  - text: Absolutely the School of medicine and dentisty,
+  - text: You can find all of those Staff at the School of medicine and dentisty,
+  - text: School of medicine and dentisty is the right option for you
+  utter_programmes_offered_school_of_medicine_and_dentistry:
+  - text: |
+      1 Doctor of Medicine (MD)
+      2 Diploma in Pharmacy
+      3 Diploma in Medical Laboratory Technology (DMLT)
+  utter_description_diploma_in_medical_laboratory:
+  - text: Diploma in medical laboratory technology is intended to prepare medical laboratory technicians who are responsible for managing all medical laboratory and diagnostic activities at various levels of health service delivery points i.e. from the level of dispensary to the hospital.
+  utter_diploma_in_medical_laboratory_entry_requirements:
+  - text: |
+      (i) Certificate of Secondary Education Examination (CSEE)
+      with at least three credit passes in Science subjects:Physics
+      or Mathematics, Chemistry and Biology, OR
+      ii) Advanced certificate of secondary Education
+      Examination (ACSEE) with at least one principal
+      pass in Science subjects: Chemistry, Biology, Physics,
+      Geography, Nutrition, or Mathematics, OR
+      iii) Two subsidiary passes in Chemistry, Biology,
+      Physics, Geography, Nutrition or Mathematics.
+
+      The candidate who successful completed certificate
+      in health related field (NTA level 5) with a
+      cumulative GPA provided they have grade “B” or
+      above.
+  utter_diploma_in_medical_laboratory_careers:
+  - text: |
+      Medical laboratory technicians are needed by the Ministry of Health and Social Welfare, Medical
+      Universities, Hospitals both private, faith based and public, Non-Governmental Organizations.
+  utter_description_diploma_in_pharmacy:
+  - text: Diploma in Pharmacy is intended to prepare professional pharmacists who possess the necessary competencies to deliver quality pharmacy in keeping with the demands of the evolving health care system in Tanzania and beyond.
+  utter_diploma_in_phamarcy_entry_requirements:
+  - text: |
+      a. Certificate of Secondary Education Examination (CSEE)
+      with at least three credit passes in Science subjects:Physics
+      or Mathematics, Chemistry and Biology OR
+      b. Advanced certificate of secondary Education
+      Examination (ACSEE) with at least one principal
+      pass in Science subjects: Chemistry, Biology, Physics,
+      Geography, Nutrition, or Mathematics OR
+      c. Two subsidiary passes in Chemistry, Biology,
+      Physics, Geography, Nutrition or Mathematics.
+
+      Candidate who has successfully completed NTA Level 5 with
+      a cumulative GPA provided they have agrade B or above.
+  utter_diploma_in_phamarcy_entry_careers:
+  - text: |
+      Our graduates secure good position in
+      Government and private health facilities as well as NGOs that require the service of a well trained
+      and registered nurse.
+  utter_description_doctor_of_medicine:
+  - text: Doctor of medicine is intended to produce medical doctors with skills and competencies that will enable them to manage and deliver preventive and curative health services efficiently.
+  utter_doctor_of_medicine_entry_requirements:
+  - text: |
+      Three principal passes in Physics, Chemistry, and
+      Biology with minimum of 6 points. A minimum of
+      D grade in Chemistry, Biology and Physics.
+
+      Diploma in Clinical Medicine with an average of “B’’
+      or a minimum GPA of 3.0. In addition, an applicant
+      must have aminimum of “D” grade in the following
+      subjects: Mathematics,Chemistry, Biology, Physics
+      and English at O-Level.
+  utter_doctor_of_medicine_careers:
+  - text: |
+      Our graduates find positions
+      in the Government, NGOs as well as private hospitals. Others venture into entrepreneurship and research.
+  utter_school_of_nursing_and_public_health:
+  - text: Absolutely the School of nursing and Public health
+  - text: You can find all of those Staff at the School of nursing and Public health
+  - text: School of nursing and Public health is the right option for you
+  utter_programmes_offered_school_of_nursing_and_public_health:
+  - text: |
+      1. Bachelor of Science in Nursing (BSc N)
+      2. Bachelor of Science in Clinical Nutrition and Dietetics (BSc.CND)
+      3. Diploma in Nursing
+  utter_description_bachelor_of_science_in_clinical_nutrition_and_dietics:
+  - text: Bachelor of  science in clinical nutrition and dietics produces graduates who will have sound knowledge in nutrition and dietetics science.
+  utter_bachelor_of_science_in_clinical_nutrition_and_dietics_entry_requirements:
+  - text: |
+      Three principal passes in Chemistry, Biology and
+      either Physics or Advanced Mathematics or Nutrition
+      or Geography or Agriculture with a minimum of 6
+      points, whereby one must have at least a C grade in
+      Chemistry or Nutrition or Agriculture or Biology
+
+      Diploma in Clinical Medicine, Agriculture, Nutrition,
+      Environmental Health, Nursing or Midwifery with an
+      average of “B+’’ or a minimum GPA of 3.5. In addition,
+      an applicant must have a minimum of “D” grade in the
+      following subjects: Mathematics, Chemistry, Biology,
+      Physics and English at O-Level.
+  utter_bachelor_of_science_in_clinical_nutrition_and_dietics_careers:
+  - text: Graduates of this degree programme secure good positions in the Government, NGOs as well as private institutions dealing with the use of diet in the treatment of nutrition related diseases.
+  utter_description_bachelor_of_science_in_nursing:
+  - text: Bachelor of science in nursing prepares professional general trained nurses with the necessary knowledge, skills and attitude required for the delivery of high quality and culturally sensitive services.
+  utter_bachelor_of_science_in_nursing_entry_requirements:
+  - text: |
+      Diploma in Nursing with an average of “B’’ or a
+      minimum GPA of 3.0. In addition, an applicant
+      must have a minimum of “D” grade in the
+      following subjects: Mathematics, Chemistry,
+      Biology, Physics and English at O-Level..
+
+      Three principal passes in Chemistry, Biology and
+      either Physics or Advanced Mathematics or
+      Nutrition with a minimum of 6 points: A minimum
+      of C grade in Chemistry and D grade in Biology and
+      at least E grade in Physics or Advanced
+      Mathematics or Nutrition.
+  utter_bachelor_of_science_in_nursing_careers:
+  - text: Our graduates in Nursing find good positions in the Government, NGOs as well as private hospitals.
+  utter_description_diploma_in_nursing:
+  - text: Diploma in nursing producesprofessional nurses who possess the necessary competencies to deliver quality nursing care in keeping with the demands of the evolving health care system in Tanzania and beyond.
+  utter_diploma_in_nursing_entry_requirements:
+  - text: |
+      (i) Certificate of Secondary Education Examination (CSEE)
+      with at least three credit passes in Science subjects:Physics
+      or Mathematics, Chemistry and Biology, OR
+      ii) Advanced certificate of secondary Education
+      Examination (ACSEE) with at least one principal
+      pass in Science subjects: Chemistry, Biology, Physics,
+      Geography, Nutrition, or Mathematics, OR
+      iii) Two subsidiary passes in Chemistry, Biology,
+      Physics, Geography, Nutrition or Mathematics
+
+      The candidate who successful completed certificate in
+      nursing/ health related filed (NTA level 5) with a cumulative
+      GPA provided they have grade “B” or above.
+  utter_diploma_in_nursing_careers:
+  - text: Our graduates secure good position in Government and private health facilities as well as NGOs that require the service of a well trained and registered nurse.
+  utter_confucius_institute:
+  - text: Absolutely the Confucius institute
+  - text: You can find all of those Staff at the Confucius institute
+  - text: Confucius institute is the right option for you
+  utter_programmes_offered_confucius_institute:
+  - text: Bachelor of Arts in Oriental Languages (B.A Chinese)
+  utter_description_bachelor_of_arts_in_oriental_languages:
+  - text: Bachelor of arts in oriental languages producesprofessional nurses who possess the necessary competencies to deliver quality nursing care in keeping with the demands of the evolving health care system in Tanzania and beyond.
+  utter_bachelor_of_arts_in_oriental_languages_entry_requirements:
+  - text: |
+      Two principal passes in the
+      following two language subjects:
+      Kiswahili/ English/ French / Arabic/
+      Chinese.
+
+      Diploma in Education with an
+      average of ‘B’ or a GPA of 3.0 and
+      four passes at O’ Level.
+  utter_bachelor_of_arts_in_oriental_languages_careers:
+  - text: |
+      Graduates in Chinese language stand a better chance to work in the Government as well as
+      foreign private companies that need Chinese language professionals. Most of our graduates
+      can work as competent editors, proof readers, creative writers, speech writers, public
+      speakers and translators.
+  utter_institute_of_development_studies:
+  - text: Absolutely the Institute of development studies
+  - text: You can find all of those Staff at the Institute of development studies
+  - text: Institute of development studies is the right option for you
+  utter_programmes_offered_institute_of_development_studies:
+  - text: |
+      1. Bachelor of Arts in Development Studies (BA -DS)
+      2. Bachelor of Arts in Project Planning, Management and Community Development (BA - PPM & CD)
+  utter_description_bachelor_of_arts_in_project_planning_and_community_development:
+  - text: Bachelor of arts in project Planning management and Community development is meant to train high-qual-ity transformative community leaders and practitioners who will demonstrate skills, attitude and capacity to address community development issues that empower individuals for a quality living.
+  utter_bachelor_of_arts_in_project_planning_and_community_development_entry_requirements:
+  - text: |
+      Two principal passes in the following subjects at A-level:
+      Physics, Chemistry, Biology, Geography, Economics,
+      Commerce, Accountancy, Advanced Mathematics,
+      Agriculture, History, Computer Science or Nutrition.
+
+      Diploma in Commerce, Taxation, Customs and Tax Management, Statistics, Banking and Finance, Financial
+      Administration, Government Accounting and Finance, Public Sector Finance Management, Diploma in Development
+      Planning, Accountancy, Business Administration, Marketing Management, Local Government Accounting and Finance,
+      Procurement and Supply, Cooperative Management and Accounting, Public Sector Financial Management,
+      Development Administration and Management, Development Economics, Public Policy and Planning, Agriculture
+      Economics, Education, Development Planning, Environment Planning, Investment Planning, Community Development,
+      Local Government Administration, Human Resource Management, Business Planning, Land Use Planning, Cartography,
+      Project Training, Law, Gender and Development, Economic Planning, Health Science, Social Welfare, Wild Life
+      Management, Urban Planning, Cooperative Management and Accounting with an average of “B’’ or a minimum GPA of
+      3.0. In addition, an applicant must have four passes at O-levelincluding mathematics.
+  utter_bachelor_of_arts_in_project_planning_and_community_development_careers:
+  - text: |
+      Our graduates from this degree programme are very competitive in the labour market related to project appraisal,
+      planning, management, monitoring and evaluation. Most of them find good positions in the Government, NGOs as well
+      as private institutions where they work as Developmental project planners, project Consultants, Community
+      Development personnel, Project managers, Researchers, etc. Some continue into graduate degree and receive their
+      Masters and PhDs and enter the academic career path.
+  utter_description_bachelor_of_arts_in_development_studies:
+  - text: Bachelor of arts in development studies is meant to produce competent graduates who are the most sought-after in the labour market.
+  utter_bachelor_of_arts_in_development_studies_entry_requirements:
+  - text: |
+      Two principal passes in the following
+      subjects at A-level: History, Geography,
+      Kiswahili, English Language, French,
+      Arabic, Fine Art,Economics, Physics,
+      Commerce, Accountancy, Chemistry,
+      Biology, Advanced Mathematics, Agriculture,
+      Computer Science or Nutrition.
+        
+      Diploma in Development Studies, agriculture, forestry, Social
+      Work, Sociology, Accountancy, Business Administration,
+      Commerce, Taxation, Customs and Tax Management,
+      Banking and Finance, Financial Administration, Accounting,
+      Procurement and Supplies Management or Public Sector
+      Finance Management with an average of “B’’ or a minimum
+      GPA of 3.0. In addition, an applicant must have four passes at
+      O-level
+  utter_bachelor_of_arts_in_development_studies_careers:
+  - text: |
+      Our graduates from this degree programme are
+      very competitive in the labour market. Most of
+      them find good positions in the Government,
+      NGOs as well as private institutions where they
+      work as Development Officers, Development
+      Consultants, Community Development personnel,
+      Project coordinators, Researchers,
+      etc. Some continue into graduate degree and
+      receive their Masters and PhDs and enter the
+      academic career path
+  utter_school_of_law:
+  - text: Absolutely the School of law
+  - text: You can find all of those Staff at the School of law
+  - text: School of law is the right option for you
+  utter_programmes_offered_school_of_law:
+  - text: Bachelor of Laws (LLB)
+  utter_description_bachelor_of_laws:
+  - text: Bachelor of laws is intended to produce high quality graduates with skills in litigation, research, argumentation and reasoning in legal issues.
+  utter_bachelor_of_laws_entry_requirements:
+  - text: |
+      Two principal passes at “D” grade in the following
+      subjects: History, Geography, Kiswahili, English
+      Language, French, Arabic, Fine Art, Economics,
+      Commerce, Accountancy, Physics, Chemistry,
+      Biology, Advanced Mathematics, Agriculture,
+      Computer Science or Nutrition. An applicant without
+      principal passes in History or English must have at
+      least subsidiary passes or a minimum of “C” grade in
+      History or English at O-Level.
+
+      Diploma in Law or Law Enforcement with an
+      average of “B’’ or a minimum GPA of 3.0. In
+      addition, an applicant must have a minimum of
+      “C” grade in English or History at O-Level. 
+  utter_bachelor_of_laws_careers:
+  - text: |
+      The career prospects for this degree programme are quite promising. Our
+      graduates have in high demand in the Government and Private institutions.
+      Most of our graduates work as Magistrates/Judges, Lawyers, Advocates,
+      Legal Consultants, Lecturers, Compliance Officers, Corporate Secretaries 
+  utter_about_the_university_of_dodoma:
+  - text: |
+      The University of Dodoma is a Public University located in Chimwaga hills
+      in the Capital city of Tanzania, Dodoma. The University has six (6)
+      Colleges, three (3) Schools and two (2) Institutes.
+
+      Since its establishment in 2007, UDOM has become one of the fast-growing
+      Universities in East, Central and Southern Africa offering quality
+      undergraduate education. Given the nature of its programmes and delivery
+      of the same, the University has been enrolling students from Tanzania, other
+      parts of Africa and the rest of the world.
+  utter_student_support:
+  - text: |
+      The University of Dodoma provides a range of services to support
+      students’ day-to-day wellbeing and make them enjoy their stay at the
+      University. Some of these services include; On-campus
+      accommodation, support services to international students, cafeteria
+      services, sports and recreation, students’ organization, societies and
+      clubs, medical services, guidance and counseling, banking and postal
+      services, religious life, library services, transport services, community
+      services, field placement, academic advisory services and
+      scholarships/ financial support.
+  utter_accommodation:
+  - text: |
+      UDOM has sufficient on-campus accommodation facilities for all students at an affordable fee.
+      Students’ residential rooms are fully furnished and networked to provide students with conducive
+      living and studying environment. However, the University wants its students to create their own
+      unique experience, with the power to choose their direction and keep exploring new options as they
+      pursue undergraduate studies at the University. In that respect, students have a choice to reside
+      off-campus after informing the Director of Students Services in writing
+  utter_food_services:
+  - text: |
+      There are several cafeterias on campus
+      offering top-notch catering services where
+      a range of local and international food
+      options are available at an affordable price
+  utter_sports_and_recreation:
+  - text: |
+      All UDOM members (students, alumni,
+      academic and administrative staff)
+      have free access to our state of the
+      art sports facilities, including football
+      pitchs, courts and swimming pool in the
+      comfort of a supportive environment.
+      The university also organizes a number
+      of social events, entertainment and
+      cultural festivals.
+  utter_student_organization:
+  - text: |
+      The University of Dodoma Students Organization
+      (UDOSO) is a very friendly and supportive students’
+      association. UDOSO is under the office of Dean of
+      Students. This organization is an important link between
+      students and the University management through which
+      academic as well as students’ welfare, social activities,
+      games, sports and entertainment are organized.
+  utter_medical_services:
+  - text: |
+      Our university has a modern hospital,
+      the University of Dodoma Hospital and
+      Haemodialysis Unit where all students can get
+      medical services on-campus. In addition, the
+      University is close to a referal hospital (the
+      Benjamini Mkapa Hospital) which is the first
+      ultramodern hospital in East Africa. Students
+      are required to pay for medical fees through
+      their Health Insurance schemes.
+  utter_guidance_and_counselling:
+  - text: |
+      Cognizant of the fact that life,
+      in general, is characterized by
+      numerous challenges,
+      UDOM has established
+      guidance and counseling
+      desks in each
+      College/School/Institute
+      through the Director of
+      Students Services. The desks
+      are responsible for receiving
+      and handling
+      student’s grievances and
+      challenges experienced in
+      the course of their learning
+      journey. The desks are
+      managed by experienced
+      counselors for delivering
+      high quality
+      advisory services on-campus.
+  utter_academic_advisory_services:
+  - text: |
+      All students are assigned academic advisors
+      who give them counseling services
+      in regard to academic progress and
+      challenges the students face in their studies.
+  utter_religious_life:
+  - text: |
+      Tanzania is a secular state. Therefore, students
+      have complete freedom of religious worship as
+      long as it is intended to promote
+      their welfare and encourage
+      positive religious values.
+  utter_scholarships_and_financial_support:
+  - text: |
+      Majority of our students get funding from the Higher Education
+      Students Loans Board (HESLB). In addition, there are
+      few available sources of funding from individuals and
+      organizations like the Mo Scholarship for supporting needy students. A
+      limited number of scholarships are offered by the university in the form of
+      Tuition Fee waiver in some programmes.
+  utter_banking_services:
+  - text: |
+      Students and all members of UDOM community have access
+      to banking services available on-campus. There are major
+      banks which have branches and ATMs at convenient locations
+      across the university. The banks include National Microfinance
+      Bank, CRDB and Exim
+  utter_postal_services:
+  - text: |
+      Postal services are also available near
+      Chimwaga building within the campus.
+  utter_library_services:
+  - text: |
+      UDOM library has one of the largest collections
+      of books in Tanzania to meet the information
+      needs of students, researchers and staff. The
+      UDOM library has six (6) collections available
+      on cumpus to serve the colleges, schools and
+      institutes. The library collections provide access
+      to information in various formats, including
+      print and electronic. Users can access and
+      utilize resources by visiting the Library website
+      (http://library.udom.ac.tz/), contacting the
+      librarians and using an Online Library
+      Catalogue (http://catalog.udom.ac.tz/). UDOM
+      publications can be accessed through the
+      Institutional Repository at
+      http://repository.udom.ac.tz/.
+  utter_transport_services:
+  - text: |
+      Being located in the central region of Tanzania,
+      the University of Dodoma is accessible from different 
+      parts of the world. 
+      Transport links to Dodoma include railway, road and
+      airline.
+      Within the university, there is good inter-college 
+      links by tarmac roads.
+  utter_Internationalization:
+  - text: |
+      Studying as an international student is an exciting and fulfilling experience. The
+      University of Dodoma is such a beautiful and diverse place to explore. UDOM is
+      committed to ensuring that international students find their education is challenging, fun
+      and rewarding. There is a range of student accommodation and sports facilities on campus
+
+      Moreover, a special desk is reserved under the Directorate of Internationalization,
+      Convocation and Continuing Education that professionally attends to international
+      students. The desk officers are incredibly enthusiastic to support the students on issues
+      related to immigration, banking, health insurance, accommodation, and other services
+  utter_language_facilitation:
+  - text: |
+      The University of Dodoma offers International students with an opportunity to learn Kiswahili,
+      lingua franca in Tanzania, both formally and informally.
+
+      International students are encouraged to arrive two weeks before the commencement of their studies 
+      to familialize  themselves with Swahili language and culture.
+
+      The Directorate of Undergraduate studies in collaboration with the Internationalization Unity,   
+      Department of Kiswahili and Department of Foreign Languages and Literature provide furthur assistance 
+      to International students in need of language facilitation.
+  utter_innovation_and_enterpreneurship:
+  - text: |
+      Most of the problems facing the world today can be solved by solutions developed by
+      people with innovative minds. UDOM therefore, embraces innovation and creativity as
+      fundamental to all academic disciplines and educational endeavors. It is for this cause that,
+      research component is a common denominator in designing and conducting undergraduate
+      programmes to foster innovative minds that strive to address real-life problems. In a bid to
+      provide a platform on which creative and entrepreneurship thinking will be nurtured,
+      UDOM has a well-established Innovation and Entrepreneurship Centre under the
+      Directorate of Research, Publications and Consultancy
+  utter_cost_of_living:
+  - text: |
+      UDOM offers unlimited access to affordable student accommodation, and student-priced
+      meals. Generally, the monthly living expenses for a student in Dodoma are, on average,
+      TZS.350,000/=
+  utter_community_services:
+  - text: |
+      At UDOM, it is common practice for students to work with staff to serve communities. Different
+      community services are provided by colleges,schools and institutes including, but not limited to
+      health, education, ICT, environmental conservation
+  utter_campus_safety_and_security:
+  - text: |
+      The University of Dodoma has reliable safety and security services throughout day and
+      night. This is implemented by an on-campus Police Station and the University Auxiliary
+      Police Unit. Also, there are CCTV cameras at all strategic points within the campus.
+      Whenever police assistance is needed, students are advised to report immediately through
+      on-campus University Auxiliary Police and security guards. 
+  utter_how_to_apply:
+  - text: |
+      At UDOM all applications are done via Online ApplicationSystem (UOAS)
+      available at https://application.udom.ac.tz. The system is user friendly and it
+      allows applicants to smoothly and easily complete application exercise.
+      Applicants will be required to fill-in the online application form and upload
+      copies of relevant academic credentials as required. Once application is
+      completed, applicants will be notified about their selection status in due course
+  utter_registration_procedures:
+  - text: |-
+      All selected applicants shall be required to register for studies in a respective
+      academic year. For registration exercise to be completed, selected applicants
+      shall be required to pay full or half amount of the tuition fees and all other direct
+      costs payable to the University. International students are required to have a
+      valid study visa before completing registration and commencing their studies.
+  utter_number_colleges_of_udom:
+  - text: The University has seven (6) Colleges, three (3) Schools and two (2) Institutes.
+  utter_colleges_of_udom:
+  - text: |
+      COLLEGES
+
+      1. college of business and economics 
+      2. college of informatics and virtual education
+      3. college of earth sciences and engineering
+      4. college of humanities and social sciences  
+      5. college of natural and mathematical sciences 
+      6. college of education
+
+      SCHOOLS
+
+      1. School of law   
+      2. School of medicine and dentistry
+      3. School of nursing and Public health
+
+      INSTITUTES
+
+      1. Confucius Institute   
+      2. Institute of development studies
+  utter_does_udom_offer_degree_programmes:
+  - text: yes, it does also it provide diploma programs
+  utter_does_udom_offer_diploma_programs:
+  - text: yes, it does. Also it provides degree programs
+  utter_degree_programmes_udom_offer:
+  - text: |
+      1 Bachelor of Commerce in Accounting (BCom-Accounting)
+      2 Bachelor of Commerce in Finance (BCom-Finance)
+      3 Bachelor of Business Administration (BBA)
+      4 Bachelor of Commerce in Human Resource Management (BCom-HRM)
+      5 Bachelor of Commerce in International Business (BCom-IB)
+
+      6 Bachelor of Commerce in Marketing (BCom-Marketing)
+      7 Bachelor of Commerce in Entrepreneurship (BCom-Entrep)
+      8 Bachelor of Commerce in Procurement and Logistics Management (BCom-PLM)
+      9 Bachelor of Commerce in Information Systems Management (BCom-ISM)
+      10 Bachelor of Commerce in Tourism and Hospitality Management (BCom-THM)
+
+      11 Bachelor of Arts in Economics (BA-Economics)
+      12 Bachelor of Arts in Economics and Statistics (BA-ESt)
+      13 Bachelor of Arts in Economics and Sociology (BA-ESoc)
+      14 Bachelor of Arts in Environmental Economics and Policy (BA-ECP)
+      15 Bachelor of Business Administration (BBA-Evening)
+
+      16.Bachelor of Science in Nursing (BSc N)
+      17.Bachelor of Science in Clinical Nutrition and Dietetics (BSc.CND)
+      18.Bachelor of Arts in Oriental Languages (B.A Chinese)
+      19.Bachelor of Arts in Development Studies (BA -DS)
+      20.Bachelor of Arts in Project Planning, Management and Community Development (BA - PPM & CD)
+
+      21.Bachelor of Science in Business Information Systems (BSc. - BIS)
+      22.Bachelor of Science in Computer and Information Security (BSc- CIS)
+      23.Bachelor of Science in Computer Engineering (BSc – CE)
+      24.Bachelor of Science in Computer Science (BSc – CS)
+      25.Bachelor of Science in Health Information Systems (BSc - HIS)
+
+      26.Bachelor of Science in Software Engineering (BSc-SE)
+      27.Bachelor of Science in Information Systems (BSc – IS)
+      28 Bachelor of Science in Telecommunications Engineering (BSc-TE)
+      29 Bachelor of Science in Cyber Security and Digital Forensics Engineering (BSc - CSDFE)
+      30 Bachelor of Science in Digital Content and Broadcasting Engineering (BSc - DCBE)
+
+      31 Bachelor of Science in ICT Mediated Content Development (BSc. ICT - MCD)
+      32 Bachelor of Science in Instructional Design and Information Technology (BSc – IDIT)
+      33 Bachelor of Science in Computer Networks and Information Security Engineering (BSc CNISE)
+      34 Bachelor of Science in Environmental Sciences (BSC-ES)
+      35 Bachelor of Science in Environmental Engineering (BSC - EE)
+
+      36 Bachelor of Science in Applied Geology (BSC-AG)
+      37 Bachelor of Science in Geo-informatics (BSC-GEOINFO)
+      38 Bachelor of Science in Metallurgy and Mineral Processing Engineering (BSc-MMPE)
+      39 Bachelor of Science in Mining Engineering (BSC- ME)
+      40 Bachelor of Science in Renewable Energy Engineering (BSC-REE)
+
+      41 Bachelor of Science in Petroleum Engineering (BSc. REE)
+      42 Bachelor of Science in Chemical and Processing Engineering (BSc CPE)
+      43 Bachelor of Arts with Education (BA-ED)
+      44 Bachelor of Arts in Political Science and Public Administration (BA - PSPA)
+      45 Bachelor of Arts in International Relations (BA – IR)
+
+      46 Bachelor of Arts in Philosophy and Political Science (BA – PPS)
+      47 Bachelor of Geography and Environmental Studies (BA-GES)
+      48 Bachelor of Environmental Disaster Management (BEDM)
+      49 Bachelor of Arts in Sociology (BA - SO)
+      50 Bachelor of Arts in History (BA – History)
+
+      51 Bachelor of Arts in Cultural Heritage and Tourism (B.A CHT)
+      52 Bachelor of Arts in Archaeology and Cultural Anthropology (BA. ARCA)
+      53 Bachelor of Arts in Fine Arts and Design (BA-FAD)
+      54 Bachelor of Arts in Theatre and Film (BA-TF)
+      55 Bachelor of Arts in Translation and Interpretation (BA-TI)
+
+      56 Bachelor of Arts in Oriental Languages (BA in Arabic)
+      57 Bachelor of Arts in English (BA-English)
+      58 Bachelor of Arts in French (BA- French)
+      59 Bachelor of Arts in Journalism and Public Relations
+      60 Shahada ya Awali ya Sanaa katika Kiswahili
+
+      61 Bachelor of Science with Education (BSc-ED)
+      62 Bachelor of Science in Biology (BSc. BIOL)
+      63 Bachelor of Science in Chemistry (BSc. CHEM)
+      64 Bachelor of Science in Mathematics (BSc. Mathematics)
+      65 Bachelor of Science in Aquaculture and Aquatic Science
+
+      66 Bachelor of Science in Statistics (BSc. Statistics)
+      67 Bachelor of Science in Mathematics & Statistics (There are courses for two years only)
+      68 Bachelor of Science in Actuarial Statistics (BSc. Actuarial Statistics)
+      69 Bachelor of Science in Physics (BSc – Physics)
+      70 Bachelor of Science in Biotechnology and Bioinformatics
+
+      71 Bachelor of Education in Arts (Bed-Arts)
+      72 Bachelor of Education in Adult Education and Community Development (Bed-ADEC)
+      73 Bachelor of Education in Administration and Management (Bed-ADMAN)
+      74 Bachelor of Education in Policy, Planning and Management (BEd -PPM)
+      75 Bachelor of Education in Guidance and Counseling (Bed-GUCO)
+
+      76 Bachelor of Education in Psychology (Bed-PSY)
+      77 Bachelor of Education in Early Childhood Education (Bed-ECE)
+      78 Bachelor of Education in Science (Bed-Sc)
+      79 Bachelor of Education in Special Needs (Bed-SPEN)
+      80 Bachelor of Education in Science with ICT (Bed. SC. ICT)
+
+      81 Bachelor of Education in Commerce (Bed-COM)
+      82 Bachelor of Laws (LLB)
+      83 Doctor of Medicine (MD)
+  utter_diploma_programs_udom_offer:
+  - text: |
+      1. Diploma in Educational Technology (DET)
+      2. Diploma in Information and Communication Technology (DICT)
+      3. Diploma in Cyber Security and Digital Forensics (DSDF)
+      4. Diploma in Mineral Exploration and Mining Geology (Dip - MEMG)
+      5. Diploma in Mining Engineering (Dip. ME)
+      6. Diploma in Forensic Science
+      7. Diploma in Forest Management and Nature Conservation
+      8. Diploma in Pharmacy
+      9. Diploma in Medical Laboratory Technology (DMLT)
+      10.Diploma in Nursing
+  utter_number_degree_programs_offered_cive:
+  - text: There are 13 degree programs offered at college of informatics and virtual education (CIVE)
+  utter_number_diploma_programs_offered_cive:
+  - text: There are 3 diploma programs offered at college of informatics and virtual education (CIVE)
+  utter_number_degree_programs_offered_cobe:
+  - text: There are 15 degree programs offered at college of business and economics
+  utter_number_diploma_programs_offered_cobe:
+  - text: no diploma program is offered at the college of business and economics
+  utter_number_degree_programs_offered_coese:
+  - text: There are 9 degree programs offered at college of earth sciences and engineering
+  utter_number_diploma_programs_offered_coese:
+  - text: There are 2 diploma programs offered at college of earth Sciences and engineering
+  utter_number_degree_programs_offered_chss:
+  - text: There are 18 degree programs offered at the college of humanities and social science
+  utter_number_diploma_programs_offered_chss:
+  - text: no diploma program is offered at at college of humanities and social sciences
+  utter_number_degree_programs_offered_cnms:
+  - text: There are 10 degree programs offered at the college of natural and mathematical sciences
+  utter_number_diploma_programs_offered_cnms:
+  - text: There are 2 diploma programs offered at the college of natural and mathematical sciences
+  utter_number_diploma_programs_offered_coed:
+  - text: There is no diploma program offered at college of education
+  utter_number_degree_programs_offered_coed:
+  - text: There are 11 degree programs offered at college of education
+  utter_number_degree_programs_offered_school_of_law:
+  - text: There is only one degree program offered at the school of law
+  utter_number_diploma_programs_offered_school_of_law:
+  - text: There is no diploma program offered at the school of law
+  utter_number_degree_programs_offered_school_of_medicine_and_dentistry:
+  - text: There is only one degree program offered at the school of medicine and dentistry
+  utter_number_diploma_programs_offered_school_of_medicine_and_dentistry:
+  - text: There two diploma programs offered at school of medicine and dentistry
+  utter_number_degree_programs_offered_school_of_nursing_and_public_health:
+  - text: There are two degree programs offered at school of nursing and public health
+  utter_number_diploma_programs_offered_school_of_nursing_and_public_health:
+  - text: There is only one degree program offered at the school of nursing and public health
+  utter_number_degree_programs_offered_confucius_institute:
+  - text: There is only one degree program offered at the confucius institute
+  utter_number_diploma_programs_offered_confucius_institute:
+  - text: There is no diploma program offered at the confucius institute
+  utter_number_degree_programs_offered_institute_of_development_studies:
+  - text: There are two degree programs offered at the institute of development studies
+  utter_number_diploma_programs_offered_institute_of_development_studies:
+  - text: There is no diploma program offered at the institute of development studies
+  utter_how_far_from_dodoma_city:
+  - text: The distance from Dodoma town center to UDOM is approx. 8 kilometers
+  utter_is_doctor_of_medicine_available:
+  - text: yes, it is available
+  utter_time_for_studying_doctor_of_medicine:
+  - text: It's five years degree program
+  utter_is_law_studies_offered:
+  - text: yes, it is availabe
+  utter_fee_structure:
+  - text: You can find fee stucture via this link https://www.udom.ac.tz/assets/documents/prospectus/undergraduate_prospectus_2021_2022.pdf
+  utter_prospectus:
+  - text: You can find the udom prospectus via this link https://www.udom.ac.tz/prospectus
+  utter_stationery_services:
+  - text: yes, stationery services are available around the university
+  utter_bot_misconception:
+  - text: sorry!, ask me admission related issues
+  - text: sorry! am designed to answer admision related questions only
+  - text: I will be happy if you ask me  admission related questions
+  utter_bot_purpose:
+  - text: Am designed to help the help desk personnel to respond to questions related to admission issues
+  utter_about_cive:
+  - text: |
+      The college of informatics and virtual education offers computer technologies related programes.
+      It has two schools , The school of Informatics and the school of Virtual education. It offeres 13
+      bachelor degree programs and 3 diploma programs.
+  utter_enrolling_requirements:
+  - text: |
+      1. DIRECT ENTRY  
+         For form six applicants the minimum entry qualification is two primcipal passes in relevant A-level subjects totaling 4.0 points  
+         (except programmes at the college of Health sciences 4.5 and 5) and three credits at O'Level.
+
+      2. Recogniton of prior learning 
+         For the applicants with RPL qualification the minimum qualification is 'B' grade
+
+      3. Equivalent qualifications 
+         For Diploma applicants the minimum  entry qualification is at least Four O level passes(D's and above) or NVA level III with less 
+         than four O  level passes or equivalent foreign qualifications as established by either NECTA or VETA
+
+         i. Ordinary diploma (NTA Level 6) with at least points average of 3.0 (Where A=5, B=4, C=3 and D=2) or
+         ii.Full Technician Certificate (FTC) with al least points average of 3.0 (Where A=5, B=4, C=3 and D=2) or   
+         iii. Diploma in Teacher Eduation with an average of 'B' gardes or   
+         iv.Health realated awards such as clinical medicine and others with an avearge of 'B' grade 
+         v.Credit class diploma for classified diplomas and certificates in terms of distinctions, credit or pass or 
+         vi.Lower second class diploma for classified non-NTA diplomas
+  utter_are_you_fine:
+  - text: Am fine, What can I help you?
+  utter_What_is_join_instruction:
+  - text: |
+      Join Instruction simply is a document that includes very Important information 
+      for  students to understand to join with University of Dodoma (UDOM)
+  utter_why_join_instruction:
+  - text: |
+      For the Selected Applicants to join who confirmed and those automatically confirmed 
+      must have join Instruction so as to know the following below useful information:
+
+      1. Fees and other contributions to pay using official payments methods Instructed by University
+      2. Location and means of transport to reach the campus
+      3. Specific date of starting academic year of study
+      4. Important form to fill so as to join with Universities. This include;
+          i. UDOM Medical Examination Form that must be filled with doctor.
+          ii. Registration form is the form that you will use for registration when you reach at campus
+          iii. Declaration form
+          iv. pecial information that provide according to Program of study where some faculty have special requirements.
+  utter_prio_documents_required:
+  - text: |
+      1. Admission Letter (Offer of Admission)
+      2. Medical Form
+  utter_default:
+  - text: Sorry!, I didn't understand. Try again!
+  - text: Am sorry friend, I didn't get your intent, ask again
+  utter_fine_response:
+  - text: That's great!, How can I help you?
+  utter_fine_reponse:
+  - text: That's great!, what can I help you?
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+entities:
+- program
+- college
+- process
+actions:
+- utter_about_cive
+- utter_bachelor_of_science_in_business_information_systems_entry_requirements
+- utter_bachelor_of_science_in_computer_science_careers
+- utter_bachelor_of_science_in_computer_science_entry_requirements
+- utter_description_bachelor_of_science_in_business_information_systems
+- utter_description_bachelor_of_science_in_computer_science
+- utter_description_bachelor_of_science_in_health_information_systems
+- utter_description_bachelor_of_science_in_multimedia_technology_and_animation
+- utter_greet
+- utter_how_to_apply
+- utter_need_to_ask
+- utter_registration_procedures
