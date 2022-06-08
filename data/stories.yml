@@ -1293,3 +1293,115 @@ stories:
     entities:
     - college: college of informatics and virtual education
   - action: utter_about_cive
+
+##### 
+- story: degree programs offered cobe
+  steps:
+  - intent: degree_programs_offered_cobe
+  - action: utter_degree_programs_offered_cobe
+
+- story: degree programs offered cive
+  steps:
+  - intent: degree_programs_offered_cive
+  - action: utter_degree_programs_offered_cive
+
+- story: degree programs offered coese
+  steps: 
+  - intent: degree_programs_offered_coese
+  - action: utter_degree_programs_offered_coese
+
+- story: degree programs offered chss
+  steps:
+  - intent: degree_programs_offered_chss
+  - action: utter_degree_programs_offered_chss
+
+- story: degree programs offered cnms
+  steps:
+  - intent: degree_programs_offered_cnms
+  - action: utter_degree_programs_offered_cnms
+
+- story: degree programs offered coed
+  steps:
+  - intent: degree_programs_offered_coed
+  - action: utter_degree_programs_offered_coed
+
+- story: degree programs offered school of law
+  steps: 
+  - intent: degree_programs_offered_school_of_law
+  - action: utter_degree_programs_offered_school_of_law
+- story: degree programs offered school of medicine and dentistry
+  steps:
+  - intent: degree_programs_offered_school_of_medicine_and_dentistry
+  - action: utter_degree_programs_offered_school_of_medicine_and_dentistry
+
+- story: degree programs offered school of nursing and public health
+  steps: 
+  - intent: degree_programs_offered_school_of_nursing_and_public_health
+  - action: utter_degree_programs_offered_school_of_nursing_and_public_health
+
+- story: degree programs offered confucius institute
+  steps:
+  - intent: degree_programs_offered_confucius_institute
+  - action: utter_degree_programs_offered_confucius_institute
+
+- story: degree_programs_offered_institute_of_development_studies
+  steps: 
+  - intent: degree_programs_offered_institute_of_development_studies
+  - action: utter_degree_programs_offered_institute_of_development_studies
+
+- story: diploma programs offered cobe
+  steps:
+  - intent: diploma_programs_offered_cobe
+  - action: utter_diploma_programs_offered_cobe
+
+- story: diploma programs offered cive
+  steps: 
+  - intent: diploma_programs_offered_cive
+  - action: utter_diploma_programs_offered_cive
+
+- story: diploma programs offered coese
+  steps:
+  - intent: diploma_programs_offered_coese
+  - action: utter_diploma_programs_offered_coese
+
+- story: diploma programs offered chss
+  steps: 
+  - intent: diploma_programs_offered_chss
+  - action: utter_diploma_programs_offered_chss
+  
+- story: diploma programs offered cnms
+  steps: 
+  - intent: diploma_programs_offered_cnms
+  - action: utter_diploma_programs_offered_cnms
+
+- story: diploma programs offered coed
+  steps: 
+  - intent: diploma_programs_offered_coed
+  - action: utter_diploma_programs_offered_coed
+
+- story: diploma programs offered school of law
+  steps:
+  - intent: diploma_programs_offered_school_of_law
+  - action: utter_diploma_programs_offered_school_of_law
+
+- story: diploma programs offered school of medicine and dentistry
+  steps: 
+  - intent: diploma_programs_offered_school_of_medicine_and_dentistry
+  - action: utter_diploma_programs_offered_school_of_medicine_and_dentistry
+
+- story: diploma programs offered school of nursing and public health
+  steps:
+  - intent: diploma_programs_offered_school_of_nursing_and_public_health
+  - action: utter_diploma_programs_offered_school_of_nursing_and_public_health
+
+
+- story: diploma programs offered confucius institute
+  steps: 
+  - intent: diploma_programs_offered_confucius_institute
+  - action: utter_diploma_programs_offered_confucius_institute
+
+- story: diploma programs offered institute of development studies
+  steps:
+  - intent: diploma_programs_offered_institute_of_development_studies
+  - action: utter_diploma_programs_offered_institute_of_development_studies
+

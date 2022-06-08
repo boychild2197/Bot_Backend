@@ -2052,3 +2052,116 @@ nlu:
 - intent: need_to_ask
   examples: |
     - i need to ask
+
+#### DEGREE PROGRAMS OFFERED AT COLLEGES ####
+- intent: degree_programs_offered_cobe
+  examples: |
+    - What are the [degree](study_level) programs offered [cobe](college)
+    - What are the [degree](study_level) programs offered at the [college of business and economics](college)
+
+- intent: degree_programs_offered_cive
+  examples: |
+    - What are the [degree](study_level) programs offered [cive](college)
+    - What are the [degree](study_level) programs offered at the [college of informatics and virtual education](college)
+
+- intent: degree_programs_offered_coese
+  examples: |
+    - What are the [degree](study_level) programs offered [coese](college)
+    - What are the [degree](study_level) programs offered at the [college of earth sciences and engineering](college)
+
+- intent: degree_programs_offered_chss
+  examples: | 
+    - What are the [degree](study_level) programs offered [chss](college)
+    - What are the [degree](study_level) programs offered at the [college of humanities and social sciences](college)
+
+- intent: degree_programs_offered_cnms
+  examples: | 
+    - What are the [degree](study_level) programs offered [cnms](college)
+    - What are the [degree](study_level) programs offered at the [college of natural and mathematical sciences](college)
+
+- intent: degree_programs_offered_coed
+  examples: | 
+    - What are the [degree](study_level) programs offered [coed](college)
+    - What are the [degree](study_level) programs offered at the [college of education](college)
+
+- intent: degree_programs_offered_school_of_law
+  examples: |
+    - What are the [degree](study_level) programs offered [school of law](college)
+    - What are the [degree](study_level) programs offered at the [school of law](college)
+
+- intent: degree_programs_offered_school_of_medicine_and_dentistry
+  examples: |
+    - What are the [degree](study_level) programs offered [school of medicine and dentistry](college)
+    - What are the [degree](study_level) programs offered at the [school of medicine and dentistry](college)
+
+- intent: degree_programs_offered_school_of_nursing_and_public_health
+  examples: |
+    - What are the [degree](study_level) programs offered [school of nursing and public health](college)
+    - What are the [degree](study_level) programs offered [school of nursing and public health](college)
+- intent: degree_programs_offered_confucius_institute
+  examples: |
+    - What are the [degree](study_level) programs offered [confucius institute](college)
+    - What are the [degree](study_level) programs offered [confucius institute](college)
+
+- intent: degree_programs_offered_institute_of_development_studies
+  examples: |
+    - What are the [degree](study_level) programs offered [institute of development studies](college)
+    - What are the [degree](study_level) programs offered [institute of development studies](college)
+
+#### DIPLOMA PROGRAMS OFFERED AT COLLEGES ####
+- intent: diploma_programs_offered_cobe
+  examples: |
+    - What are the [diploma](study_level) programs offered [cobe](college)
+    - What are the [diploma](study_level) programs offered at the [college of business and economics](college)
+
+    
+- intent: diploma_programs_offered_cive
+  examples: |
+    - What are the [diploma](study_level) programs offered [cive](college)
+    - What are the [diploma](study_level) programs offered at the [college of informatics and virtual education](college)
+
+
+- intent: diploma_programs_offered_coese
+  examples: |
+    - What are the [diploma](study_level) programs offered [coese](college)
+    - What are the [diploma](study_level) programs offered at the [college of earth sciences and engineering](college)
+
+
+- intent: diploma_programs_offered_chss
+  examples: | 
+    - What are the [diploma](study_level) programs offered [chss](college)
+    - What are the [diploma](study_level) programs offered at the [college of humanities and social sciences](college)
+
+- intent: diploma_programs_offered_cnms
+  examples: | 
+    - What are the [diploma](study_level) programs offered [cnms](college)
+    - What are the [diploma](study_level) programs offered at the [college of natural and mathematical sciences](college)
+
+- intent: diploma_programs_offered_coed
+  examples: | 
+    - What are the [diploma](study_level) programs offered [coed](college)
+    - What are the [diploma](study_level) programs offered at the [college of education](college)
+
+- intent: diploma_programs_offered_school_of_law
+  examples: |
+    - What are the [diploma](study_level) programs offered [school of law](college)
+    - What are the [diploma](study_level) programs offered at the [school of law](college)
+- intent: diploma_programs_offered_school_of_medicine_and_dentistry
+  examples: |
+    - What are the [diploma](study_level) programs offered [school of medicine and dentistry](college)
+    - What are the [diploma](study_level) programs offered at the [school of medicine and dentistry](college)
+
+- intent: diploma_programs_offered_school_of_nursing_and_public_health
+  examples: |
+    - What are the [diploma](study_level) programs offered [school of nursing and public health](college)
+    - What are the [diploma](study_level) programs offered [school of nursing and public health](college)
+
+- intent: diploma_programs_offered_confucius_institute
+  examples: |
+    - What are the [diploma](study_level) programs offered [confucius institute](college)
+    - What are the [diploma](study_level) programs offered [confucius institute](college)
+
+- intent: diploma_programs_offered_institute_of_development_studies
+  examples: |
+    - What are the [diploma](study_level) programs offered [institute of development studies](college)
+    - What are the [diploma](study_level) programs offered [institute of development studies](college)
